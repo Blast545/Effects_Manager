@@ -1,0 +1,29 @@
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__synchronous_task_control__suspension_objectVIP" label: "Suspension_Objectvip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-sytaco.ads:77:4" shape : ellipse }
+node: { title: "system__tasking__protected_objects__unlock" label: "Unlock\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-taprob.ads:198:14" shape : ellipse }
+node: { title: "system__tasking__protected_objects__lock" label: "Lock\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-taprob.ads:184:14" shape : ellipse }
+node: { title: "stm32__exti__clear_external_interrupt" label: "CLEAR_EXTERNAL_INTERRUPT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-exti.ads:110:14" shape : ellipse }
+node: { title: "ada__synchronous_task_control__set_true" label: "Set_True\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-sytaco.ads:49:14" shape : ellipse }
+node: { title: "stm32__exti__external_interrupt_pending" label: "EXTERNAL_INTERRUPT_PENDING\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-exti.ads:106:13" shape : ellipse }
+node: { title: "system__interrupts__install_restricted_handlers" label: "Install_Restricted_Handlers\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-interr.ads:88:14" shape : ellipse }
+node: { title: "system__tasking__protected_objects__initialize_protection" label: "Initialize_Protection\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-taprob.ads:178:14" shape : ellipse }
+node: { title: "apds9960_interrupts___elabs" label: "Apds9960_Interrupts\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.ads:35:1\n8 bytes (static)" }
+edge: { sourcename: "apds9960_interrupts___elabs" targetname: "apds9960_interrupts__handlerTVIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.ads:39:4" }
+edge: { sourcename: "apds9960_interrupts___elabs" targetname: "ada__synchronous_task_control__suspension_objectVIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.ads:37:4" }
+node: { title: "apds9960_interrupts__handler__irq_handlerP" label: "Irq_Handlerp\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:47:7\n32 bytes (static)" }
+edge: { sourcename: "apds9960_interrupts__handler__irq_handlerP" targetname: "_Unwind_Resume" }
+edge: { sourcename: "apds9960_interrupts__handler__irq_handlerP" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:apds9960_interrupts__handler__irq_handlerP___finalizer.5992" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:47:0" }
+edge: { sourcename: "apds9960_interrupts__handler__irq_handlerP" targetname: "apds9960_interrupts__handler__irq_handlerN" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:47:7" }
+edge: { sourcename: "apds9960_interrupts__handler__irq_handlerP" targetname: "system__tasking__protected_objects__lock" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:47:7" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:apds9960_interrupts__handler__irq_handlerP___finalizer.5992" label: "Irq_Handlerp\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:47:7\n16 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:apds9960_interrupts__handler__irq_handlerP___finalizer.5992" targetname: "system__tasking__protected_objects__unlock" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:47:7" }
+node: { title: "apds9960_interrupts__handler__irq_handlerN" label: "Irq_Handlern\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:47:7\n24 bytes (static)" }
+edge: { sourcename: "apds9960_interrupts__handler__irq_handlerN" targetname: "stm32__exti__clear_external_interrupt" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:52:13" }
+edge: { sourcename: "apds9960_interrupts__handler__irq_handlerN" targetname: "ada__synchronous_task_control__set_true" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:50:13" }
+edge: { sourcename: "apds9960_interrupts__handler__irq_handlerN" targetname: "stm32__exti__external_interrupt_pending" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb:49:13" }
+node: { title: "apds9960_interrupts__finalize_spec" label: "Finalize_Spec\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.ads:35:1\n4 bytes (static)" }
+node: { title: "apds9960_interrupts__handlerTVIP" label: "Handlertvip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.ads:39:4\n40 bytes (static)" }
+edge: { sourcename: "apds9960_interrupts__handlerTVIP" targetname: "system__interrupts__install_restricted_handlers" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.ads:39:4" }
+edge: { sourcename: "apds9960_interrupts__handlerTVIP" targetname: "system__tasking__protected_objects__initialize_protection" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.ads:39:4" }
+}

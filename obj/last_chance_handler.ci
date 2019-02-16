@@ -1,0 +1,37 @@
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "system__secondary_stack__ss_release" label: "Ss_Release\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-secsta.ads:70:14" shape : ellipse }
+node: { title: "ada__real_time__delays__delay_until" label: "Delay_Until\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-retide.ads:42:14" shape : ellipse }
+node: { title: "ada__real_time__Oadd" label: "+\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-reatim.ads:72:13" shape : ellipse }
+node: { title: "ada__real_time__milliseconds" label: "Milliseconds\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-reatim.ads:128:13" shape : ellipse }
+node: { title: "ada__real_time__clock" label: "Clock\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-reatim.ads:68:13" shape : ellipse }
+node: { title: "stm32__gpio__toggle" label: "TOGGLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-gpio.ads:188:14" shape : ellipse }
+node: { title: "system__img_uns__image_unsigned" label: "Image_Unsigned\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-imguns.ads:41:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "_ada_system__address_image" label: "Address_Image\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-addima.ads:39:17" shape : ellipse }
+node: { title: "system__secondary_stack__ss_mark" label: "Ss_Mark\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-secsta.ads:67:13" shape : ellipse }
+node: { title: "ili9341_extended__print_string" label: "Print_String\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\ili9341_extended.ads:201:14" shape : ellipse }
+node: { title: "ili9341_extended__fill" label: "Fill\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\ili9341_extended.ads:137:14" shape : ellipse }
+node: { title: "stm32__board__all_leds_off" label: "ALL_LEDS_OFF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\stm32f407disco\stm32-board.ads:80:14" shape : ellipse }
+node: { title: "stm32__board__initialize_leds" label: "INITIALIZE_LEDS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\stm32f407disco\stm32-board.ads:73:14" shape : ellipse }
+node: { title: "__gnat_last_chance_handler" label: "Last_Chance_Handler\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:49:4\n112 bytes (static)" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "_Unwind_Resume" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "ada__real_time__delays__delay_until" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:82:10" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "ada__real_time__Oadd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:82:28" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "ada__real_time__milliseconds" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:82:30" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "ada__real_time__clock" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:82:22" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "stm32__gpio__toggle" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:81:10" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "ili9341_extended__print_string" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:72:13" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "system__img_uns__image_unsigned" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:74:59" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:74:59" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:last_chance_handler__last_chance_handler__B2b___finalizer.5705" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:66:0" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "ili9341_extended__print_string" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:66:13" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "_ada_system__address_image" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:68:53" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "system__secondary_stack__ss_mark" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:66:13" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "ili9341_extended__print_string" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:60:13" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "ili9341_extended__fill" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:58:13" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "stm32__board__all_leds_off" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:56:7" }
+edge: { sourcename: "__gnat_last_chance_handler" targetname: "stm32__board__initialize_leds" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:54:7" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:last_chance_handler__last_chance_handler__B2b___finalizer.5705" label: "B2b\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:66:13\n16 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:last_chance_handler__last_chance_handler__B2b___finalizer.5705" targetname: "system__secondary_stack__ss_release" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\last_chance_handler.adb:66:13" }
+}

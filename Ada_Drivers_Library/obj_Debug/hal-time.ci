@@ -1,0 +1,44 @@
+edge: { sourcename: "hal__time__TdelaysCFD"
+  targetname: "-9:hal__time__delays,hal__time__delays"
+  label: "hal-time.ads:34:9"
+}
+class {
+  classname: "hal__time__delays"
+  label: "hal__time__delays\hal-time.ads:34:9"
+  virtuals: "1:hal__time__delay_microseconds\n
+             2:hal__time__delay_milliseconds\n
+             3:hal__time__delay_seconds\n
+             -1:hal__time___size\n
+             -2:hal__time__delaysSR\n
+             -3:hal__time__delaysSW\n
+             -4:hal__time__delaysSI\n
+             -5:hal__time__delaysSO\n
+             -9:hal__time__delaysDF"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:126:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:201:14" shape : ellipse }
+node: { title: "system__finalization_masters__initialize__2" label: "Initialize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:198:25" shape : ellipse }
+node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:161:9" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "system__finalization_masters__finalize" label: "Finalize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:96:25" shape : ellipse }
+node: { title: "hal__time___elabs" label: "TIME\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:32:1\n8 bytes (static)" }
+edge: { sourcename: "hal__time___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:34:9" }
+edge: { sourcename: "hal__time___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:34:9" }
+edge: { sourcename: "hal__time___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:36:9" }
+edge: { sourcename: "hal__time___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:36:9" }
+edge: { sourcename: "hal__time___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:36:9" }
+edge: { sourcename: "hal__time___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:36:9" }
+node: { title: "hal__time__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:32:1\n16 bytes (static)" }
+edge: { sourcename: "hal__time__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:32:1" }
+edge: { sourcename: "hal__time__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:32:1" }
+edge: { sourcename: "hal__time__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "hal__time__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:36:9" }
+node: { title: "hal__time__TdelaysCFD" label: "TDELAYSCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:34:9\n32 bytes (static)" }
+edge: { sourcename: "hal__time__TdelaysCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-time.ads:34:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+}

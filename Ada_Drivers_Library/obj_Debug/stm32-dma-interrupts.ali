@@ -1,0 +1,176 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB LC TF  ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+
+U stm32.dma.interrupts%b  stm32-dma-interrupts.adb  b85db95d NE OO PK IU
+W stm32.dma%s		stm32-dma.adb		stm32-dma.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U stm32.dma.interrupts%s  stm32-dma-interrupts.ads  11638eac EE NE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.interrupts%s	a-interr.adb		a-interr.ali
+W stm32.dma%s		stm32-dma.adb		stm32-dma.ali
+Z system%s		system.ads		system.ali
+Z system.interrupts%s	s-interr.adb		s-interr.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-interr.ads		20180524194940 bdf68b51 ada.interrupts%s
+D a-reatim.ads		20180524194940 4c16970e ada.real_time%s
+D a-taside.ads		20180524194940 c3e0cda8 ada.task_identification%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D i-stm32.ads		20180524194940 4d2e1e9b interfaces.stm32%s
+D i-stm32-pwr.ads	20180524194940 10ed2a13 interfaces.stm32.pwr%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D stm32-dma.ads		20190116062804 a485c5f7 stm32.dma%s
+D stm32-dma-interrupts.ads  20190116062804 0810c00a stm32.dma.interrupts%s
+D stm32-dma-interrupts.adb  20190116062804 b04d7957 stm32.dma.interrupts%b
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-dma.ads	20190116062804 cbdaf790 stm32_svd.dma%s
+D system.ads		20180524194940 db831581 system%s
+D s-bb.ads		20180524194940 09e072ae system.bb%s
+D s-bbbopa.ads		20180524194940 95d97b26 system.bb.board_parameters%s
+D s-bbbosu.ads		20180524194940 0f820a2a system.bb.board_support%s
+D s-bbcppr.ads		20180524194940 bcfa73ad system.bb.cpu_primitives%s
+D s-bbinte.ads		20180524194940 c88d39da system.bb.interrupts%s
+D s-bbmcpa.ads		20180524194940 c4c55388 system.bb.mcu_parameters%s
+D s-bbpara.ads		20180524194940 431abc17 system.bb.parameters%s
+D s-bbthre.ads		20180524194940 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20180524194940 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20180524194940 ad086247 system.bb.time%s
+D s-interr.ads		20180524194940 f1954f09 system.interrupts%s
+D s-multip.ads		20180524194940 f33e0e35 system.multiprocessors%s
+D s-mufalo.ads		20180524194940 3dca0374 system.multiprocessors.fair_locks%s
+D s-musplo.ads		20180524194940 69fa25c4 system.multiprocessors.spin_locks%s
+D s-osinte.ads		20180524194940 229b14dd system.os_interface%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-soflin.ads		20180524194940 09900c20 system.soft_links%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stm32.ads		20180524194940 e898dba2 system.stm32%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20180524194940 801abd01 system.task_info%s
+D s-taspri.ads		20180524194940 351848fa system.task_primitives%s
+D s-taskin.ads		20180524194940 58b15916 system.tasking%s
+D s-taprob.ads		20180524194940 c8fc0753 system.tasking.protected_objects%s
+D s-tpoben.ads		20180524194940 8351b91e system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20180524194940 1882ba41 system.tasking.protected_objects.operations%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 13|32r6 39r20
+X 3 a-interr.ads
+40K13*Interrupts 100e19 13|32w10 39r24
+42I9*Interrupt_ID<28|57I9> 13|39r35
+X 7 hal.ads
+66M9*UInt16<8|66M9> 13|46r47 14|42r47
+X 8 interfac.ads
+66M9*Unsigned_16
+X 11 stm32.ads
+39K9*STM32 48e10 13|34r9 68r5 14|32r14 151r5
+X 12 stm32-dma.ads
+89K15*DMA 11|39k9 12|627e14 13|34r15 68r11 14|32r20 151r11
+91R9*DMA_Controller<16|1386R9> 13|37r36
+96E9*DMA_Stream_Selector 104e16 13|38r20
+121V13*Enabled{boolean} 14|126s29 133s29
+217n7*Half_Transfer_Complete_Interrupt{214E9} 14|58r36
+221A9*Interrupt_Selections(boolean)<214E9>
+223U14*Start_Transfer_with_Interrupts 14|52s10
+224r7 This{91R9} 14|53r13
+225e7 Stream{96E9} 14|54r13
+226m7 Source{17|80M9} 14|55r13
+227m7 Destination{17|80M9} 14|56r13
+228m7 Data_Count{7|66M9} 14|57r13
+229a7 Enabled_Interrupts{221A9} 14|58r13
+246E9*DMA_Error_Code 252e24 13|48r46 54r47 62r32 14|66r46 98r47
+247n7*DMA_No_Error{246E9} 13|62r50 14|71r45 142r37
+248n7*DMA_Transfer_Error{246E9} 14|82r25 139r37
+249n7*DMA_FIFO_Error{246E9} 14|124r37
+250n7*DMA_Direct_Mode_Error{246E9} 14|132r37
+254U14*Abort_Transfer 14|68s10
+255r7 This{91R9} 14|68r26
+256e7 Stream{96E9} 14|69r26
+257e7 Result{246E9} 14|70r26
+333E9*DMA_Status_Flag 338e35 14|116r41
+334n7*FIFO_Error_Indicated{333E9} 14|123r24
+335n7*Direct_Mode_Error_Indicated{333E9} 14|131r24
+336n7*Transfer_Error_Indicated{333E9} 14|138r24
+337n7*Half_Transfer_Complete_Indicated{333E9} 14|118r37
+338n7*Transfer_Complete_Indicated{333E9} 14|141r24
+340U14*Clear_Status 14|145s16
+348U14*Clear_All_Status 14|48s10
+355V13*Status{boolean} 14|121s16
+X 13 stm32-dma-interrupts.ads
+34K19*Interrupts 12|89k15 13|68l15 68e25 14|32b24 151l15 151t25
+36W19*DMA_Interrupt_Controller 37d7 38d7 39d7 40d7 58E17 64l8 64e32 66r55
+. 14|34b19 149l8 149t32
+38e7 Stream{12|96E9} 14|48r44 54r35 69r36 121r40 126r54 133r54 145r46
+39i7 ID{3|42I9} 59r49
+40i7 Priority{17|118I12} 42r34
+44U17 Start_Transfer 44>33 45>33 46>33 14|40b17 60l11 60t25
+44m33 Source{17|80M9} 14|40b33 55r35
+45m33 Destination{17|80M9} 14|41b33 56r35
+46m33 Data_Count{7|66M9} 14|42b33 57r35
+48U17 Abort_Transfer 48<33 14|66b17 72l11 72t25
+48e33 Result{12|246E9} 14|66b33 70m36 71r36
+50U17 Clear_Transfer_State 14|78b17 83l11 83t31
+52V16 Buffer_Error{boolean} 14|89b16 92l11 92t23
+54Y13 Wait_For_Completion 54<34 14|98b13 103l11 103t30
+54e34 Status{12|246E9} 14|102m10
+58U17 Interrupt_Handler 59r30 14|109b17 148l11 148t28
+61b7 No_Transfer_In_Progess{boolean} 14|45r10 71r10 81r10 99r14 129r25 136r25
+. 140r22 143r22
+62e7 Last_Status{12|246E9} 14|82r10 102r20 124r22 132r22 139r22 142r22
+63b7 Had_Buffer_Error{boolean} 14|46r10 91r17 125r22
+66P9*DMA_Interrupt_Controller_Access(36W19)
+X 14 stm32-dma-interrupts.adb
+98e34 Status{12|246E9}
+116E18 Checked_Status_Flag{12|333E9} 120r22
+120e14 Flag{116E18} 121r48 122r21 145r54
+X 17 system.ads
+50K9*System 13|40r20 17|164e11
+80M9*Address 13|44r47 45r47 14|40r47 41r47
+116I12*Any_Priority{integer}
+118I12*Interrupt_Priority{116I12} 13|40r27
+X 28 s-interr.ads
+57I9*Ada_Interrupt_ID<integer>
+97U14*Install_Restricted_Handlers_Sequential 98i<c,__gnat_attach_all_handlers>22
+X 34 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 41 s-taskin.ads
+407V13*Get_Sec_Stack{34|46P9} 408i<c,__gnat_get_secondary_stack>22
+

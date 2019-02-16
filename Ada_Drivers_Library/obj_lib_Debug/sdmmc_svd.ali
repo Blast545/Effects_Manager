@@ -1,0 +1,42 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U sdmmc_svd%s		sdmmc_svd.ads		e1eb6041 NE OO PR IU
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W stm32_svd.sdio%s	stm32_svd-sdio.ads	stm32_svd-sdio.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D sdmmc_svd.ads		20190116062804 b9855c83 sdmmc_svd%s
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-sdio.ads	20190116062804 586e3cc2 stm32_svd.sdio%s
+D system.ads		20180524194940 db831581 system%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 3 sdmmc_svd.ads
+37K9*SDMMC_SVD=37:37
+X 4 stm32_svd.ads
+10K9*STM32_SVD 3|32r6 37r27 4|164e14
+X 5 stm32_svd-sdio.ads
+10K19*SDIO 3|32w16 37r37 5|642e19
+

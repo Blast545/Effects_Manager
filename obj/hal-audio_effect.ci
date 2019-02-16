@@ -1,0 +1,26 @@
+edge: { sourcename: "hal__audio_effect__Taudio_effectCFD"
+  targetname: "-9:hal__audio_effect__audio_effect,hal__audio_effect__audio_effect"
+  label: "hal-audio_effect.ads:7:9"
+}
+class {
+  classname: "hal__audio_effect__audio_effect"
+  label: "hal__audio_effect__audio_effect\hal-audio_effect.ads:7:9"
+  virtuals: "1:hal__audio_effect__reset_variables\n
+             2:hal__audio_effect__process_audio_block\n
+             -1:hal__audio_effect___size\n
+             -2:hal__audio_effect__audio_effectSR\n
+             -3:hal__audio_effect__audio_effectSW\n
+             -4:hal__audio_effect__audio_effectSI\n
+             -5:hal__audio_effect__audio_effectSO\n
+             -9:hal__audio_effect__audio_effectDF"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\hal-audio_effect.ads"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "hal__audio_effect___elabs" label: "AUDIO_EFFECT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\hal-audio_effect.ads:5:1\n8 bytes (static)" }
+edge: { sourcename: "hal__audio_effect___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\hal-audio_effect.ads:7:9" }
+edge: { sourcename: "hal__audio_effect___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\hal-audio_effect.ads:7:9" }
+node: { title: "hal__audio_effect__Taudio_effectCFD" label: "TAUDIO_EFFECTCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\hal-audio_effect.ads:7:9\n32 bytes (static)" }
+edge: { sourcename: "hal__audio_effect__Taudio_effectCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\hal-audio_effect.ads:7:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+}

@@ -1,0 +1,106 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U simple_synthesizer%b	simple_synthesizer.adb	52e0e1a2 OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+U simple_synthesizer%s	simple_synthesizer.ads	2a9ca037 EE OO PF PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.audio%s		hal-audio.ads		hal-audio.ali
+Z system%s		system.ads		system.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-audio.ads		20190116062806 6baea1e9 hal.audio%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D simple_synthesizer.ads  20190116062806 413201de simple_synthesizer%s
+D simple_synthesizer.adb  20190116062806 4967b214 simple_synthesizer%b
+D system.ads		20180524194940 db831581 system%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 7 hal.ads
+34K9*HAL 166e8 10|35r6 35r22
+X 8 hal-audio.ads
+34K13*Audio 72e14 10|35w10 35r26
+36A9*Audio_Buffer(9|49I9)<integer> 10|52r31 56r34 11|66r14 78r18
+41E9*Audio_Frequency 50e6 10|48r41 61r21 11|54r19 83r16
+61h9*Audio_Stream 10|41r18 60r18
+X 9 interfac.ads
+38K9*Interfaces 184e15 11|32w6 32r22
+49I9*Integer_16<short_integer> 11|80r35 93r35 99r17 102r13
+X 10 simple_synthesizer.ads
+37K9*Simple_Synthesizer 58E9 65l5 65e23 11|34b14 122l5 122t23
+39R9*Synthesizer<8|61R9> 39d22 40d22 43p14 43r48 47P14 47r48 51P14 51r38
+. 55P14 55r37 58c9 64e14 11|41r21 53r26 65r21 77r21
+39b22*Stereo{boolean} 58r22 11|104r15
+40i22*Amplitude{natural} 59r22 11|85r49
+43U14*Set_Note_Frequency 43=34 44>34 11|40b14 46l8 46t26
+43r34 This{39R9} 11|41b7 45m7
+44f34 Note{float} 11|42b7 45r20
+47U14*Set_Frequency<8|63p14> 47=29 48>29 11|52b25 58l8 58t21
+47r29 This{39R9} 11|53b7 57m7
+48e29 Frequency{8|41E9} 11|54b7 57r25
+51U14*Transmit<8|66p14> 51=24 52>24 11|64b25 70l8 70t16
+51r24 This{39R9} 11|65b7
+52a24 Data{8|36A9} 11|66b7
+55U14*Receive<8|69p14> 55=23 56<23 11|76b25 120l8 120t15
+55r23 This{39R9} 11|77b7 83r42 84r37 85r44 95m10 95r30 96r13 97m13 99r29
+. 104r10
+56a23 Data{8|36A9} 11|78b7 105r13 110r29 112m13 112r33 113m13 113r33 116m21
+. 116r21
+61e7 Frequency{8|41E9} 11|57m12 83r47
+62f7 Note{float} 11|45m12 84r42
+63f7 Last_Sample{float} 11|95m15 95r35 96r18 97m18 99r34
+X 11 simple_synthesizer.adb
+80V16 Next_Sample{9|49I9} 93b16 100l11 100t22 111s20 117s20
+82f7 Rate{float} 86r44
+84f7 Note{float} 86r58
+85f7 Amplitude{float} 99r48
+86f7 Delt{float} 95r49
+102i7 Tmp{9|49I9} 111m13 112r48 113r52
+110i14 Index{integer} 112r20 113r20
+116i14 Elt=116:21{9|49I9} 117r13
+

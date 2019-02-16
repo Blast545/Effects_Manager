@@ -1,0 +1,60 @@
+edge: { sourcename: "st7735r__ram_framebuffer__Tst7735r_ram_framebuffer_screenCFD"
+  targetname: "-9:st7735r__ram_framebuffer__st7735r_ram_framebuffer_screen,st7735r__ram_framebuffer__st7735r_ram_framebuffer_screen"
+  label: "st7735r-ram_framebuffer.ads:43:9"
+}
+class {
+  classname: "st7735r__ram_framebuffer__st7735r_ram_framebuffer_screen"
+  label: "st7735r__ram_framebuffer__st7735r_ram_framebuffer_screen\st7735r-ram_framebuffer.ads:43:9"
+  parent: "st7735r__st7735r_screen"
+  virtuals: "10:st7735r__ram_framebuffer__initialize_layer,10:st7735r__st7735r_screen\n
+             11:st7735r__ram_framebuffer__initialized__2,11:st7735r__st7735r_screen\n
+             12:st7735r__ram_framebuffer__update_layer,12:st7735r__st7735r_screen\n
+             13:st7735r__ram_framebuffer__update_layers,13:st7735r__st7735r_screen\n
+             15:st7735r__ram_framebuffer__hidden_buffer,15:st7735r__st7735r_screen\n
+             -1:st7735r__ram_framebuffer___size__2,-1:st7735r__st7735r_screen\n
+             -9:st7735r__ram_framebuffer__st7735r_ram_framebuffer_screenDF__2,-9:st7735r__st7735r_screen"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "st7735r__write_raw_pixels__2" label: "WRITE_RAW_PIXELS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r.ads:166:14" shape : ellipse }
+node: { title: "st7735r__set_address" label: "SET_ADDRESS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r.ads:153:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Explicit_Raise" label: "gnat_rcheck_PE_Explicit_Raise\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "memory_mapped_bitmap__memory_mapped_bitmap_bufferIP" label: "Memory_Mapped_Bitmap_Bufferip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:41:9" shape : ellipse }
+node: { title: "st7735r__st7735r_screenIP" label: "ST7735R_SCREENIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r.ads:373:9" shape : ellipse }
+node: { title: "st7735r__ram_framebuffer___elabs" label: "RAM_FRAMEBUFFER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:39:1\n8 bytes (static)" }
+edge: { sourcename: "st7735r__ram_framebuffer___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:93:9" }
+edge: { sourcename: "st7735r__ram_framebuffer___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:93:9" }
+node: { title: "st7735r__ram_framebuffer___elabb" label: "RAM_FRAMEBUFFER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:32:1\n4 bytes (static)" }
+node: { title: "st7735r__ram_framebuffer__hidden_buffer" label: "HIDDEN_BUFFER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:115:4\n16 bytes (static)" }
+edge: { sourcename: "st7735r__ram_framebuffer__hidden_buffer" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:121:10" }
+edge: { sourcename: "st7735r__ram_framebuffer__hidden_buffer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:115:4" }
+node: { title: "st7735r__ram_framebuffer__update_layers" label: "UPDATE_LAYERS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:103:4\n16 bytes (static)" }
+edge: { sourcename: "st7735r__ram_framebuffer__update_layers" targetname: "st7735r__ram_framebuffer__update_layer" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:107:14" }
+edge: { sourcename: "st7735r__ram_framebuffer__update_layers" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:103:4" }
+node: { title: "st7735r__ram_framebuffer__update_layer" label: "UPDATE_LAYER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:79:4\n40 bytes (static)" }
+edge: { sourcename: "st7735r__ram_framebuffer__update_layer" targetname: "st7735r__write_raw_pixels__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:94:14" }
+edge: { sourcename: "st7735r__ram_framebuffer__update_layer" targetname: "st7735r__set_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:89:7" }
+edge: { sourcename: "st7735r__ram_framebuffer__update_layer" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:93:60" }
+edge: { sourcename: "st7735r__ram_framebuffer__update_layer" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:91:59" }
+edge: { sourcename: "st7735r__ram_framebuffer__update_layer" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:87:10" }
+edge: { sourcename: "st7735r__ram_framebuffer__update_layer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:79:4" }
+node: { title: "st7735r__ram_framebuffer__initialized__2" label: "INITIALIZED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:66:4\n16 bytes (static)" }
+edge: { sourcename: "st7735r__ram_framebuffer__initialized__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:66:4" }
+node: { title: "st7735r__ram_framebuffer__initialize_layer" label: "INITIALIZE_LAYER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:39:4\n24 bytes (static)" }
+edge: { sourcename: "st7735r__ram_framebuffer__initialize_layer" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:51:10" }
+edge: { sourcename: "st7735r__ram_framebuffer__initialize_layer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.adb:39:4" }
+node: { title: "st7735r__ram_framebuffer__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:39:1\n8 bytes (static)" }
+edge: { sourcename: "st7735r__ram_framebuffer__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:39:1" }
+node: { title: "st7735r__ram_framebuffer__Tst7735r_ram_framebuffer_screenCFD" label: "TST7735R_RAM_FRAMEBUFFER_SCREENCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:43:9\n32 bytes (static)" }
+edge: { sourcename: "st7735r__ram_framebuffer__Tst7735r_ram_framebuffer_screenCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:43:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "st7735r__ram_framebuffer__st7735r_ram_framebuffer_screenDF__2" label: "ST7735R_RAM_FRAMEBUFFER_SCREENDF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:93:9\n16 bytes (static)" }
+node: { title: "st7735r__ram_framebuffer___size__2" label: "RAM_FRAMEBUFFER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:93:9\n16 bytes (static)" }
+node: { title: "st7735r__ram_framebuffer__st7735r_ram_framebuffer_screenIP" label: "ST7735R_RAM_FRAMEBUFFER_SCREENIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:93:9\n40 bytes (static)" }
+edge: { sourcename: "st7735r__ram_framebuffer__st7735r_ram_framebuffer_screenIP" targetname: "memory_mapped_bitmap__memory_mapped_bitmap_bufferIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:100:7" }
+edge: { sourcename: "st7735r__ram_framebuffer__st7735r_ram_framebuffer_screenIP" targetname: "st7735r__st7735r_screenIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ST7735R\st7735r-ram_framebuffer.ads:99:15" }
+}

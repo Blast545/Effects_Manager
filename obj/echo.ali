@@ -1,0 +1,101 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U echo%b		echo.adb		0735a639 OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+U echo%s		echo.ads		bd201cb6 EE OO PF PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.audio%s		hal-audio.ads		hal-audio.ali
+W hal.audio_effect%s	hal-audio_effect.ads	hal-audio_effect.ali
+Z system%s		system.ads		system.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D echo.ads		20190215185034 0071e81a echo%s
+D echo.adb		20190215185710 5df11c4b echo%b
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-audio.ads		20190116062806 6baea1e9 hal.audio%s
+D hal-audio_effect.ads	20190214234230 d6ff5545 hal.audio_effect%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D system.ads		20180524194940 db831581 system%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 7 echo.ads
+8K9*Echo 25E4 37l5 37e9 8|7b14 58l5 58t9
+10R9*Echo_Effect<11|7R9> 13P14 13r45 16P14 16r49 30c9 35e14 8|10r45 19r49
+13U14*Reset_Variables<11|9p14> 13=31 8|10b14 16l8 16t23
+13r31 This{10R9} 8|10b31 13m7 14m7 15m7
+16U14*Process_Audio_Block<11|11p14> 16=35 17=35 8|19b14 56l8 56t27
+16r35 This{10R9} 8|19b35 31r41 31r66 32m10 33m10 39r30 40r31 52m7 52r31 52r83
+. 52r131 54m7 54r26 54r81
+17a35 Samples_To_Process{10|36A9} 8|20b35 25r41 28r20 30r32 33r32 48m10 52r55
+. 52r102 54r51
+18a4*Effect_Name{string}
+25f4 block_a{float} 8|31r56
+26f4 input_gain{float} 8|30r61
+27i4 number_of_samples{natural} 32r42
+28f4 output_gain{float} 8|46r41
+32a7 saved_samples{10|36A9} 8|13m12 39r35 40r36 52m12 52r36 52r88 52r136
+. 54m12 54r31 54r86
+33f7 dc_x_n1{float} 8|14m12 31r46 33m15
+34f7 dc_y_n1{float} 8|15m12 31r71 32m15
+X 8 echo.adb
+22f7 in_out_value{float} 30m10 31m10 31r26 32r26 34r44 43m10 43r26 46m10
+. 46r26 48r50
+23f7 echo_value{float} 39m10 43r59
+24f7 echo_value2{float} 40m10 43r41
+25a7 data_to_save{10|36A9} 34m10 54r109
+28i11 Index{integer} 30r51 33r51 34r23 39r49 40r50 48r29
+X 9 hal.ads
+34K9*HAL 7|4r6 4r29 5r6 5r29 9|166e8
+X 10 hal-audio.ads
+34K13*Audio 7|5w10 5r33 10|72e14
+36A9*Audio_Buffer(12|49I9)<integer> 7|17r63 32r23 8|20r63 25r22
+X 11 hal-audio_effect.ads
+5K13*Audio_Effect 7|4w10 4r33 11|15e21
+7h9*Audio_Effect 7|10r36 31r16
+X 12 interfac.ads
+38K9*Interfaces 8|5w6 5r32 12|184e15
+49I9*Integer_16<short_integer> 8|34r33 48r39
+

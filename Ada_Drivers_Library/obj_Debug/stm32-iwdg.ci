@@ -1,0 +1,5 @@
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-iwdg.adb"
+node: { title: "stm32__iwdg__reset_watchdog" label: "RESET_WATCHDOG\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-iwdg.adb:77:4\n4 bytes (static)" }
+node: { title: "stm32__iwdg__start_watchdog" label: "START_WATCHDOG\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-iwdg.adb:67:4\n4 bytes (static)" }
+node: { title: "stm32__iwdg__initialize_watchdog" label: "INITIALIZE_WATCHDOG\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-iwdg.adb:47:4\n16 bytes (static)" }
+}

@@ -1,0 +1,137 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U mcp23x08.i2c%b	mcp23x08-i2c.adb	29f36245 OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.i2c%s		hal-i2c.ads		hal-i2c.ali
+W mcp23x08%s		mcp23x08.adb		mcp23x08.ali
+
+U mcp23x08.i2c%s	mcp23x08-i2c.ads	3d1584e5 EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.i2c%s		hal-i2c.ads		hal-i2c.ali
+W mcp23x08%s		mcp23x08.adb		mcp23x08.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-gpio.ads		20190116062806 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20190116062806 0ed73138 hal.i2c%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D mcp23x08.ads		20190116062806 4ced6e5b mcp23x08%s
+D mcp23x08-i2c.ads	20190116062806 7f2fdb86 mcp23x08.i2c%s
+D mcp23x08-i2c.adb	20190116062806 580b88fb mcp23x08.i2c%b
+D system.ads		20180524194940 db831581 system%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-stratt.ads		20180524194940 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 7 hal.ads
+34K9*HAL 166e8 12|32r6 36r38 42r38 58r28 13|32r6 32r19
+41M9*UInt3 12|37r33 43r33
+53M9*UInt8<10|63M9> 12|50r19 56r22 13|44r19 70r22
+54M9*UInt10
+66M9*UInt16<10|66M9> 13|50r10 77r10
+162A9*UInt8_Array(53M9)<integer>
+X 8 hal-gpio.ads
+47h9*GPIO_Point
+49P9*Any_GPIO_Point(47R9)
+X 9 hal-i2c.ads
+32K13*I2C 84e12 12|32w10 36r42 42r42 58r32 13|32w10 32r23
+34E9*I2C_Status 38e12 13|46r16 73r16
+35n7*Ok{34E9} 13|56r20 83r20
+40A12*I2C_Data{7|162A9}<integer> 13|72r16
+43n7*Memory_Size_8b{42E9} 13|51r10 78r10
+46M12*I2C_Address{7|54M9} 12|58r36 13|49r26 76r26
+48h9*I2C_Port
+50P9*Any_I2C_Port(48R9) 12|36r46 42r46
+66x14*Mem_Write 13|48R17
+75x14*Mem_Read 13|75R17
+X 10 interfac.ads
+63M9*Unsigned_8
+66M9*Unsigned_16
+X 11 mcp23x08.ads
+42K9*MCP23x08 198e13 12|34r9 59r5 13|34r14 91r5
+47H9*MCP23x08_IO_Expander 167e14 12|38r10 44r10
+49U14*Configure
+56U14*Configure_Mode
+61V13*Is_Output{boolean}
+65U14*Configure_Pull
+70V13*Pull_Up{boolean}
+74V13*Set{boolean}
+78U14*Set
+82U14*Clear
+86U14*Toggle
+90A9*ALl_IO_Array(boolean)<44E9>
+93V13*All_IO{90A9}
+96U14*Set_All_IO
+100V13*As_GPIO_Point{8|49P9}
+173M9 Register_Address<7|53M9> 12|49r19 55r18 13|43r19 69r18
+X 12 mcp23x08-i2c.ads
+34K18*I2C 11|42k9 12|42E9 59l14 59e17 13|34b23 91l14 91t17
+36R9*MCP23008_IO_Expander<11|47R9> 11|49p14 56p14 61p13 65p14 70p13 74p13
+. 78p14 82p14 86p14 93p13 96p14 100p13 12|36d31 37d26 42c9 44e47 47P14 48r26
+. 53P14 54r18 13|42r26 68r18
+36p31*Port{9|50P9} 42r31 13|48r12 75r12
+37m26*Addr{7|41M9} 43r26 13|49r44 76r44
+47U14 IO_Write<11|175p14> 48=7 49>7 50>7 13|41b14 60l8 60t16
+48r7 This{36R9} 13|42b7 48r7 49r39
+49m7 WriteAddr{11|173M9} 13|43b7 50r18
+50m7 Value{7|53M9} 13|44b7 52r16
+53U14 IO_Read<11|181p14> 54>7 55>7 56<7 13|67b14 89l8 89t15
+54r7 This{36R9} 13|68b7 75r7 76r39
+55m7 ReadAddr{11|173M9} 13|69b7 77r18
+56m7 Value{7|53M9} 13|70b7 88m7
+58m4 BASE_ADDRESS{9|46M12} 13|49r10 76r10
+X 13 mcp23x08-i2c.adb
+46e7 Status{9|34E9} 53m10 56r10
+72a7 Ret{9|40A12} 79m10 88r16
+73e7 Status{9|34E9} 80m10 83r10
+

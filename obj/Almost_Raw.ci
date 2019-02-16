@@ -1,0 +1,37 @@
+edge: { sourcename: "almost_raw__Talmost_raw_effectCFD"
+  targetname: "-9:almost_raw__almost_raw_effect,almost_raw__almost_raw_effect"
+  label: "almost_raw.ads:9:9"
+}
+class {
+  classname: "almost_raw__almost_raw_effect"
+  label: "almost_raw__almost_raw_effect\almost_raw.ads:9:9"
+  parent: "hal__audio_effect__audio_effect"
+  virtuals: "1:almost_raw__reset_variables,1:hal__audio_effect__audio_effect\n
+             2:almost_raw__process_audio_block,2:hal__audio_effect__audio_effect\n
+             -1:almost_raw___size__2,-1:hal__audio_effect__audio_effect\n
+             -9:almost_raw__almost_raw_effectDF__2,-9:hal__audio_effect__audio_effect"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.adb"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "almost_raw___elabs" label: "Almost_Raw\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:7:1\n8 bytes (static)" }
+edge: { sourcename: "almost_raw___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:24:9" }
+edge: { sourcename: "almost_raw___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:24:9" }
+node: { title: "almost_raw___elabb" label: "Almost_Raw\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\almost_raw.adb:5:1\n4 bytes (static)" }
+node: { title: "almost_raw__process_audio_block" label: "Process_Audio_Block\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\almost_raw.adb:16:4\n48 bytes (static)" }
+edge: { sourcename: "almost_raw__process_audio_block" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\almost_raw.adb:25:37" }
+edge: { sourcename: "almost_raw__process_audio_block" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\almost_raw.adb:16:4" }
+node: { title: "almost_raw__reset_variables" label: "Reset_Variables\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\almost_raw.adb:8:4\n16 bytes (static)" }
+edge: { sourcename: "almost_raw__reset_variables" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\almost_raw.adb:8:4" }
+node: { title: "almost_raw__finalize_spec" label: "Finalize_Spec\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:7:1\n8 bytes (static)" }
+edge: { sourcename: "almost_raw__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:7:1" }
+node: { title: "almost_raw__Talmost_raw_effectCFD" label: "Talmost_Raw_Effectcfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:9:9\n32 bytes (static)" }
+edge: { sourcename: "almost_raw__Talmost_raw_effectCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:9:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "almost_raw__almost_raw_effectDF__2" label: "Almost_Raw_Effectdf\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:24:9\n16 bytes (static)" }
+node: { title: "almost_raw___size__2" label: "Almost_Raw\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:24:9\n16 bytes (static)" }
+node: { title: "almost_raw__almost_raw_effectIP" label: "Almost_Raw_Effectip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:24:9\n16 bytes (static)" }
+}

@@ -1,0 +1,41 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U stm32%s		stm32.ads		1879b65d NE OO PU PK IU
+W hal%s			hal.ads			hal.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D system.ads		20180524194940 db831581 system%s
+X 1 hal.ads
+34K9*HAL 166e8 3|36w6 36r19
+43M9*UInt4 3|46r40
+X 2 interfac.ads
+38K9*Interfaces 184e15 3|35w6 35r36
+X 3 stm32.ads
+39K9*STM32 46E9 48l5 48e10
+42M9*GPIO_Alternate_Function<1|43M9> 46c9
+

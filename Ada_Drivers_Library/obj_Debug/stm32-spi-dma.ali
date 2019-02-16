@@ -1,0 +1,254 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB LC TF  ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U stm32.spi.dma%b	stm32-spi-dma.adb	fc1ff278 OO PK IU
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.spi%s		hal-spi.ads		hal-spi.ali
+W stm32%s		stm32.ads		stm32.ali
+W stm32.dma%s		stm32-dma.adb		stm32-dma.ali
+W stm32.spi%s		stm32-spi.adb		stm32-spi.ali
+Z system%s		system.ads		system.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U stm32.spi.dma%s	stm32-spi-dma.ads	9308bb79 EE OO PF PK IU
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W stm32%s		stm32.ads		stm32.ali
+W stm32.dma%s		stm32-dma.adb		stm32-dma.ali
+W stm32.dma.interrupts%s  stm32-dma-interrupts.adb  stm32-dma-interrupts.ali
+W stm32.spi%s		stm32-spi.adb		stm32-spi.ali
+Z system%s		system.ads		system.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-interr.ads		20180524194940 bdf68b51 ada.interrupts%s
+D a-reatim.ads		20180524194940 4c16970e ada.real_time%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-taside.ads		20180524194940 c3e0cda8 ada.task_identification%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-spi.ads		20190116062806 fe139819 hal.spi%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D i-stm32.ads		20180524194940 4d2e1e9b interfaces.stm32%s
+D i-stm32-pwr.ads	20180524194940 10ed2a13 interfaces.stm32.pwr%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D stm32-dma.ads		20190116062804 a485c5f7 stm32.dma%s
+D stm32-dma-interrupts.ads  20190116062804 0810c00a stm32.dma.interrupts%s
+D stm32-spi.ads		20190116062804 98127252 stm32.spi%s
+D stm32-spi-dma.ads	20190116062804 030a0921 stm32.spi.dma%s
+D stm32-spi-dma.adb	20190116062804 a583a6b7 stm32.spi.dma%b
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-dma.ads	20190116062804 cbdaf790 stm32_svd.dma%s
+D stm32_svd-spi.ads	20190116062804 9452a68a stm32_svd.spi%s
+D system.ads		20180524194940 db831581 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-bb.ads		20180524194940 09e072ae system.bb%s
+D s-bbbopa.ads		20180524194940 95d97b26 system.bb.board_parameters%s
+D s-bbbosu.ads		20180524194940 0f820a2a system.bb.board_support%s
+D s-bbcppr.ads		20180524194940 bcfa73ad system.bb.cpu_primitives%s
+D s-bbinte.ads		20180524194940 c88d39da system.bb.interrupts%s
+D s-bbmcpa.ads		20180524194940 c4c55388 system.bb.mcu_parameters%s
+D s-bbpara.ads		20180524194940 431abc17 system.bb.parameters%s
+D s-bbthre.ads		20180524194940 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20180524194940 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20180524194940 ad086247 system.bb.time%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-interr.ads		20180524194940 f1954f09 system.interrupts%s
+D s-multip.ads		20180524194940 f33e0e35 system.multiprocessors%s
+D s-mufalo.ads		20180524194940 3dca0374 system.multiprocessors.fair_locks%s
+D s-musplo.ads		20180524194940 69fa25c4 system.multiprocessors.spin_locks%s
+D s-osinte.ads		20180524194940 229b14dd system.os_interface%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stm32.ads		20180524194940 e898dba2 system.stm32%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-tasinf.ads		20180524194940 801abd01 system.task_info%s
+D s-taspri.ads		20180524194940 351848fa system.task_primitives%s
+D s-taskin.ads		20180524194940 58b15916 system.tasking%s
+D s-taprob.ads		20180524194940 c8fc0753 system.tasking.protected_objects%s
+D s-tpoben.ads		20180524194940 8351b91e system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20180524194940 1882ba41 system.tasking.protected_objects.operations%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 10 hal.ads
+34K9*HAL 166e8 19|52r16 53r20 59r16 60r20 66r21 67r21 73r21 74r21 20|33r6
+. 41r25 52r25 76r20 78r20 125r16 126r20 148r16 149r20 171r21 172r21 186r21
+. 187r21
+53M9*UInt8<12|63M9>
+66M9*UInt16<12|66M9> 20|40r21 51r21
+X 11 hal-spi.ads
+32K13*SPI 86e12 19|52r20 53r24 59r20 60r24 66r25 67r25 73r25 74r25 20|33w10
+. 41r29 52r29 76r24 78r24 125r20 126r24 148r20 149r24 171r25 172r25 186r25
+. 187r25
+34E9*SPI_Status 38e12 19|53r28 60r28 67r29 74r29 20|41r33 52r33 126r28 149r28
+. 172r29 187r29
+35n7*Ok{34E9} 20|76r28
+36n7*Err_Error{34E9} 20|78r28
+44A9*SPI_Data_8b(10|53M9)<integer> 19|52r24 66r29 20|125r24 171r29
+46A9*SPI_Data_16b(10|66M9)<integer> 19|59r24 73r29 20|148r24 186r29
+48h9*SPI_Port
+X 12 interfac.ads
+63M9*Unsigned_8
+66M9*Unsigned_16
+X 15 stm32.ads
+39K9*STM32 48e10 19|32r6 32r32 34r9 84r5 20|32r6 32r21 35r14 195r5
+X 16 stm32-dma.ads
+89K15*DMA 627e14 19|32r12 32r38 20|32w12 32r27
+91R9*DMA_Controller<22|1386R9>
+246E9*DMA_Error_Code 252e24 20|56r20
+247n7*DMA_No_Error{246E9} 20|75r23
+602V13*Compatible_Alignments{boolean} 20|58s14
+X 17 stm32-dma-interrupts.ads
+34K19*Interrupts 68e25 19|32w16 32r42
+38e7 Stream{16|96E9} 20|59r49
+44U17 Start_Transfer 20|69s19
+44m33 Source{24|80M9} 20|69r35
+45m33 Destination{24|80M9} 20|70r35
+46m33 Data_Count{10|66M9} 20|71r35
+54Y13 Wait_For_Completion 20|73s19
+66P9*DMA_Interrupt_Controller_Access(36W19) 19|40r41 80r19 20|89r14
+X 18 stm32-spi.ads
+49K15*SPI 15|39k9 18|249e14 19|34r15 84r11 20|35r20 195r11
+51R9*Internal_SPI_Port<23|287R9>
+53R9*SPI_Port<11|48R9> 219e51 19|36r22
+75R9*SPI_Configuration 85e14 19|47r32 20|113r14
+87U14*Configure 20|116s7
+89U14*Enable
+91U14*Disable
+93V13*Enabled{boolean}
+95U14*Send
+97V13*Data{10|66M9}
+100U14*Send
+102V13*Data{10|53M9}
+105V13*Is_Busy{boolean}
+108V13*Rx_Is_Empty{boolean}
+111V13*Tx_Is_Empty{boolean}
+114V13*Busy{boolean}
+117V13*Channel_Side_Indicated{boolean}
+120V13*Underrun_Indicated{boolean}
+123V13*CRC_Error_Indicated{boolean}
+126V13*Mode_Fault_Indicated{boolean}
+129V13*Overrun_Indicated{boolean}
+132V13*Frame_Fmt_Error_Indicated{boolean}
+135U14*Clear_Overrun
+137U14*Reset_CRC
+139V13*CRC_Enabled{boolean}
+141V13*Is_Data_Frame_16bit{boolean}
+143V13*Current_Mode{62E9}
+145V13*Current_Data_Direction{56E9}
+158V13*Data_Size{11|40E9}<11|52p13>
+161U14*Transmit<11|54p14> 20|132s10
+168U14*Transmit<11|62p14> 20|155s10
+174U14*Transmit
+179U14*Receive<11|70p14> 20|177s7
+186U14*Receive<11|78p14> 20|192s7
+192U14*Receive
+196U14*Transmit_Receive
+202U14*Transmit_Receive
+209V13*Data_Register_Address{24|80M9} 20|61s42 70s55
+221U14 Send_Receive_16bit_Mode
+227U14 Send_Receive_8bit_Mode
+233U14 Send_16bit_Mode
+237U14 Send_8bit_Mode
+241U14 Receive_16bit_Mode
+245U14 Receive_8bit_Mode
+X 19 stm32-spi-dma.ads
+34K19*DMA 18|49k15 19|79E9 84l15 84e18 20|35b24 195l15 195t18
+36R12*Parent{18|53R9} 37r37 79r37 20|116r18 132r20 155r20 177r16 192r16
+37R9*SPI_Port_DMA<18|53R9> 18|89p14 91p14 93p13 95p14 97p13 100p14 102p13
+. 105p13 108p13 111p13 114p13 117p13 120p13 123p13 126p13 129p13 132p13 135p14
+. 137p14 139p13 141p13 143p13 145p13 158P13 174p14 192p14 196p14 202p14 209p13
+. 221p14 227p14 233p14 237p14 241p14 245p14 19|39p14 39r48 42p14 42r56 46P14
+. 46r39 50P14 51r23 57P14 58r23 64P14 65r24 71P14 72r24 79c9 82e14 20|38r28
+. 49r28 88r21 100r26 112r21 124r23 147r23 170r24 185r24
+39U14*Set_TX_DMA_Handler 39=34 40>34 20|87b14 93l8 93t26
+39r34 This{37R9} 20|88b7 92m7
+40p34 DMA{17|66P9} 20|89b7 92r22
+42U14*Set_Polling_Threshold 42=37 43>37 20|99b14 105l8 105t29
+42r37 This{37R9} 20|100b7 104m7
+43i37 Threshold{natural} 20|101b7 104r25
+46U14*Configure<18|87p14> 46=25 47>25 20|111b25 117l8 117t17
+46r25 This{37R9} 20|112b7 116m26 116r26
+47r25 Conf{18|75R9} 20|113b7 116r33
+50U14*Transmit<18|161p14> 51=7 52>7 53<7 54>7 20|123b25 140l8 140t16
+51r7 This{37R9} 20|124b7 130r10 130r51 132m28 132r28 134m27
+52a7 Data{11|44A9} 20|125b7 130r37 132r35 135r27 135r33 136r27
+53e7 Status{11|34E9} 20|126b7 132m41 137m27
+54i7 Timeout{natural} 20|127b7 132r49 138r27
+57U14*Transmit<18|168p14> 58=7 59>7 60<7 61>7 20|146b25 163l8 163t16
+58r7 This{37R9} 20|147b7 153r10 153r51 155m28 155r28 157m27
+59a7 Data{11|46A9} 20|148b7 153r37 155r35 158r27 158r33 159r27
+60e7 Status{11|34E9} 20|149b7 155m41 160m27
+61i7 Timeout{natural} 20|150b7 155r49 161r27
+64U14*Receive<18|179p14> 65=7 66<7 67<7 68>7 20|169b25 178l8 178t15
+65r7 This{37R9} 20|170b7 177m24 177r24
+66a7 Data{11|44A9} 20|171b7 177m31
+67e7 Status{11|34E9} 20|172b7 177m37
+68i7 Timeout{natural} 20|173b7 177r45
+71U14*Receive<18|186p14> 72=7 73<7 74<7 75>7 20|184b25 193l8 193t15
+72r7 This{37R9} 20|185b7 192m24 192r24
+73a7 Data{11|46A9} 20|186b7 192m31
+74e7 Status{11|34E9} 20|187b7 192m37
+75i7 Timeout{natural} 20|188b7 192r45
+80p7 TX_DMA{17|66P9} 20|58r42 59r42 69r12 73r12 92m12 130r15 153r15
+81i7 Threshold{natural} 20|104m12 130r56 153r56
+X 20 stm32-spi-dma.adb
+37U14 Transmit_Common 38=7 39>7 40>7 41<7 42>7 48b14 80l8 80t23 134s10 157s10
+38r7 This{19|37R9} 49b7 58r37 59r37 61r37 67r7 69r7 70r50 73r7
+39m7 Source{24|80M9} 50b7 60r37 69r50
+40m7 Data_Count{10|66M9} 51b7 71r50
+41e7 Status{11|34E9} 52b7 76m10 78m10
+42i7 Timeout{natural} 53b7 55r28
+56e7 DMA_Status{16|246E9} 73m40 75r10
+X 23 stm32_svd-spi.ads
+78b7*TXDMAEN{boolean} 20|67m23
+291r7*CR2{74R9} 20|67m19
+X 24 system.ads
+50K9*System 20|39r21 50r21 24|164e11
+80M9*Address 20|39r28 50r28
+X 38 s-interr.ads
+97U14*Install_Restricted_Handlers_Sequential 98i<c,__gnat_attach_all_handlers>22
+X 45 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 53 s-taskin.ads
+407V13*Get_Sec_Stack{45|46P9} 408i<c,__gnat_get_secondary_stack>22
+

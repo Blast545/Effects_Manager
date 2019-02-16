@@ -1,0 +1,58 @@
+edge: { sourcename: "hal__sdmmc__Tsdmmc_driverCFD"
+  targetname: "-9:hal__sdmmc__sdmmc_driver,hal__sdmmc__sdmmc_driver"
+  label: "hal-sdmmc.ads:380:9"
+}
+class {
+  classname: "hal__sdmmc__sdmmc_driver"
+  label: "hal__sdmmc__sdmmc_driver\hal-sdmmc.ads:380:9"
+  virtuals: "1:hal__sdmmc__delay_milliseconds\n
+             2:hal__sdmmc__reset\n
+             3:hal__sdmmc__set_clock\n
+             4:hal__sdmmc__set_bus_size\n
+             5:hal__sdmmc__send_cmd\n
+             6:hal__sdmmc__read_cmd\n
+             7:hal__sdmmc__read_rsp48\n
+             8:hal__sdmmc__read_rsp136\n
+             -1:hal__sdmmc___size\n
+             -2:hal__sdmmc__sdmmc_driverSR\n
+             -3:hal__sdmmc__sdmmc_driverSW\n
+             -4:hal__sdmmc__sdmmc_driverSI\n
+             -5:hal__sdmmc__sdmmc_driverSO\n
+             -9:hal__sdmmc__sdmmc_driverDF"
+}
+edge: { sourcename: "hal__sdmmc__send_cmd__2"
+  targetname: "5:hal__sdmmc__sdmmc_driver,hal__sdmmc__sdmmc_driver"
+  label: "hal-sdmmc.adb:44:7"
+}
+edge: { sourcename: "hal__sdmmc__send_acmd"
+  targetname: "5:hal__sdmmc__sdmmc_driver,hal__sdmmc__sdmmc_driver"
+  label: "hal-sdmmc.adb:61:7"
+}
+edge: { sourcename: "hal__sdmmc__send_acmd"
+  targetname: "5:hal__sdmmc__sdmmc_driver,hal__sdmmc__sdmmc_driver"
+  label: "hal-sdmmc.adb:67:7"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.adb"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "hal__sdmmc___elabs" label: "SDMMC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:32:1\n8 bytes (static)" }
+edge: { sourcename: "hal__sdmmc___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:380:9" }
+edge: { sourcename: "hal__sdmmc___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:380:9" }
+node: { title: "hal__sdmmc__send_acmd" label: "SEND_ACMD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.adb:51:4\n40 bytes (static)" }
+edge: { sourcename: "hal__sdmmc__send_acmd" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.adb:67:7" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "hal__sdmmc__send_acmd" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.adb:61:7" }
+node: { title: "hal__sdmmc__send_cmd__2" label: "SEND_CMD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.adb:38:4\n40 bytes (static)" }
+edge: { sourcename: "hal__sdmmc__send_cmd__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.adb:44:7" }
+node: { title: "hal__sdmmc__Tsdmmc_driverCFD" label: "TSDMMC_DRIVERCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:380:9\n32 bytes (static)" }
+edge: { sourcename: "hal__sdmmc__Tsdmmc_driverCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:380:9" }
+node: { title: "hal__sdmmc__card_informationIP" label: "CARD_INFORMATIONIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:182:9\n16 bytes (static)" }
+node: { title: "hal__sdmmc__sdcard_configuration_registerIP" label: "SDCARD_CONFIGURATION_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:168:9\n16 bytes (static)" }
+node: { title: "hal__sdmmc__card_identification_data_registerIP" label: "CARD_IDENTIFICATION_DATA_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:156:9\n16 bytes (static)" }
+node: { title: "hal__sdmmc__manufacturing_date_typeIP" label: "MANUFACTURING_DATE_TYPEIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:151:9\n24 bytes (static)" }
+node: { title: "hal__sdmmc__card_revisionIP" label: "CARD_REVISIONIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:131:9\n16 bytes (static)" }
+node: { title: "hal__sdmmc__card_specific_data_registerIP" label: "CARD_SPECIFIC_DATA_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:91:9\n16 bytes (static)" }
+node: { title: "hal__sdmmc__Tacmd_desc_arrayBIP" label: "TACMD_DESC_ARRAYBIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:308:4\n16 bytes (static)" }
+node: { title: "hal__sdmmc__Tcmd_desc_arrayBIP" label: "TCMD_DESC_ARRAYBIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:307:4\n16 bytes (static)" }
+node: { title: "hal__sdmmc__cmd_desc_typeIP" label: "CMD_DESC_TYPEIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-sdmmc.ads:301:9\n24 bytes (static)" }
+}

@@ -1,0 +1,39 @@
+edge: { sourcename: "robot__Trobot_effectCFD"
+  targetname: "-9:robot__robot_effect,robot__robot_effect"
+  label: "robot.ads:12:9"
+}
+class {
+  classname: "robot__robot_effect"
+  label: "robot__robot_effect\robot.ads:12:9"
+  parent: "hal__audio_effect__audio_effect"
+  virtuals: "1:robot__reset_variables,1:hal__audio_effect__audio_effect\n
+             2:robot__process_audio_block,2:hal__audio_effect__audio_effect\n
+             -1:robot___size__2,-1:hal__audio_effect__audio_effect\n
+             -9:robot__robot_effectDF__2,-9:hal__audio_effect__audio_effect"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.adb"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "ada__numerics__elementary_functions__sin__2" label: "Sin\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-gcmain.ads:117:13" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "robot___elabs" label: "Robot\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:10:1\n8 bytes (static)" }
+edge: { sourcename: "robot___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:32:9" }
+edge: { sourcename: "robot___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:32:9" }
+node: { title: "robot___elabb" label: "Robot\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\robot.adb:10:1\n4 bytes (static)" }
+node: { title: "robot__process_audio_block" label: "Process_Audio_Block\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\robot.adb:23:4\n64 bytes (static)" }
+edge: { sourcename: "robot__process_audio_block" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\robot.adb:45:37" }
+edge: { sourcename: "robot__process_audio_block" targetname: "ada__numerics__elementary_functions__sin__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\robot.adb:39:26" }
+edge: { sourcename: "robot__process_audio_block" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\robot.adb:23:4" }
+node: { title: "robot__reset_variables" label: "Reset_Variables\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\robot.adb:13:4\n16 bytes (static)" }
+edge: { sourcename: "robot__reset_variables" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\robot.adb:13:4" }
+node: { title: "robot__finalize_spec" label: "Finalize_Spec\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:10:1\n8 bytes (static)" }
+edge: { sourcename: "robot__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:10:1" }
+node: { title: "robot__Trobot_effectCFD" label: "Trobot_Effectcfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:12:9\n32 bytes (static)" }
+edge: { sourcename: "robot__Trobot_effectCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:12:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "robot__robot_effectDF__2" label: "Robot_Effectdf\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:32:9\n16 bytes (static)" }
+node: { title: "robot___size__2" label: "Robot\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:32:9\n16 bytes (static)" }
+node: { title: "robot__robot_effectIP" label: "Robot_Effectip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:32:9\n16 bytes (static)" }
+}

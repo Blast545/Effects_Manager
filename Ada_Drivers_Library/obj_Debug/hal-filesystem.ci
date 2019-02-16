@@ -1,0 +1,151 @@
+edge: { sourcename: "hal__filesystem__Tfilesystem_driverCFD"
+  targetname: "-9:hal__filesystem__filesystem_driver,hal__filesystem__filesystem_driver"
+  label: "hal-filesystem.ads:79:9"
+}
+edge: { sourcename: "hal__filesystem__Tdirectory_handleCFD"
+  targetname: "-9:hal__filesystem__directory_handle,hal__filesystem__directory_handle"
+  label: "hal-filesystem.ads:82:9"
+}
+edge: { sourcename: "hal__filesystem__Tfile_handleCFD"
+  targetname: "-9:hal__filesystem__file_handle,hal__filesystem__file_handle"
+  label: "hal-filesystem.ads:85:9"
+}
+edge: { sourcename: "hal__filesystem__Tnode_handleCFD"
+  targetname: "-9:hal__filesystem__node_handle,hal__filesystem__node_handle"
+  label: "hal-filesystem.ads:88:9"
+}
+class {
+  classname: "hal__filesystem__filesystem_driver"
+  label: "hal__filesystem__filesystem_driver\hal-filesystem.ads:79:9"
+  virtuals: "1:hal__filesystem__open\n
+             2:hal__filesystem__create_file\n
+             3:hal__filesystem__unlink\n
+             4:hal__filesystem__remove_directory\n
+             5:hal__filesystem__root_node\n
+             6:hal__filesystem__open__2\n
+             7:hal__filesystem__close__4\n
+             -1:hal__filesystem___size\n
+             -2:hal__filesystem__filesystem_driverSR\n
+             -3:hal__filesystem__filesystem_driverSW\n
+             -4:hal__filesystem__filesystem_driverSI\n
+             -5:hal__filesystem__filesystem_driverSO\n
+             -9:hal__filesystem__filesystem_driverDF"
+}
+class {
+  classname: "hal__filesystem__directory_handle"
+  label: "hal__filesystem__directory_handle\hal-filesystem.ads:82:9"
+  virtuals: "1:hal__filesystem__get_fs\n
+             2:hal__filesystem__read\n
+             3:hal__filesystem__reset\n
+             4:hal__filesystem__close\n
+             -1:hal__filesystem___size__2\n
+             -2:hal__filesystem__directory_handleSR\n
+             -3:hal__filesystem__directory_handleSW\n
+             -4:hal__filesystem__directory_handleSI\n
+             -5:hal__filesystem__directory_handleSO\n
+             -9:hal__filesystem__directory_handleDF"
+}
+class {
+  classname: "hal__filesystem__file_handle"
+  label: "hal__filesystem__file_handle\hal-filesystem.ads:85:9"
+  virtuals: "1:hal__filesystem__get_fs__3\n
+             2:hal__filesystem__size__2\n
+             3:hal__filesystem__mode\n
+             4:hal__filesystem__read__2\n
+             5:hal__filesystem__write\n
+             6:hal__filesystem__offset\n
+             7:hal__filesystem__flush\n
+             8:hal__filesystem__seek\n
+             9:hal__filesystem__close__3\n
+             -1:hal__filesystem___size__3\n
+             -2:hal__filesystem__file_handleSR\n
+             -3:hal__filesystem__file_handleSW\n
+             -4:hal__filesystem__file_handleSI\n
+             -5:hal__filesystem__file_handleSO\n
+             -9:hal__filesystem__file_handleDF"
+}
+class {
+  classname: "hal__filesystem__node_handle"
+  label: "hal__filesystem__node_handle\hal-filesystem.ads:88:9"
+  virtuals: "1:hal__filesystem__get_fs__2\n
+             2:hal__filesystem__basename\n
+             3:hal__filesystem__is_read_only\n
+             4:hal__filesystem__is_hidden\n
+             5:hal__filesystem__is_subdirectory\n
+             6:hal__filesystem__is_symlink\n
+             7:hal__filesystem__size\n
+             8:hal__filesystem__close__2\n
+             9:hal__filesystem__open__3\n
+             -1:hal__filesystem___size__4\n
+             -2:hal__filesystem__node_handleSR\n
+             -3:hal__filesystem__node_handleSW\n
+             -4:hal__filesystem__node_handleSI\n
+             -5:hal__filesystem__node_handleSO\n
+             -6:hal__filesystem__Oeq\n
+             -7:hal__filesystem___assign\n
+             -8:hal__filesystem__node_handleDA\n
+             -9:hal__filesystem__node_handleDF"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:126:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:201:14" shape : ellipse }
+node: { title: "system__finalization_masters__initialize__2" label: "Initialize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:198:25" shape : ellipse }
+node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:161:9" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "system__finalization_masters__finalize" label: "Finalize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:96:25" shape : ellipse }
+node: { title: "hal__filesystem___elabs" label: "FILESYSTEM\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:88:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:88:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:85:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:85:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:82:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:82:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:79:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:79:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:89:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:89:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:89:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:89:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:86:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:86:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:86:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:86:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:83:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:83:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:83:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:83:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:80:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:80:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:80:9" }
+edge: { sourcename: "hal__filesystem___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:80:9" }
+node: { title: "hal__filesystem__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:34:1\n24 bytes (static)" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:34:1" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:34:1" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:34:1" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:34:1" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:34:1" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:34:1" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:34:1" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:34:1" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:80:9" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:83:9" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:86:9" }
+edge: { sourcename: "hal__filesystem__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:89:9" }
+node: { title: "hal__filesystem__Tnode_handleCFD" label: "TNODE_HANDLECFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:88:9\n32 bytes (static)" }
+edge: { sourcename: "hal__filesystem__Tnode_handleCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:88:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "hal__filesystem__Tfile_handleCFD" label: "TFILE_HANDLECFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:85:9\n32 bytes (static)" }
+edge: { sourcename: "hal__filesystem__Tfile_handleCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:85:9" }
+node: { title: "hal__filesystem__Tdirectory_handleCFD" label: "TDIRECTORY_HANDLECFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:82:9\n32 bytes (static)" }
+edge: { sourcename: "hal__filesystem__Tdirectory_handleCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:82:9" }
+node: { title: "hal__filesystem__Tfilesystem_driverCFD" label: "TFILESYSTEM_DRIVERCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:79:9\n32 bytes (static)" }
+edge: { sourcename: "hal__filesystem__Tfilesystem_driverCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:79:9" }
+}

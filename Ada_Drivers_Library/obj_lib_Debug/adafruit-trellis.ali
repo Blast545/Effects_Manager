@@ -1,0 +1,119 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U adafruit.trellis%b	adafruit-trellis.adb	e784e1eb OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W adafruit%s		adafruit.ads		adafruit.ali
+
+U adafruit.trellis%s	adafruit-trellis.ads	1633b071 EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W adafruit%s		adafruit.ads		adafruit.ali
+W hal%s			hal.ads			hal.ali
+W ht16k33%s		ht16k33.adb		ht16k33.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D adafruit.ads		20190116062806 deca3367 adafruit%s
+D adafruit-trellis.ads	20190116062806 48eb01ee adafruit.trellis%s
+D adafruit-trellis.adb	20190116062806 af6fe005 adafruit.trellis%b
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-i2c.ads		20190116062806 0ed73138 hal.i2c%s
+D ht16k33.ads		20190116062806 ab504af6 ht16k33%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D system.ads		20180524194940 db831581 system%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-stratt.ads		20180524194940 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 7 adafruit.ads
+33K9*AdaFruit 34e13 8|35r9 54r5 9|32r14 82r5
+X 8 adafruit-trellis.ads
+35K18*Trellis 7|33k9 8|53E9 54l14 54e21 9|32b23 82l14 82t21
+37R9*Trellis_Device<12|37R9> 41p14 41r39 47p13 47r32 53c9 53e62 9|62r39 76r32
+. 12|49p14 50p14 52p14 55p14 58p14 65p14 71p13 77p14 80p14
+39M9*Trellis_Coord<10|39M9> 42r32 48r25 9|39r34 39r49 52r34 52r49 63r32 77r25
+41U14*Set_LED 41=23 42>23 42>26 43>23 9|62b14 70l8 70t15
+41r23 This{37R9} 9|62b23 67m7 67r7
+42m23 X{39M9} 9|63b23 67r34 68r34
+42m26 Y{39M9} 9|63b26 67r37 68r37
+43b23 Enable{boolean} 9|64b23 69r21
+47V13*Key{boolean} 47=18 48>18 48>21 9|76b13 81l8 81t11
+47r18 This{37R9} 9|76b18 80m14 80r14
+48m18 X{39M9} 9|77b18 80r41 80r65
+48m21 Y{39M9} 9|77b21 80r44 80r68
+X 9 adafruit-trellis.adb
+34R9 LED_Address 37e14 39r67
+35m7*Row{12|43M12} 67r40
+36m7*Column{12|44M12} 68r40
+39a4 LED_Mapping(34R9) 67r21 68r21
+47R9 Key_Address 50e14 52r67
+48i7*Row{12|46I12} 80r47
+49m7*Column{12|47M12} 80r71
+52a4 Key_Mapping(47R9) 80r28 80r52
+X 10 hal.ads
+34K9*HAL 8|33w6 33r19 10|166e8
+39M9*UInt2 8|39r30
+41M9*UInt3
+43M9*UInt4
+X 12 ht16k33.ads
+35K9*HT16K33 8|32w6 32r19 9|35r13 36r16 48r13 49r16 12|100e12
+37R9*HT16K33_Device 8|37r31 53r31 12|99e14
+43M12*LED_Row_Addr{10|43M9} 9|35r21
+44M12*LED_Column_Addr{10|41M9} 9|36r24
+46I12*Key_Row_Addr{integer} 9|48r21
+47M12*Key_Column_Addr{10|41M9} 9|49r24
+49U14*Enable
+50U14*Disable
+52U14*Set_Brightness
+55U14*Set_Blink
+58U14*Set_LED 9|67s12
+65U14*Set_Row
+71V13*Get_Key{boolean} 9|80s19
+77U14*Update_LEDs
+80U14*Update_Keys
+

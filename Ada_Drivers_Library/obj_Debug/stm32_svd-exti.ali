@@ -1,0 +1,111 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_IMPLICIT_LOOPS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U stm32_svd.exti%s	stm32_svd-exti.ads	57e72853 NE OO PR PK IU
+W hal%s			hal.ads			hal.ali
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W system%s		system.ads		system.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-exti.ads	20190116062804 49fc71d8 stm32_svd.exti%s
+D system.ads		20180524194940 db831581 system%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 1 hal.ads
+34K9*HAL 166e8 4|7w6 28r19 46r24 67r19 85r24 106r19 124r24 145r19 163r24
+. 184r19 202r24 223r19 241r24
+51M9*UInt9 4|46r28 85r28 124r28 163r28 202r28 241r28
+79M9*UInt23 4|28r23 67r23 106r23 145r23 184r23 223r23
+X 3 stm32_svd.ads
+10K9*STM32_SVD 164e14 4|10r9 285r5
+X 4 stm32_svd-exti.ads
+10K19*EXTI 3|10k9 4|285l15 285e19
+18A9*IMR_MR_Field_Array(boolean)<integer> 31r19
+22R9*IMR_MR_Field 23d7 34e6 36r8 44r24
+23b7*As_Array{boolean} 25r12 44m41
+28m13*Val{1|79M9} 37r7 44m60
+31a13*Arr{18A9} 38r7
+42R9*IMR_Register 48e6 51r8 258r23
+44r7*MR{22R9} 52r7
+46m7*Reserved_23_31{1|51M9} 53r7
+57A9*EMR_MR_Field_Array(boolean)<integer> 70r19
+61R9*EMR_MR_Field 62d7 73e6 75r8 83r24
+62b7*As_Array{boolean} 64r12 83m41
+67m13*Val{1|79M9} 76r7 83m60
+70a13*Arr{57A9} 77r7
+81R9*EMR_Register 87e6 90r8 260r23
+83r7*MR{61R9} 91r7
+85m7*Reserved_23_31{1|51M9} 92r7
+96A9*RTSR_TR_Field_Array(boolean)<integer> 109r19
+100R9*RTSR_TR_Field 101d7 112e6 114r8 122r24
+101b7*As_Array{boolean} 103r12 122m42
+106m13*Val{1|79M9} 115r7 122m61
+109a13*Arr{96A9} 116r7
+120R9*RTSR_Register 126e6 129r8 262r23
+122r7*TR{100R9} 130r7
+124m7*Reserved_23_31{1|51M9} 131r7
+135A9*FTSR_TR_Field_Array(boolean)<integer> 148r19
+139R9*FTSR_TR_Field 140d7 151e6 153r8 161r24
+140b7*As_Array{boolean} 142r12 161m42
+145m13*Val{1|79M9} 154r7 161m61
+148a13*Arr{135A9} 155r7
+159R9*FTSR_Register 165e6 168r8 264r23
+161r7*TR{139R9} 169r7
+163m7*Reserved_23_31{1|51M9} 170r7
+174A9*SWIER_Field_Array(boolean)<integer> 187r19
+178R9*SWIER_Field 179d7 190e6 192r8 200r24
+179b7*As_Array{boolean} 181r12 200m40
+184m13*Val{1|79M9} 193r7 200m59
+187a13*Arr{174A9} 194r7
+198R9*SWIER_Register 204e6 207r8 266r23
+200r7*SWIER{178R9} 208r7
+202m7*Reserved_23_31{1|51M9} 209r7
+213A9*PR_Field_Array(boolean)<integer> 226r19
+217R9*PR_Field 218d7 229e6 231r8 239r24
+218b7*As_Array{boolean} 220r12 239m37
+223m13*Val{1|79M9} 232r7 239m56
+226a13*Arr{213A9} 233r7
+237R9*PR_Register 243e6 246r8 268r23
+239r7*PR{217R9} 247r7
+241m7*Reserved_23_31{1|51M9} 248r7
+256R9*EXTI_Peripheral 270e6 272r8 282r26
+258r7*IMR{42R9} 273r7
+260r7*EMR{81R9} 274r7
+262r7*RTSR{120R9} 275r7
+264r7*FTSR{159R9} 276r7
+266r7*SWIER{198R9} 277r7
+268r7*PR{237R9} 278r7
+282r4*EXTI_Periph{256R9}
+X 5 system.ads
+50K9*System 4|8w6 49r24 88r24 127r24 166r24 205r24 244r24 283r30 5|164e11
+80M9*Address 4|283r30
+104n41*Low_Order_First{104E9} 4|49r31 88r31 127r31 166r31 205r31 244r31
+

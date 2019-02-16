@@ -1,0 +1,118 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U stm32_svd.dbg%s	stm32_svd-dbg.ads	a1ff793b NE OO PR PK IU
+W hal%s			hal.ads			hal.ali
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W system%s		system.ads		system.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-dbg.ads	20190116062804 bfe420b0 stm32_svd.dbg%s
+D system.ads		20180524194940 db831581 system%s
+X 1 hal.ads
+34K9*HAL 166e8 4|7w6 17r42 18r42 25r24 38r42 49r32 55r32 67r32 109r32 115r32
+. 123r32 129r32 164r24 172r24
+37M9*Bit 4|123r36
+39M9*UInt2 4|38r46 49r36 109r36
+43M9*UInt4 4|25r28
+45M9*UInt5 4|129r36
+53M9*UInt8<2|63M9> 4|55r36 115r36
+56M9*UInt11 4|67r36
+58M9*UInt12 4|17r46
+60M9*UInt13 4|172r28
+62M9*UInt14 4|164r28
+66M9*UInt16<2|66M9> 4|18r46
+X 2 interfac.ads
+63M9*Unsigned_8
+66M9*Unsigned_16
+X 3 stm32_svd.ads
+10K9*STM32_SVD 164e14 4|10r9 215r5
+X 4 stm32_svd-dbg.ads
+10K19*DBG 3|10k9 4|215l15 215e18
+17M12*DBGMCU_IDCODE_DEV_ID_Field{1|58M9} 23r24
+18M12*DBGMCU_IDCODE_REV_ID_Field{1|66M9} 27r24
+21R9*DBGMCU_IDCODE_Register 29e6 32r8 194r32
+23m7*DEV_ID{17M12} 33r7
+25m7*Reserved_12_15{1|43M9} 34r7
+27m7*REV_ID{18M12} 35r7
+38M12*DBGMCU_CR_TRACE_MODE_Field{1|39M9} 53r32
+41R9*DBGMCU_CR_Register 69e6 72r8 196r32
+43b7*DBG_SLEEP{boolean} 73r7
+45b7*DBG_STOP{boolean} 74r7
+47b7*DBG_STANDBY{boolean} 75r7
+49m7*Reserved_3_4{1|39M9} 76r7
+51b7*TRACE_IOEN{boolean} 77r7
+53m7*TRACE_MODE{38M12} 78r7
+55m7*Reserved_8_15{1|53M9} 79r7
+57b7*DBG_I2C2_SMBUS_TIMEOUT{boolean} 80r7
+59b7*DBG_TIM8_STOP{boolean} 81r7
+61b7*DBG_TIM5_STOP{boolean} 82r7
+63b7*DBG_TIM6_STOP{boolean} 83r7
+65b7*DBG_TIM7_STOP{boolean} 84r7
+67m7*Reserved_21_31{1|56M9} 85r7
+89R9*DBGMCU_APB1_FZ_Register 131e6 134r8 198r32
+91b7*DBG_TIM2_STOP{boolean} 135r7
+93b7*DBG_TIM3_STOP{boolean} 136r7
+95b7*DBG_TIM4_STOP{boolean} 137r7
+97b7*DBG_TIM5_STOP{boolean} 138r7
+99b7*DBG_TIM6_STOP{boolean} 139r7
+101b7*DBG_TIM7_STOP{boolean} 140r7
+103b7*DBG_TIM12_STOP{boolean} 141r7
+105b7*DBG_TIM13_STOP{boolean} 142r7
+107b7*DBG_TIM14_STOP{boolean} 143r7
+109m7*Reserved_9_10{1|39M9} 144r7
+111b7*DBG_WWDG_STOP{boolean} 145r7
+113b7*DBG_IWDEG_STOP{boolean} 146r7
+115m7*Reserved_13_20{1|53M9} 147r7
+117b7*DBG_J2C1_SMBUS_TIMEOUT{boolean} 148r7
+119b7*DBG_J2C2_SMBUS_TIMEOUT{boolean} 149r7
+121b7*DBG_J2C3SMBUS_TIMEOUT{boolean} 150r7
+123m7*Reserved_24_24{1|37M9} 151r7
+125b7*DBG_CAN1_STOP{boolean} 152r7
+127b7*DBG_CAN2_STOP{boolean} 153r7
+129m7*Reserved_27_31{1|45M9} 154r7
+158R9*DBGMCU_APB2_FZ_Register 174e6 177r8 200r32
+160b7*DBG_TIM1_STOP{boolean} 178r7
+162b7*DBG_TIM8_STOP{boolean} 179r7
+164m7*Reserved_2_15{1|62M9} 180r7
+166b7*DBG_TIM9_STOP{boolean} 181r7
+168b7*DBG_TIM10_STOP{boolean} 182r7
+170b7*DBG_TIM11_STOP{boolean} 183r7
+172m7*Reserved_19_31{1|60M9} 184r7
+192R9*DBG_Peripheral 202e6 204r8 212r25
+194r7*DBGMCU_IDCODE{21R9} 205r7
+196r7*DBGMCU_CR{41R9} 206r7
+198r7*DBGMCU_APB1_FZ{89R9} 207r7
+200r7*DBGMCU_APB2_FZ{158R9} 208r7
+212r4*DBG_Periph{192R9}
+X 5 system.ads
+50K9*System 4|8w6 30r24 70r24 132r24 175r24 213r30 5|164e11
+80M9*Address 4|213r30
+104n41*Low_Order_First{104E9} 4|30r31 70r31 132r31 175r31
+

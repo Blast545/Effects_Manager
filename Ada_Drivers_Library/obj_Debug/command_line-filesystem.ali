@@ -1,0 +1,88 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB SS ZX
+
+RN
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U command_line.filesystem%b  command_line-filesystem.adb  2ddc4d35 OO PK
+W command_line%s	command_line.adb	command_line.ali
+W command_line.filesystem%s  command_line-filesystem.adb  command_line-filesystem.ali
+W command_line.filesystem.cat%s  command_line-filesystem-cat.adb  command_line-filesystem-cat.ali
+W command_line.filesystem.list_directory%s  command_line-filesystem-list_directory.adb  command_line-filesystem-list_directory.ali
+W command_line.filesystem.remove_directory%s  command_line-filesystem-remove_directory.adb  command_line-filesystem-remove_directory.ali
+W command_line.filesystem.touch%s  command_line-filesystem-touch.adb  command_line-filesystem-touch.ali
+
+U command_line.filesystem%s  command_line-filesystem.ads  b1a0cad0 EE NE OO PK
+W command_line%s	command_line.adb	command_line.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D command_line.ads	20190116062806 29283dc6 command_line%s
+D command_line-filesystem.ads  20190116062806 9888f716 command_line.filesystem%s
+D command_line-filesystem.adb  20190116062806 f7389fe3 command_line.filesystem%b
+D command_line-filesystem-cat.ads  20190116062806 c85a26eb command_line.filesystem.cat%s
+D command_line-filesystem-list_directory.ads  20190116062806 2c2a1d82 command_line.filesystem.list_directory%s
+D command_line-filesystem-remove_directory.ads  20190116062806 5e089155 command_line.filesystem.remove_directory%s
+D command_line-filesystem-touch.ads  20190116062806 f8148ffc command_line.filesystem.touch%s
+D system.ads		20180524194940 db831581 system%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-stratt.ads		20180524194940 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 7 command_line.ads
+32K9*Command_Line 146e17 8|32r9 37r5 9|32r6 33r6 34r6 35r6 37r14 39r22 40r22
+. 41r22 42r20 56r5
+78U14*Register 9|50s7 51s7 52s7 53s7
+X 8 command_line-filesystem.ads
+32K22*Filesystem 7|32k9 8|37l18 37e28 9|32r19 33r19 34r19 35r19 37b27 39r35
+. 40r35 41r35 42r33 56l18 56t28
+34U14*Register_All 9|48b14 54l8 54t20
+X 9 command_line-filesystem.adb
+39r4 Ls{11|34R9} 50m17 50r17
+40r4 Rmdir{12|34R9} 51m17 51r17
+41r4 Touch_C{13|34R9} 52m17 52r17
+42r4 Cat_C{10|34R9} 53m17 53r17
+X 10 command_line-filesystem-cat.ads
+32K33*Cat 9|35w30 42r44 10|53e32
+34R9*Cat_Cmd<7|54R9> 9|42r48 10|51e48
+X 11 command_line-filesystem-list_directory.ads
+32K33*List_Directory 9|32w30 39r46 11|54e43
+34R9*Ls_Cmd<7|54R9> 9|39r61 11|52e47
+X 12 command_line-filesystem-remove_directory.ads
+32K33*Remove_Directory 9|33w30 40r46 12|54e45
+34R9*Rmdir_Cmd<7|54R9> 9|40r63 12|52e50
+X 13 command_line-filesystem-touch.ads
+32K33*Touch 9|34w30 41r46 13|54e34
+34R9*Touch_Cmd<7|54R9> 9|41r52 13|52e50
+

@@ -1,0 +1,47 @@
+edge: { sourcename: "hal__touch_panel__Ttouch_panel_deviceCFD"
+  targetname: "-9:hal__touch_panel__touch_panel_device,hal__touch_panel__touch_panel_device"
+  label: "hal-touch_panel.ads:52:9"
+}
+class {
+  classname: "hal__touch_panel__touch_panel_device"
+  label: "hal__touch_panel__touch_panel_device\hal-touch_panel.ads:52:9"
+  virtuals: "1:hal__touch_panel__set_bounds\n
+             2:hal__touch_panel__active_touch_points\n
+             3:hal__touch_panel__get_touch_point\n
+             4:hal__touch_panel__get_all_touch_points\n
+             -1:hal__touch_panel___size\n
+             -2:hal__touch_panel__touch_panel_deviceSR\n
+             -3:hal__touch_panel__touch_panel_deviceSW\n
+             -4:hal__touch_panel__touch_panel_deviceSI\n
+             -5:hal__touch_panel__touch_panel_deviceSO\n
+             -9:hal__touch_panel__touch_panel_deviceDF"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:126:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:201:14" shape : ellipse }
+node: { title: "system__finalization_masters__initialize__2" label: "Initialize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:198:25" shape : ellipse }
+node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:161:9" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "system__finalization_masters__finalize" label: "Finalize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:96:25" shape : ellipse }
+node: { title: "hal__touch_panel___elabs" label: "TOUCH_PANEL\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:32:1\n8 bytes (static)" }
+edge: { sourcename: "hal__touch_panel___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:52:9" }
+edge: { sourcename: "hal__touch_panel___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:52:9" }
+edge: { sourcename: "hal__touch_panel___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:54:9" }
+edge: { sourcename: "hal__touch_panel___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:54:9" }
+edge: { sourcename: "hal__touch_panel___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:54:9" }
+edge: { sourcename: "hal__touch_panel___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:54:9" }
+node: { title: "hal__touch_panel__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:32:1\n16 bytes (static)" }
+edge: { sourcename: "hal__touch_panel__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:32:1" }
+edge: { sourcename: "hal__touch_panel__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:32:1" }
+edge: { sourcename: "hal__touch_panel__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "hal__touch_panel__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:54:9" }
+node: { title: "hal__touch_panel__Ttouch_panel_deviceCFD" label: "TTOUCH_PANEL_DEVICECFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:52:9\n32 bytes (static)" }
+edge: { sourcename: "hal__touch_panel__Ttouch_panel_deviceCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:52:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "hal__touch_panel__tp_stateIP" label: "TP_STATEIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:50:9\n16 bytes (static)" }
+node: { title: "hal__touch_panel__tp_touch_stateIP" label: "TP_TOUCH_STATEIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-touch_panel.ads:34:9\n16 bytes (static)" }
+}

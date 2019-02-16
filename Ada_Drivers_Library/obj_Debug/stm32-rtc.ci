@@ -1,0 +1,122 @@
+edge: { sourcename: "stm32__rtc__Trtc_deviceCFD"
+  targetname: "-9:stm32__rtc__rtc_device,stm32__rtc__rtc_device"
+  label: "stm32-rtc.ads:36:9"
+}
+class {
+  classname: "stm32__rtc__rtc_device"
+  label: "stm32__rtc__rtc_device\stm32-rtc.ads:36:9"
+  parent: "hal__real_time_clock__rtc_device"
+  virtuals: "1:stm32__rtc__set,1:hal__real_time_clock__rtc_device\n
+             2:stm32__rtc__get,2:hal__real_time_clock__rtc_device\n
+             3:stm32__rtc__get_time,3:hal__real_time_clock__rtc_device\n
+             4:stm32__rtc__get_date,4:hal__real_time_clock__rtc_device\n
+             -1:stm32__rtc___size__2,-1:hal__real_time_clock__rtc_device\n
+             -2:stm32__rtc__rtc_deviceSR__2,-2:hal__real_time_clock__rtc_device\n
+             -3:stm32__rtc__rtc_deviceSW__2,-3:hal__real_time_clock__rtc_device\n
+             -4:stm32__rtc__rtc_deviceSI__2,-4:hal__real_time_clock__rtc_device\n
+             -5:stm32__rtc__rtc_deviceSO__2,-5:hal__real_time_clock__rtc_device\n
+             -9:stm32__rtc__rtc_deviceDF__2,-9:hal__real_time_clock__rtc_device\n
+             5:stm32__rtc__enable\n
+             6:stm32__rtc__disable\n
+             -6:stm32__rtc__Oeq\n
+             -7:stm32__rtc___assign\n
+             -8:stm32__rtc__rtc_deviceDA"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb"
+node: { title: "__aeabi_ldivmod" label: "aeabi_ldivmod\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-except.ads:188:14" shape : ellipse }
+node: { title: "stm32__power_control__enable" label: "ENABLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\power_control_stm32f4\stm32-power_control.ads:34:14" shape : ellipse }
+node: { title: "hal__real_time_clock__rtc_monthRP" label: "RTC_MONTHRP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:44:9" shape : ellipse }
+node: { title: "hal__real_time_clock__rtc_day_of_weekRP" label: "RTC_DAY_OF_WEEKRP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:46:9" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "stm32_svd__rtc__tr_registerIP" label: "TR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-rtc.ads:25:9" shape : ellipse }
+node: { title: "stm32_svd__rtc__dr_registerIP" label: "DR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-rtc.ads:71:9" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "stm32__power_control__enable_backup_domain_protection" label: "ENABLE_BACKUP_DOMAIN_PROTECTION\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\power_control_stm32f4\stm32-power_control.ads:38:14" shape : ellipse }
+node: { title: "stm32__power_control__disable_backup_domain_protection" label: "DISABLE_BACKUP_DOMAIN_PROTECTION\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\power_control_stm32f4\stm32-power_control.ads:37:14" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-secsta.ads:58:14" shape : ellipse }
+node: { title: "stm32__rtc___elabs" label: "RTC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "stm32__rtc___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9" }
+edge: { sourcename: "stm32__rtc___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9" }
+node: { title: "stm32__rtc___elabb" label: "RTC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:39:1\n4 bytes (static)" }
+node: { title: "stm32__rtc__disable" label: "DISABLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:229:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__rtc__disable" targetname: "stm32__power_control__enable_backup_domain_protection" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:234:20" }
+edge: { sourcename: "stm32__rtc__disable" targetname: "stm32__power_control__disable_backup_domain_protection" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:232:20" }
+edge: { sourcename: "stm32__rtc__disable" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:229:4" }
+node: { title: "stm32__rtc__enable" label: "ENABLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:195:4\n24 bytes (static)" }
+edge: { sourcename: "stm32__rtc__enable" targetname: "stm32__power_control__enable_backup_domain_protection" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:222:20" }
+edge: { sourcename: "stm32__rtc__enable" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:213:10" }
+edge: { sourcename: "stm32__rtc__enable" targetname: "stm32__power_control__disable_backup_domain_protection" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:201:20" }
+edge: { sourcename: "stm32__rtc__enable" targetname: "stm32__power_control__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:199:20" }
+edge: { sourcename: "stm32__rtc__enable" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:195:4" }
+node: { title: "stm32__rtc__get_date" label: "GET_DATE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:178:4\n40 bytes (static)" }
+edge: { sourcename: "stm32__rtc__get_date" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:187:29" }
+edge: { sourcename: "stm32__rtc__get_date" targetname: "hal__real_time_clock__rtc_monthRP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:187:29" }
+edge: { sourcename: "stm32__rtc__get_date" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:186:41" }
+edge: { sourcename: "stm32__rtc__get_date" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:186:41" }
+edge: { sourcename: "stm32__rtc__get_date" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:186:36" }
+edge: { sourcename: "stm32__rtc__get_date" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:185:48" }
+edge: { sourcename: "stm32__rtc__get_date" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:185:48" }
+edge: { sourcename: "stm32__rtc__get_date" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:184:41" }
+edge: { sourcename: "stm32__rtc__get_date" targetname: "hal__real_time_clock__rtc_day_of_weekRP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:184:41" }
+edge: { sourcename: "stm32__rtc__get_date" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:178:4" }
+node: { title: "stm32__rtc__get_time" label: "GET_TIME\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:158:4\n32 bytes (static)" }
+edge: { sourcename: "stm32__rtc__get_time" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:158:4" }
+node: { title: "stm32__rtc__get" label: "GET\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:138:4\n32 bytes (static)" }
+edge: { sourcename: "stm32__rtc__get" targetname: "stm32__rtc__get_time" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:149:24" }
+edge: { sourcename: "stm32__rtc__get" targetname: "stm32__rtc__get_date" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:145:15" }
+edge: { sourcename: "stm32__rtc__get" targetname: "stm32__rtc__get_time" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:144:15" }
+edge: { sourcename: "stm32__rtc__get" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:138:4" }
+node: { title: "stm32__rtc__set" label: "SET\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:71:4\n40 bytes (static)" }
+edge: { sourcename: "stm32__rtc__set" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:stm32__rtc__enable_write_protection" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:126:7" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:117:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:117:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:116:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:116:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:114:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__aeabi_ldivmod" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:114:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__aeabi_ldivmod" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:111:17" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:109:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:109:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:108:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:108:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:106:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:105:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:103:17" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:102:17" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:100:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:99:16" }
+edge: { sourcename: "stm32__rtc__set" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:stm32__rtc__disable_write_protection" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:80:7" }
+edge: { sourcename: "stm32__rtc__set" targetname: "stm32_svd__rtc__tr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:78:7" }
+edge: { sourcename: "stm32__rtc__set" targetname: "stm32_svd__rtc__dr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:77:7" }
+edge: { sourcename: "stm32__rtc__set" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:71:4" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:stm32__rtc__enable_write_protection" label: "ENABLE_WRITE_PROTECTION\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:59:4\n8 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:stm32__rtc__enable_write_protection" targetname: "stm32__power_control__enable_backup_domain_protection" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:63:20" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:stm32__rtc__disable_write_protection" label: "DISABLE_WRITE_PROTECTION\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:48:4\n8 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:stm32__rtc__disable_write_protection" targetname: "stm32__power_control__disable_backup_domain_protection" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.adb:50:20" }
+node: { title: "stm32__rtc__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "stm32__rtc__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:34:1" }
+node: { title: "stm32__rtc__Trtc_deviceCFD" label: "TRTC_DEVICECFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:36:9\n32 bytes (static)" }
+edge: { sourcename: "stm32__rtc__Trtc_deviceCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:36:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "stm32__rtc__rtc_deviceDF__2" label: "RTC_DEVICEDF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9\n16 bytes (static)" }
+node: { title: "stm32__rtc__rtc_deviceDA" label: "RTC_DEVICEDA\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9\n16 bytes (static)" }
+node: { title: "stm32__rtc___assign" label: "RTC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9\n440 bytes (static)" }
+node: { title: "stm32__rtc__Oeq" label: "=\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:4\n16 bytes (static)" }
+node: { title: "stm32__rtc__rtc_deviceSO__2" label: "RTC_DEVICESO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9\n24 bytes (static)" }
+edge: { sourcename: "stm32__rtc__rtc_deviceSO__2" targetname: "stm32__rtc__rtc_deviceSW__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9" }
+node: { title: "stm32__rtc__rtc_deviceSI__2" label: "RTC_DEVICESI\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9\n24 bytes (static)" }
+edge: { sourcename: "stm32__rtc__rtc_deviceSI__2" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9" }
+edge: { sourcename: "stm32__rtc__rtc_deviceSI__2" targetname: "stm32__rtc__rtc_deviceSR__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9" }
+edge: { sourcename: "stm32__rtc__rtc_deviceSI__2" targetname: "stm32__rtc__rtc_deviceIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9" }
+node: { title: "stm32__rtc__rtc_deviceSW__2" label: "RTC_DEVICESW\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9\n24 bytes (static)" }
+node: { title: "stm32__rtc__rtc_deviceSR__2" label: "RTC_DEVICESR\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9\n24 bytes (static)" }
+node: { title: "stm32__rtc___size__2" label: "RTC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9\n16 bytes (static)" }
+node: { title: "stm32__rtc__rtc_deviceIP" label: "RTC_DEVICEIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-rtc.ads:59:9\n16 bytes (static)" }
+}

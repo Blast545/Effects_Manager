@@ -1,0 +1,93 @@
+edge: { sourcename: "mcp23x08__i2c__Tmcp23008_io_expanderCFD"
+  targetname: "-9:mcp23x08__i2c__mcp23008_io_expander,mcp23x08__i2c__mcp23008_io_expander"
+  label: "mcp23x08-i2c.ads:36:9"
+}
+class {
+  classname: "mcp23x08__i2c__mcp23008_io_expander"
+  label: "mcp23x08__i2c__mcp23008_io_expander\mcp23x08-i2c.ads:36:9"
+  parent: "mcp23x08__mcp23x08_io_expander"
+  virtuals: "13:mcp23x08__i2c__io_write__2,13:mcp23x08__mcp23x08_io_expander\n
+             14:mcp23x08__i2c__io_read__2,14:mcp23x08__mcp23x08_io_expander\n
+             -1:mcp23x08__i2c___size__2,-1:mcp23x08__mcp23x08_io_expander\n
+             -2:mcp23x08__i2c__mcp23008_io_expanderSR__2,-2:mcp23x08__mcp23x08_io_expander\n
+             -3:mcp23x08__i2c__mcp23008_io_expanderSW__2,-3:mcp23x08__mcp23x08_io_expander\n
+             -4:mcp23x08__i2c__mcp23008_io_expanderSI__2,-4:mcp23x08__mcp23x08_io_expander\n
+             -5:mcp23x08__i2c__mcp23008_io_expanderSO__2,-5:mcp23x08__mcp23x08_io_expander\n
+             -6:mcp23x08__i2c__Oeq__2,-6:mcp23x08__mcp23x08_io_expander\n
+             -7:mcp23x08__i2c___assign__2,-7:mcp23x08__mcp23x08_io_expander\n
+             -8:mcp23x08__i2c__mcp23008_io_expanderDA__2,-8:mcp23x08__mcp23x08_io_expander\n
+             -9:mcp23x08__i2c__mcp23008_io_expanderDF__2,-9:mcp23x08__mcp23x08_io_expander"
+}
+edge: { sourcename: "mcp23x08__i2c__io_write__2"
+  targetname: "3:hal__i2c__i2c_port,hal__i2c__i2c_port"
+  label: "mcp23x08-i2c.adb:48:16"
+}
+edge: { sourcename: "mcp23x08__i2c__io_read__2"
+  targetname: "4:hal__i2c__i2c_port,hal__i2c__i2c_port"
+  label: "mcp23x08-i2c.adb:75:16"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Explicit_Raise" label: "gnat_rcheck_PE_Explicit_Raise\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Discriminant_Check" label: "gnat_rcheck_CE_Discriminant_Check\n<built-in>" shape : ellipse }
+node: { title: "mcp23x08__Oeq__2" label: "=\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08.ads:165:9" shape : ellipse }
+node: { title: "system__stream_attributes__w_ssu" label: "W_Ssu\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:148:14" shape : ellipse }
+node: { title: "system__stream_attributes__w_as" label: "W_As\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:133:14" shape : ellipse }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-secsta.ads:58:14" shape : ellipse }
+node: { title: "system__stream_attributes__i_ssu" label: "I_Ssu\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:116:13" shape : ellipse }
+node: { title: "system__stream_attributes__i_as" label: "I_As\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:102:13" shape : ellipse }
+node: { title: "mcp23x08__mcp23x08_io_expanderSW" label: "Mcp23x08_Io_Expandersw\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08.ads:165:9" shape : ellipse }
+node: { title: "mcp23x08__mcp23x08_io_expanderSR" label: "Mcp23x08_Io_Expandersr\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08.ads:165:9" shape : ellipse }
+node: { title: "mcp23x08__mcp23x08_io_expanderIP" label: "Mcp23x08_Io_Expanderip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08.ads:165:9" shape : ellipse }
+node: { title: "mcp23x08__i2c___elabs" label: "I2c\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+edge: { sourcename: "mcp23x08__i2c___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+node: { title: "mcp23x08__i2c___elabb" label: "I2c\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:34:1\n4 bytes (static)" }
+node: { title: "mcp23x08__i2c__io_read__2" label: "Io_Read\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:67:4\n64 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c__io_read__2" targetname: "_Unwind_Resume" }
+edge: { sourcename: "mcp23x08__i2c__io_read__2" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:85:10" }
+edge: { sourcename: "mcp23x08__i2c__io_read__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:75:16" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "mcp23x08__i2c__io_read__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:75:11" }
+edge: { sourcename: "mcp23x08__i2c__io_read__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:67:4" }
+node: { title: "mcp23x08__i2c__io_write__2" label: "Io_Write\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:41:4\n64 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c__io_write__2" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:58:10" }
+edge: { sourcename: "mcp23x08__i2c__io_write__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:48:16" }
+edge: { sourcename: "mcp23x08__i2c__io_write__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:48:11" }
+edge: { sourcename: "mcp23x08__i2c__io_write__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.adb:41:4" }
+node: { title: "mcp23x08__i2c__finalize_spec" label: "Finalize_Spec\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:34:1" }
+node: { title: "mcp23x08__i2c__Tmcp23008_io_expanderCFD" label: "Tmcp23008_Io_Expandercfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:36:9\n32 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c__Tmcp23008_io_expanderCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:36:9" }
+node: { title: "mcp23x08__i2c__mcp23008_io_expanderDF__2" label: "Mcp23008_Io_Expanderdf\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9\n16 bytes (static)" }
+node: { title: "mcp23x08__i2c__mcp23008_io_expanderDA__2" label: "Mcp23008_Io_Expanderda\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9\n16 bytes (static)" }
+node: { title: "mcp23x08__i2c___assign__2" label: "I2c\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9\n448 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c___assign__2" targetname: "memcpy" }
+edge: { sourcename: "mcp23x08__i2c___assign__2" targetname: "__gnat_rcheck_CE_Discriminant_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+node: { title: "mcp23x08__i2c__Oeq__2" label: "=\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:4\n16 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c__Oeq__2" targetname: "mcp23x08__Oeq__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+node: { title: "mcp23x08__i2c__mcp23008_io_expanderSO__2" label: "Mcp23008_Io_Expanderso\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9\n24 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSO__2" targetname: "mcp23x08__i2c__mcp23008_io_expanderSW__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSO__2" targetname: "system__stream_attributes__w_ssu" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSO__2" targetname: "system__stream_attributes__w_as" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+node: { title: "mcp23x08__i2c__mcp23008_io_expanderSI__2" label: "Mcp23008_Io_Expandersi\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9\n136 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSI__2" targetname: "memcpy" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSI__2" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSI__2" targetname: "mcp23x08__i2c__mcp23008_io_expanderSR__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSI__2" targetname: "mcp23x08__i2c__mcp23008_io_expanderIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSI__2" targetname: "system__stream_attributes__i_ssu" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSI__2" targetname: "system__stream_attributes__i_as" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+node: { title: "mcp23x08__i2c__mcp23008_io_expanderSW__2" label: "Mcp23008_Io_Expandersw\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9\n24 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSW__2" targetname: "mcp23x08__mcp23x08_io_expanderSW" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+node: { title: "mcp23x08__i2c__mcp23008_io_expanderSR__2" label: "Mcp23008_Io_Expandersr\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9\n24 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderSR__2" targetname: "mcp23x08__mcp23x08_io_expanderSR" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9" }
+node: { title: "mcp23x08__i2c___size__2" label: "I2c\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9\n16 bytes (static)" }
+node: { title: "mcp23x08__i2c__mcp23008_io_expanderIP" label: "Mcp23008_Io_Expanderip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:42:9\n24 bytes (static)" }
+edge: { sourcename: "mcp23x08__i2c__mcp23008_io_expanderIP" targetname: "mcp23x08__mcp23x08_io_expanderIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\io_expander\MCP23xxx\mcp23x08-i2c.ads:44:6" }
+}

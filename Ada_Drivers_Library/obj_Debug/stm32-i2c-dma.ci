@@ -1,0 +1,86 @@
+edge: { sourcename: "stm32__i2c__dma__Ti2c_port_dmaCFD"
+  targetname: "-9:stm32__i2c__dma__i2c_port_dma,stm32__i2c__dma__i2c_port_dma"
+  label: "stm32-i2c-dma.ads:37:9"
+}
+class {
+  classname: "stm32__i2c__dma__i2c_port_dma"
+  label: "stm32__i2c__dma__i2c_port_dma\stm32-i2c-dma.ads:37:9"
+  parent: "stm32__i2c__i2c_port"
+  virtuals: "-1:stm32__i2c__dma___size__2,-1:stm32__i2c__i2c_port\n
+             -9:stm32__i2c__dma__i2c_port_dmaDF__2,-9:stm32__i2c__i2c_port\n
+             19:stm32__i2c__dma__data_send__2,19:stm32__i2c__i2c_port\n
+             20:stm32__i2c__dma__data_receive__2,20:stm32__i2c__i2c_port\n
+             22:stm32__i2c__dma__set_tx_dma_handler\n
+             23:stm32__i2c__dma__set_rx_dma_handler\n
+             24:stm32__i2c__dma__set_polling_threshold"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "stm32__i2c__data_receive" label: "DATA_RECEIVE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c.ads:256:14" shape : ellipse }
+node: { title: "system__tasking__protected_objects__operations__protected_entry_call" label: "Protected_Entry_Call\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-tpobop.ads:55:14" shape : ellipse }
+node: { title: "system__tasking__protected_objects__operations__communication_blockIP" label: "Communication_Blockip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-tpobop.ads:115:9" shape : ellipse }
+node: { title: "stm32__dma__interrupts__dma_interrupt_controller__start_transferP" label: "START_TRANSFERP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\dma_interrupts\stm32-dma-interrupts.ads:44:7" shape : ellipse }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-except.ads:188:14" shape : ellipse }
+node: { title: "stm32__dma__compatible_alignments" label: "COMPATIBLE_ALIGNMENTS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\dma\stm32-dma.ads:602:13" shape : ellipse }
+node: { title: "stm32__i2c__data_register_address" label: "DATA_REGISTER_ADDRESS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c.ads:262:13" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "stm32__i2c__data_send" label: "DATA_SEND\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c.ads:250:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "stm32__i2c__i2c_portIP" label: "I2C_PORTIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c.ads:170:9" shape : ellipse }
+node: { title: "stm32__i2c__dma___elabs" label: "DMA\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "stm32__i2c__dma___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:52:9" }
+edge: { sourcename: "stm32__i2c__dma___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:52:9" }
+node: { title: "stm32__i2c__dma___elabb" label: "DMA\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:36:1\n4 bytes (static)" }
+node: { title: "stm32__i2c__dma__data_receive__2" label: "DATA_RECEIVE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:123:4\n72 bytes (static)" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:149:18" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "system__tasking__protected_objects__operations__protected_entry_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:149:18" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "system__tasking__protected_objects__operations__communication_blockIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:149:18" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:149:18" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "stm32__dma__interrupts__dma_interrupt_controller__start_transferP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:145:18" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "stm32__i2c__data_register_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:145:54" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:147:54" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:145:18" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:142:10" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "stm32__dma__compatible_alignments" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:137:14" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "stm32__i2c__data_register_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:139:41" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:138:48" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:137:48" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "stm32__i2c__data_receive" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:133:23" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:132:41" }
+edge: { sourcename: "stm32__i2c__dma__data_receive__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:123:4" }
+node: { title: "stm32__i2c__dma__data_send__2" label: "DATA_SEND\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:80:4\n88 bytes (static)" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:106:18" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "system__tasking__protected_objects__operations__protected_entry_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:106:18" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "system__tasking__protected_objects__operations__communication_blockIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:106:18" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:106:18" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "stm32__dma__interrupts__dma_interrupt_controller__start_transferP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:102:18" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "stm32__i2c__data_register_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:103:54" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:104:54" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:102:18" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:99:10" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "stm32__dma__compatible_alignments" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:94:14" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "stm32__i2c__data_register_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:97:41" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:95:48" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:94:48" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "stm32__i2c__data_send" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:90:23" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:89:41" }
+edge: { sourcename: "stm32__i2c__dma__data_send__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:80:4" }
+node: { title: "stm32__i2c__dma__set_polling_threshold" label: "SET_POLLING_THRESHOLD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:68:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__i2c__dma__set_polling_threshold" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:68:4" }
+node: { title: "stm32__i2c__dma__set_rx_dma_handler" label: "SET_RX_DMA_HANDLER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:56:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__i2c__dma__set_rx_dma_handler" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:56:4" }
+node: { title: "stm32__i2c__dma__set_tx_dma_handler" label: "SET_TX_DMA_HANDLER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:44:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__i2c__dma__set_tx_dma_handler" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.adb:44:4" }
+node: { title: "stm32__i2c__dma__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "stm32__i2c__dma__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:34:1" }
+node: { title: "stm32__i2c__dma__Ti2c_port_dmaCFD" label: "TI2C_PORT_DMACFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:37:9\n32 bytes (static)" }
+edge: { sourcename: "stm32__i2c__dma__Ti2c_port_dmaCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:37:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "stm32__i2c__dma__i2c_port_dmaDF__2" label: "I2C_PORT_DMADF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:52:9\n16 bytes (static)" }
+node: { title: "stm32__i2c__dma___size__2" label: "DMA\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:52:9\n16 bytes (static)" }
+node: { title: "stm32__i2c__dma__i2c_port_dmaIP" label: "I2C_PORT_DMAIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:52:9\n24 bytes (static)" }
+edge: { sourcename: "stm32__i2c__dma__i2c_port_dmaIP" targetname: "stm32__i2c__i2c_portIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\i2c_stm32f4\stm32-i2c-dma.ads:52:33" }
+}

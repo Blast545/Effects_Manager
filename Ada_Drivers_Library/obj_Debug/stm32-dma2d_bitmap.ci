@@ -1,0 +1,251 @@
+edge: { sourcename: "stm32__dma2d_bitmap__Tdma2d_bitmap_bufferCFD"
+  targetname: "-9:stm32__dma2d_bitmap__dma2d_bitmap_buffer,stm32__dma2d_bitmap__dma2d_bitmap_buffer"
+  label: "stm32-dma2d_bitmap.ads:43:9"
+}
+class {
+  classname: "stm32__dma2d_bitmap__dma2d_bitmap_buffer"
+  label: "stm32__dma2d_bitmap__dma2d_bitmap_buffer\stm32-dma2d_bitmap.ads:43:9"
+  parent: "memory_mapped_bitmap__memory_mapped_bitmap_buffer"
+  virtuals: "11:stm32__dma2d_bitmap__set_pixel__3,11:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             14:stm32__dma2d_bitmap__set_pixel_blend,14:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             15:stm32__dma2d_bitmap__pixel__2,15:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             18:stm32__dma2d_bitmap__fill,18:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             19:stm32__dma2d_bitmap__fill_rect,19:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             20:stm32__dma2d_bitmap__copy_rect,20:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             21:stm32__dma2d_bitmap__copy_rect__2,21:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             -1:stm32__dma2d_bitmap___size,-1:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             -2:stm32__dma2d_bitmap__dma2d_bitmap_bufferSR,-2:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             -3:stm32__dma2d_bitmap__dma2d_bitmap_bufferSW,-3:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             -4:stm32__dma2d_bitmap__dma2d_bitmap_bufferSI,-4:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             -5:stm32__dma2d_bitmap__dma2d_bitmap_bufferSO,-5:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             -6:stm32__dma2d_bitmap__Oeq,-6:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             -7:stm32__dma2d_bitmap___assign,-7:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             -8:stm32__dma2d_bitmap__dma2d_bitmap_bufferDA,-8:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             -9:stm32__dma2d_bitmap__dma2d_bitmap_bufferDF,-9:memory_mapped_bitmap__memory_mapped_bitmap_buffer\n
+             32:stm32__dma2d_bitmap__wait_transfer"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer"
+  targetname: "4:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:53:28"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer"
+  targetname: "5:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.ads:103:32"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer"
+  targetname: "5:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "hal-bitmap.ads:136:30"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer"
+  targetname: "6:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:56:25"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer"
+  targetname: "1:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:57:26"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer"
+  targetname: "2:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:58:27"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect"
+  targetname: "3:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:194:20"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect"
+  targetname: "1:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:196:30"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect"
+  targetname: "5:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "hal-bitmap.ads:136:30"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect"
+  targetname: "6:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:206:19"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect"
+  targetname: "3:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:210:22"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect"
+  targetname: "1:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:212:28"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect"
+  targetname: "5:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "hal-bitmap.ads:136:30"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect"
+  targetname: "6:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:215:46"
+}
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect"
+  targetname: "31:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "stm32-dma2d_bitmap.adb:215:73"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f429disco\gnat\s-finmas.ads:126:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f429disco\gnat\s-finmas.ads:201:14" shape : ellipse }
+node: { title: "system__finalization_masters__initialize__2" label: "Initialize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f429disco\gnat\s-finmas.ads:198:25" shape : ellipse }
+node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f429disco\gnat\s-finmas.ads:161:9" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f429disco\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f429disco\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "memory_mapped_bitmap__buffer_size" label: "Buffer_Size\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:152:13" shape : ellipse }
+node: { title: "stm32__dma2d__dma2d_copy_rect" label: "DMA2D_COPY_RECT\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\dma2d\stm32-dma2d.ads:229:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "soft_drawing_bitmap__fill_rect" label: "Fill_Rect\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\soft_drawing_bitmap.ads:87:14" shape : ellipse }
+node: { title: "stm32__dma2d__dma2d_fill_rect" label: "DMA2D_FILL_RECT\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\dma2d\stm32-dma2d.ads:208:14" shape : ellipse }
+node: { title: "soft_drawing_bitmap__fill" label: "Fill\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\soft_drawing_bitmap.ads:82:14" shape : ellipse }
+node: { title: "stm32__dma2d__dma2d_fill" label: "DMA2D_FILL\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\dma2d\stm32-dma2d.ads:186:14" shape : ellipse }
+node: { title: "memory_mapped_bitmap__pixel" label: "Pixel\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:140:13" shape : ellipse }
+node: { title: "memory_mapped_bitmap__set_pixel_blend" label: "Set_Pixel_Blend\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:135:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "memory_mapped_bitmap__width" label: "Width\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:78:13" shape : ellipse }
+node: { title: "stm32__dma2d__dma2d_set_pixel_blend" label: "DMA2D_SET_PIXEL_BLEND\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\dma2d\stm32-dma2d.ads:201:14" shape : ellipse }
+node: { title: "memory_mapped_bitmap__swapped" label: "Swapped\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:86:13" shape : ellipse }
+node: { title: "memory_mapped_bitmap__color_mode" label: "Color_Mode\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:90:13" shape : ellipse }
+node: { title: "memory_mapped_bitmap__source" label: "Source\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:110:13" shape : ellipse }
+node: { title: "memory_mapped_bitmap__set_pixel" label: "Set_Pixel\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:118:14" shape : ellipse }
+node: { title: "stm32__dma2d__dma2d_wait_transfer" label: "DMA2D_WAIT_TRANSFER\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\dma2d\stm32-dma2d.ads:272:14" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "stm32__dma2d__dma2d_bufferIP" label: "DMA2D_BUFFERIP\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\dma2d\stm32-dma2d.ads:167:9" shape : ellipse }
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f429disco\gnat\s-assert.ads:46:14" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "system__finalization_masters__finalize" label: "Finalize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f429disco\gnat\s-finmas.ads:96:25" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f429disco\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "memory_mapped_bitmap__Oeq" label: "=\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:41:9" shape : ellipse }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f429disco\gnat\s-secsta.ads:58:14" shape : ellipse }
+node: { title: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSW" label: "Memory_Mapped_Bitmap_Buffersw\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:41:9" shape : ellipse }
+node: { title: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSR" label: "Memory_Mapped_Bitmap_Buffersr\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:41:9" shape : ellipse }
+node: { title: "memory_mapped_bitmap__memory_mapped_bitmap_bufferIP" label: "Memory_Mapped_Bitmap_Bufferip\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\middleware\src\bitmap\memory_mapped_bitmap.ads:41:9" shape : ellipse }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:_GLOBAL__SZ19_stm32__dma2d_bitmap" label: "DMA2D_BITMAP\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\dma2d\stm32-dma2d.ads:172:20\n16 bytes (static)" }
+node: { title: "stm32__dma2d_bitmap___elabs" label: "DMA2D_BITMAP\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:40:1\n8 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:45:9" }
+edge: { sourcename: "stm32__dma2d_bitmap___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:45:9" }
+edge: { sourcename: "stm32__dma2d_bitmap___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:45:9" }
+edge: { sourcename: "stm32__dma2d_bitmap___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:45:9" }
+edge: { sourcename: "stm32__dma2d_bitmap___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9" }
+edge: { sourcename: "stm32__dma2d_bitmap___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9" }
+node: { title: "stm32__dma2d_bitmap___elabb" label: "DMA2D_BITMAP\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:37:1\n4 bytes (static)" }
+node: { title: "stm32__dma2d_bitmap__wait_transfer" label: "WAIT_TRANSFER\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:251:4\n32 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__wait_transfer" targetname: "memory_mapped_bitmap__buffer_size" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:257:25" }
+edge: { sourcename: "stm32__dma2d_bitmap__wait_transfer" targetname: "stm32__dma2d__dma2d_wait_transfer" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:254:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__wait_transfer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:251:4" }
+node: { title: "stm32__dma2d_bitmap__copy_rect__2" label: "COPY_RECT\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:225:15\n56 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect__2" targetname: "stm32__dma2d_bitmap__copy_rect" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:235:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect__2" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:88:8" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect__2" targetname: "memory_mapped_bitmap__color_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:88:18" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:225:15" }
+node: { title: "stm32__dma2d_bitmap__copy_rect" label: "COPY_RECT\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:170:15\n208 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "stm32__dma2d__dma2d_copy_rect" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:217:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:215:73" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:215:46" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:215:46" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\hal\src\hal-bitmap.ads:136:30" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:212:45" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:212:45" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:212:35" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:212:28" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:210:22" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:206:19" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:206:19" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\hal\src\hal-bitmap.ads:136:30" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:201:48" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:201:48" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:201:37" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "memory_mapped_bitmap__width" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:201:30" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "memory_mapped_bitmap__swapped" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:199:20" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:196:48" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:196:48" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:196:37" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:196:30" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:194:20" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "stm32__dma2d_bitmap__to_dma2d_buffer" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:184:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "stm32__dma2d_bitmap__to_dma2d_buffer" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:183:46" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "stm32__dma2d_bitmap__to_dma2d_buffer" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:182:46" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:77:8" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "memory_mapped_bitmap__color_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:77:18" }
+edge: { sourcename: "stm32__dma2d_bitmap__copy_rect" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:170:15" }
+node: { title: "stm32__dma2d_bitmap__fill_rect" label: "FILL_RECT\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:137:15\n72 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill_rect" targetname: "soft_drawing_bitmap__fill_rect" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:162:25" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill_rect" targetname: "stm32__dma2d__dma2d_fill_rect" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:153:13" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill_rect" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:153:13" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill_rect" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:157:39" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill_rect" targetname: "memory_mapped_bitmap__width" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:157:32" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill_rect" targetname: "stm32__dma2d__dma2d_fill_rect" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:145:13" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill_rect" targetname: "memory_mapped_bitmap__swapped" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:144:23" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill_rect" targetname: "memory_mapped_bitmap__color_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:143:29" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill_rect" targetname: "stm32__dma2d_bitmap__to_dma2d_buffer" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:141:42" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill_rect" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:137:15" }
+node: { title: "stm32__dma2d_bitmap__fill" label: "FILL\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:122:15\n40 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill" targetname: "soft_drawing_bitmap__fill" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:129:25" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill" targetname: "stm32__dma2d__dma2d_fill" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:127:10" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill" targetname: "stm32__dma2d_bitmap__to_dma2d_buffer" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:127:22" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill" targetname: "memory_mapped_bitmap__color_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:126:29" }
+edge: { sourcename: "stm32__dma2d_bitmap__fill" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:122:15" }
+node: { title: "stm32__dma2d_bitmap__pixel__2" label: "PIXEL\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:109:15\n16 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__pixel__2" targetname: "memory_mapped_bitmap__pixel" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:115:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__pixel__2" targetname: "stm32__dma2d__dma2d_wait_transfer" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:114:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__pixel__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:109:15" }
+node: { title: "stm32__dma2d_bitmap__set_pixel_blend" label: "SET_PIXEL_BLEND\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:79:15\n72 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "memory_mapped_bitmap__set_pixel_blend" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:101:25" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "stm32__dma2d__dma2d_set_pixel_blend" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:94:13" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:94:13" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:97:39" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "memory_mapped_bitmap__width" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:97:32" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "stm32__dma2d__dma2d_set_pixel_blend" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:88:13" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "memory_mapped_bitmap__swapped" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:87:23" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "memory_mapped_bitmap__color_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:86:29" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "memory_mapped_bitmap__source" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:84:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "stm32__dma2d_bitmap__to_dma2d_buffer" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:83:42" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel_blend" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:79:15" }
+node: { title: "stm32__dma2d_bitmap__set_pixel__3" label: "SET_PIXEL\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:66:15\n16 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel__3" targetname: "memory_mapped_bitmap__set_pixel" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:72:22" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel__3" targetname: "stm32__dma2d__dma2d_wait_transfer" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:71:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__set_pixel__3" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:66:15" }
+node: { title: "stm32__dma2d_bitmap__to_dma2d_buffer" label: "TO_DMA2D_BUFFER\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:49:4\n88 bytes (dynamic,bounded)" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "memcpy" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:_GLOBAL__SZ19_stm32__dma2d_bitmap" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:59:14" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:58:27" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:57:26" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:56:25" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:56:25" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\hal\src\hal-bitmap.ads:136:30" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "stm32__dma2d__dma2d_bufferIP" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:54:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:_GLOBAL__SZ19_stm32__dma2d_bitmap" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:54:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:_GLOBAL__SZ19_stm32__dma2d_bitmap" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:54:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.adb:52:7" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:103:26" }
+edge: { sourcename: "stm32__dma2d_bitmap__to_dma2d_buffer" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:103:32" }
+node: { title: "stm32__dma2d_bitmap__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:40:1\n16 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:40:1" }
+edge: { sourcename: "stm32__dma2d_bitmap__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:40:1" }
+edge: { sourcename: "stm32__dma2d_bitmap__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "stm32__dma2d_bitmap__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:45:9" }
+edge: { sourcename: "stm32__dma2d_bitmap__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:40:1" }
+node: { title: "stm32__dma2d_bitmap__Tdma2d_bitmap_bufferCFD" label: "TDMA2D_BITMAP_BUFFERCFD\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9\n32 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__Tdma2d_bitmap_bufferCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9" }
+node: { title: "stm32__dma2d_bitmap__dma2d_bitmap_bufferDF" label: "DMA2D_BITMAP_BUFFERDF\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9\n16 bytes (static)" }
+node: { title: "stm32__dma2d_bitmap__dma2d_bitmap_bufferDA" label: "DMA2D_BITMAP_BUFFERDA\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9\n16 bytes (static)" }
+node: { title: "stm32__dma2d_bitmap___assign" label: "DMA2D_BITMAP\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9\n448 bytes (static)" }
+node: { title: "stm32__dma2d_bitmap__Oeq" label: "=\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__Oeq" targetname: "memory_mapped_bitmap__Oeq" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:4" }
+node: { title: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSO" label: "DMA2D_BITMAP_BUFFERSO\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9\n24 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSO" targetname: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSW" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9" }
+node: { title: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSI" label: "DMA2D_BITMAP_BUFFERSI\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9\n56 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSI" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9" }
+edge: { sourcename: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSI" targetname: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSR" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9" }
+edge: { sourcename: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSI" targetname: "stm32__dma2d_bitmap__dma2d_bitmap_bufferIP" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9" }
+node: { title: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSW" label: "DMA2D_BITMAP_BUFFERSW\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9\n24 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSW" targetname: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSW" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9" }
+node: { title: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSR" label: "DMA2D_BITMAP_BUFFERSR\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9\n24 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__dma2d_bitmap_bufferSR" targetname: "memory_mapped_bitmap__memory_mapped_bitmap_bufferSR" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9" }
+node: { title: "stm32__dma2d_bitmap___size" label: "DMA2D_BITMAP\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9\n16 bytes (static)" }
+node: { title: "stm32__dma2d_bitmap__dma2d_bitmap_bufferIP" label: "DMA2D_BITMAP_BUFFERIP\nC:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:9\n16 bytes (static)" }
+edge: { sourcename: "stm32__dma2d_bitmap__dma2d_bitmap_bufferIP" targetname: "memory_mapped_bitmap__memory_mapped_bitmap_bufferIP" label: "C:\Users\DELL\Documents\Ada_Projects\Screen\Ada_Drivers_Library\repo\boards\stm32_common\dma2d\stm32-dma2d_bitmap.ads:43:32" }
+}

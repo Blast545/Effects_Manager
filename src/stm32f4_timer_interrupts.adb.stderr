@@ -1,0 +1,9 @@
+stm32f4_timer_interrupts.adb:32:06: file "stm32.ads" not found
+stm32f4_timer_interrupts.adb:33:06: file "stm32.ads" not found
+stm32f4_timer_interrupts.adb:34:06: file "stm32.ads" not found
+stm32f4_timer_interrupts.adb:35:06: file "stm32.ads" not found
+stm32f4_timer_interrupts.adb:36:06: file "stm32.ads" not found
+stm32f4_timer_interrupts.adb:36:06: "Adc_Interrupt_Handling (spec)" depends on "Stm32 (spec)"
+stm32f4_timer_interrupts.adb:36:06: file "hal.ads" not found
+stm32f4_timer_interrupts.adb:36:06: "Stm32f4_Timer_Interrupts (body)" depends on "Adc_Interrupt_Handling (spec)"
+stm32f4_timer_interrupts.adb:36:06: "Adc_Interrupt_Handling (spec)" depends on "Hal (spec)"

@@ -1,0 +1,139 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U hal.framebuffer%s	hal-framebuffer.ads	b0b8b049 EE OO PF PK IU
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.bitmap%s		hal-bitmap.ads		hal-bitmap.ali
+Z system%s		system.ads		system.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-bitmap.ads	20190116062806 03ebc14f hal.bitmap%s
+D hal-framebuffer.ads	20190116062806 9811b908 hal.framebuffer%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D system.ads		20180524194940 db831581 system%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+X 7 hal.ads
+34K9*HAL 166e8 9|32r6 34r9 36r29 37r6 37r30 119r23 127r5
+53M9*UInt8<10|63M9> 9|81r46
+X 8 hal-bitmap.ads
+34K13*Bitmap 424e15 9|32w10 36r33 37r10 37r34 119r27
+43E9*Bitmap_Color_Mode 56e8 9|36r40
+44n7*ARGB_8888{43E9} 9|37r17
+55n7*M_1{43E9} 9|37r41
+98h9*Bitmap_Buffer
+100P9*Any_Bitmap_Buffer(98R9) 9|119r34
+X 9 hal-framebuffer.ads
+34K13*Framebuffer 7|34k9 9|127l9 127e20
+36E12*FB_Color_Mode{8|43E9} 54r14 86r16 113r32
+39E9*Display_Orientation 40e36 59r21
+40n7*Default{39E9}
+40n16*Landscape{39E9}
+40n27*Portrait{39E9}
+42E9*Wait_Mode 42e42 63r17
+42n23*Polling{42E9}
+42n32*Interrupt{42E9}
+44h9*Frame_Buffer_Display 46r48 48p13 49r14 52p13 53r14 57p14 58r28 61p14
+. 62r24 65p13 66r14 68p13 69r14 71p13 72r14 74p13 75r14 80p14 81r14 83p14
+. 84r23 96p13 97r15 100p14 101r26 106p14 107r21 111p13 112r15 116p13 117r22
+. 122p13 123r17
+46P9*Any_Frame_Buffer_Display(44R9)
+48y13*Max_Layers{positive} 49>7
+49r7 This{44R9}
+52y13*Supported{boolean} 53>7 54>7
+53r7 This{44R9}
+54e7 Mode{36E12}
+57x14*Set_Orientation 58=7 59>7
+58r7 This{44R9}
+59e7 Orientation{39E9}
+61x14*Set_Mode 62=7 63>7
+62r7 This{44R9}
+63e7 Mode{42E9}
+65y13*Initialized{boolean} 66>7
+66r7 This{44R9}
+68y13*Width{positive} 69>7
+69r7 This{44R9}
+71y13*Height{positive} 72>7
+72r7 This{44R9}
+74y13*Swapped{boolean} 75>7
+75r7 This{44R9}
+80x14*Set_Background 81>7 81>36 81>39 81>42
+81r7 This{44R9}
+81m36 R{7|53M9}
+81m39 G{7|53M9}
+81m42 B{7|53M9}
+83x14*Initialize_Layer 84=7 85>7 86>7 87>7 88>7 89>7 90>7
+84r7 This{44R9}
+85i7 Layer{positive}
+86e7 Mode{36E12}
+87i7 X{natural}
+88i7 Y{natural}
+89i7 Width{positive}
+90i7 Height{positive}
+96y13*Initialized{boolean} 97>7 98>7
+97r7 This{44R9}
+98i7 Layer{positive}
+100x14*Update_Layer 101=7 102>7 103>7
+101r7 This{44R9}
+102i7 Layer{positive}
+103b7 Copy_Back{boolean}
+106x14*Update_Layers 107=7
+107r7 This{44R9}
+111y13*Color_Mode{36E12} 112>7 113>7
+112r7 This{44R9}
+113i7 Layer{positive}
+116y13*Hidden_Buffer{8|100P9} 117=7 118>7
+117r7 This{44R9}
+118i7 Layer{positive}
+122y13*Pixel_Size{positive} 123>7 124>7
+123r7 Display{44R9}
+124i7 Layer{positive}
+X 10 interfac.ads
+63M9*Unsigned_8
+

@@ -1,0 +1,81 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RV NO_IMPLICIT_LOOPS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U stm32_svd.wwdg%s	stm32_svd-wwdg.ads	a313bce8 NE OO PR PK IU
+W hal%s			hal.ads			hal.ali
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W system%s		system.ads		system.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-wwdg.ads	20190116062804 bd08e563 stm32_svd.wwdg%s
+D system.ads		20180524194940 db831581 system%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 1 hal.ads
+34K9*HAL 166e8 4|7w6 17r26 26r23 37r27 50r19 72r24 89r23
+39M9*UInt2 4|50r23
+49M9*UInt7 4|17r30 37r31
+77M9*UInt22 4|72r28
+81M9*UInt24 4|26r27
+95M9*UInt31 4|89r27
+X 3 stm32_svd.ads
+10K9*STM32_SVD 164e14 4|10r9 124r5
+X 4 stm32_svd-wwdg.ads
+10K19*WWDG 3|10k9 4|124l15 124e19
+17M12*CR_T_Field{1|49M9} 22r23
+20R9*CR_Register 28e6 31r8 106r21
+22m7*T{17M12} 32r7
+24b7*WDGA{boolean} 33r7
+26m7*Reserved_8_31{1|81M9} 34r7
+37M12*CFR_W_Field{1|49M9} 66r24
+40A9*CFR_WDGTB_Field_Array(boolean)<integer> 53r19
+44R9*CFR_WDGTB_Field 45d7 56e6 58r8 68r24
+45b7*As_Array{boolean} 47r12 68m44
+50m13*Val{1|39M9} 59r7 68m63
+53a13*Arr{40A9} 60r7
+64R9*CFR_Register 74e6 77r8 108r21
+66m7*W{37M12} 78r7
+68r7*WDGTB{44R9} 79r7
+70b7*EWI{boolean} 80r7
+72m7*Reserved_10_31{1|77M9} 81r7
+85R9*SR_Register 91e6 94r8 110r21
+87b7*EWIF{boolean} 95r7
+89m7*Reserved_1_31{1|95M9} 96r7
+104R9*WWDG_Peripheral 112e6 114r8 121r26
+106r7*CR{20R9} 115r7
+108r7*CFR{64R9} 116r7
+110r7*SR{85R9} 117r7
+121r4*WWDG_Periph{104R9}
+X 5 system.ads
+50K9*System 4|8w6 29r24 75r24 92r24 122r30 5|164e11
+80M9*Address 4|122r30
+104n41*Low_Order_First{104E9} 4|29r31 75r31 92r31
+

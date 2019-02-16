@@ -1,0 +1,79 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U stm32_svd.pwr%s	stm32_svd-pwr.ads	9951279c NE OO PR PK IU
+W hal%s			hal.ads			hal.ali
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W system%s		system.ads		system.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-pwr.ads	20190116062804 874a7e17 stm32_svd.pwr%s
+D system.ads		20180524194940 db831581 system%s
+X 1 hal.ads
+34K9*HAL 166e8 4|7w6 17r28 38r24 42r24 72r24 78r24 82r24
+41M9*UInt3 4|17r32
+43M9*UInt4 4|38r28 72r28 78r28
+67M9*UInt17 4|42r28 82r28
+X 3 stm32_svd.ads
+10K9*STM32_SVD 164e14 4|10r9 122r5
+X 4 stm32_svd-pwr.ads
+10K19*PWR 3|10k9 4|122l15 122e18
+17M12*CR_PLS_Field{1|41M9} 32r24
+20R9*CR_Register 44e6 47r8 107r21
+22b7*LPDS{boolean} 48r7
+24b7*PDDS{boolean} 49r7
+26b7*CWUF{boolean} 50r7
+28b7*CSBF{boolean} 51r7
+30b7*PVDE{boolean} 52r7
+32m7*PLS{17M12} 53r7
+34b7*DBP{boolean} 54r7
+36b7*FPDS{boolean} 55r7
+38m7*Reserved_10_13{1|43M9} 56r7
+40b7*VOS{boolean} 57r7
+42m7*Reserved_15_31{1|67M9} 58r7
+62R9*CSR_Register 84e6 87r8 109r21
+64b7*WUF{boolean} 88r7
+66b7*SBF{boolean} 89r7
+68b7*PVDO{boolean} 90r7
+70b7*BRR{boolean} 91r7
+72m7*Reserved_4_7{1|43M9} 92r7
+74b7*EWUP{boolean} 93r7
+76b7*BRE{boolean} 94r7
+78m7*Reserved_10_13{1|43M9} 95r7
+80b7*VOSRDY{boolean} 96r7
+82m7*Reserved_15_31{1|67M9} 97r7
+105R9*PWR_Peripheral 111e6 113r8 119r25
+107r7*CR{20R9} 114r7
+109r7*CSR{62R9} 115r7
+119r4*PWR_Periph{105R9}
+X 5 system.ads
+50K9*System 4|8w6 45r24 85r24 120r30 5|164e11
+80M9*Address 4|120r30
+104n41*Low_Order_First{104E9} 4|45r31 85r31
+

@@ -1,0 +1,123 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U stm32_svd.flash%s	stm32_svd-flash.ads	1821c247 NE OO PR PK IU
+W hal%s			hal.ads			hal.ali
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W system%s		system.ads		system.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-flash.ads	20190116062804 063a9bcc stm32_svd.flash%s
+D system.ads		20180524194940 db831581 system%s
+X 1 hal.ads
+34K9*HAL 166e8 4|7w6 17r33 24r24 36r24 59r24 69r24 73r24 91r28 92r30 105r24
+. 109r24 113r24 119r24 142r35 143r31 144r32 155r24 167r24 194r25 196r25
+37M9*Bit 4|105r28 155r28
+39M9*UInt2 4|59r28 92r34 142r39
+41M9*UInt3 4|17r37
+43M9*UInt4 4|91r32 167r28
+45M9*UInt5 4|24r28 119r28
+47M9*UInt6 4|109r28
+49M9*UInt7 4|113r28
+53M9*UInt8<2|63M9> 4|69r28 143r35
+58M9*UInt12 4|144r36
+64M9*UInt15 4|73r28
+71M9*UInt19 4|36r28
+97M9*UInt32<2|74M9> 4|194r29 196r29
+X 2 interfac.ads
+63M9*Unsigned_8
+74M9*Unsigned_32
+X 3 stm32_svd.ads
+10K9*STM32_SVD 164e14 4|10r9 219r5
+X 4 stm32_svd-flash.ads
+10K19*FLASH 3|10k9 4|219l15 219e20
+17M12*ACR_LATENCY_Field{1|41M9} 22r24
+20R9*ACR_Register 38e6 41r8 192r25
+22m7*LATENCY{17M12} 42r7
+24m7*Reserved_3_7{1|45M9} 43r7
+26b7*PRFTEN{boolean} 44r7
+28b7*ICEN{boolean} 45r7
+30b7*DCEN{boolean} 46r7
+32b7*ICRST{boolean} 47r7
+34b7*DCRST{boolean} 48r7
+36m7*Reserved_13_31{1|71M9} 49r7
+53R9*SR_Register 75e6 78r8 198r25
+55b7*EOP{boolean} 79r7
+57b7*OPERR{boolean} 80r7
+59m7*Reserved_2_3{1|39M9} 81r7
+61b7*WRPERR{boolean} 82r7
+63b7*PGAERR{boolean} 83r7
+65b7*PGPERR{boolean} 84r7
+67b7*PGSERR{boolean} 85r7
+69m7*Reserved_8_15{1|53M9} 86r7
+71b7*BSY{boolean} 87r7
+73m7*Reserved_17_31{1|64M9} 88r7
+91M12*CR_SNB_Field{1|43M9} 103r24
+92M12*CR_PSIZE_Field{1|39M9} 107r24
+95R9*CR_Register 123e6 126r8 200r25
+97b7*PG{boolean} 127r7
+99b7*SER{boolean} 128r7
+101b7*MER{boolean} 129r7
+103m7*SNB{91M12} 130r7
+105m7*Reserved_7_7{1|37M9} 131r7
+107m7*PSIZE{92M12} 132r7
+109m7*Reserved_10_15{1|47M9} 133r7
+111b7*STRT{boolean} 134r7
+113m7*Reserved_17_23{1|49M9} 135r7
+115b7*EOPIE{boolean} 136r7
+117b7*ERRIE{boolean} 137r7
+119m7*Reserved_26_30{1|45M9} 138r7
+121b7*LOCK{boolean} 139r7
+142M12*OPTCR_BOR_LEV_Field{1|39M9} 153r24
+143M12*OPTCR_RDP_Field{1|53M9} 163r24
+144M12*OPTCR_nWRP_Field{1|58M9} 165r24
+147R9*OPTCR_Register 169e6 172r8 202r25
+149b7*OPTLOCK{boolean} 173r7
+151b7*OPTSTRT{boolean} 174r7
+153m7*BOR_LEV{142M12} 175r7
+155m7*Reserved_4_4{1|37M9} 176r7
+157b7*WDG_SW{boolean} 177r7
+159b7*nRST_STOP{boolean} 178r7
+161b7*nRST_STDBY{boolean} 179r7
+163m7*RDP{143M12} 180r7
+165m7*nWRP{144M12} 181r7
+167m7*Reserved_28_31{1|43M9} 182r7
+190R9*FLASH_Peripheral 204e6 206r8 216r27
+192r7*ACR{20R9} 207r7
+194m7*KEYR{1|97M9} 208r7
+196m7*OPTKEYR{1|97M9} 209r7
+198r7*SR{53R9} 210r7
+200r7*CR{95R9} 211r7
+202r7*OPTCR{147R9} 212r7
+216r4*FLASH_Periph{190R9}
+X 5 system.ads
+50K9*System 4|8w6 39r24 76r24 124r24 170r24 217r30 5|164e11
+80M9*Address 4|217r30
+104n41*Low_Order_First{104E9} 4|39r31 76r31 124r31 170r31
+

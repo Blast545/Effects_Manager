@@ -1,0 +1,73 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U cortex_m.cache%b	cortex_m-cache.adb	7abcf6ad NE OO PK
+W cortex_m%s		cortex_m.ads		cortex_m.ali
+
+U cortex_m.cache%s	cortex_m-cache.ads	4a79a2cd BN EE NE OO PK
+W cortex_m%s		cortex_m.ads		cortex_m.ali
+W system%s		system.ads		system.ali
+
+D cortex_m.ads		20190116062804 38b367df cortex_m%s
+D cortex_m-cache.ads	20190116062804 a949d093 cortex_m.cache%s
+D cortex_m-cache.adb	20190116062804 d3f5263e cortex_m.cache%b
+D system.ads		20180524194940 db831581 system%s
+X 1 cortex_m.ads
+32K9*Cortex_M 34e13 2|37r9 80r5 3|34r14 62r5
+X 2 cortex_m-cache.ads
+37K18*Cache 1|32k9 2|80l14 80e19 3|34b23 62l14 62t19
+39U14*Enable_I_Cache
+41U14*Enable_D_Cache
+43U14*Disable_I_Cache
+45U14*Disable_D_Cache
+47V13*I_Cache_Enabled{boolean} 3|44b13
+50V13*D_Cache_Enabled{boolean} 3|47b13
+53U14*Clean_DCache 54>7 55>7
+54m7 Start{4|80M9}
+55i7 Len{natural}
+63U14*Invalidate_DCache 64>7 65>7
+64m7 Start{4|80M9}
+65i7 Len{natural}
+74U14*Clean_Invalidate_DCache 75>7 76>7
+75m7 Start{4|80M9}
+76i7 Len{natural}
+X 3 cortex_m-cache.adb
+36U14 Enable_I_Cache
+38U14 Enable_D_Cache
+40U14 Disable_I_Cache
+42U14 Disable_D_Cache
+50U14 Clean_DCache
+51m7 Start{4|80M9}
+52i7 Len{natural}
+54U14 Invalidate_DCache
+55m7 Start{4|80M9}
+56i7 Len{natural}
+58U14 Clean_Invalidate_DCache
+59m7 Start{4|80M9}
+60i7 Len{natural}
+X 4 system.ads
+50K9*System 2|35w6 54r15 64r15 75r15 3|51r15 55r15 59r15 4|164e11
+80M9*Address 2|54r22 64r22 75r22 3|51r22 55r22 59r22
+

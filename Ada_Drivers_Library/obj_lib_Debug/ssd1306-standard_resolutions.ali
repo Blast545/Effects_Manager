@@ -1,0 +1,128 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV STATIC_DISPATCH_TABLES
+RV SPARK_05
+
+U ssd1306.standard_resolutions%s  ssd1306-standard_resolutions.ads  0ca7cdd4 EE OO PF PK IU
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ssd1306%s		ssd1306.adb		ssd1306.ali
+Z system%s		system.ads		system.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-bitmap.ads	20190116062806 03ebc14f hal.bitmap%s
+D hal-framebuffer.ads	20190116062806 9811b908 hal.framebuffer%s
+D hal-gpio.ads		20190116062806 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20190116062806 0ed73138 hal.i2c%s
+D hal-time.ads		20190116062806 f5295cd7 hal.time%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D memory_mapped_bitmap.ads  20190116062806 b7ed57c8 memory_mapped_bitmap%s
+D soft_drawing_bitmap.ads  20190116062806 41d47adc soft_drawing_bitmap%s
+D ssd1306.ads		20190116062806 47510ce0 ssd1306%s
+D ssd1306-standard_resolutions.ads  20190116062806 4bf6c134 ssd1306.standard_resolutions%s
+D system.ads		20180524194940 db831581 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-stratt.ads		20180524194940 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 7 hal.ads
+34K9*HAL 166e8 17|37r35 43r35 49r35
+X 8 hal-bitmap.ads
+98h9*Bitmap_Buffer
+100P9*Any_Bitmap_Buffer(98R9)
+X 9 hal-framebuffer.ads
+44h9*Frame_Buffer_Display
+X 10 hal-gpio.ads
+47h9*GPIO_Point
+49P9*Any_GPIO_Point(47R9) 17|36r35 42r35 48r35
+X 11 hal-i2c.ads
+48h9*I2C_Port
+50P9*Any_I2C_Port(48R9) 17|35r35 41r35 47r35
+X 12 hal-time.ads
+32K13*Time 46e13 17|37r39 43r39 49r39
+34h9*Delays
+36P9*Any_Delays(34R9) 17|37r44 43r44 49r44
+X 16 ssd1306.ads
+42K9*SSD1306 258e12 17|32r9 51r5
+46R9*SSD1306_Screen<9|44R9> 228e17 17|38r11 44r11 50r11
+68U14*Initialize
+72V13*Initialized{boolean}<9|65p13>
+74U14*Turn_On
+75U14*Turn_Off
+76U14*Display_Inversion_On
+77U14*Display_Inversion_Off
+79U14*Write_Raw_Pixels
+83V13*Max_Layers{positive}<9|48p13>
+87V13*Supported{boolean}<9|52p13>
+92U14*Set_Orientation<9|57p14>
+97U14*Set_Mode<9|61p14>
+102V13*Width{positive}<9|68p13>
+106V13*Height{positive}<9|71p13>
+110V13*Swapped{boolean}<9|74p13>
+117U14*Set_Background<9|80p14>
+121U14*Initialize_Layer<9|83p14>
+135V13*Initialized{boolean}<9|96p13>
+140U14*Update_Layer<9|100p14>
+147U14*Update_Layers<9|106p14>
+153V13*Color_Mode{9|36E12}<9|111p13>
+159V13*Hidden_Buffer{8|100P9}<9|116p13>
+165V13*Pixel_Size{positive}<9|122p13>
+X 17 ssd1306-standard_resolutions.ads
+32K17*Standard_Resolutions 16|42k9 17|51l13 51e33
+34R9*SSD1306_96x16_Screen<16|46R9> 16|68p14 72P13 74p14 75p14 76p14 77p14
+. 79p14 83P13 87P13 92P14 97P14 102P13 106P13 110P13 117P14 121P14 135P13
+. 140P14 147P14 153P13 159P13 165P13 17|35d7 36d7 37d7 38e83
+35p7*Port{11|50P9} 38r50
+36p7*RST{10|49P9} 38r56
+37p7*Time{12|36P9} 38r61
+40R9*SSD1306_128x32_Screen<16|46R9> 16|68p14 72P13 74p14 75p14 76p14 77p14
+. 79p14 83P13 87P13 92P14 97P14 102P13 106P13 110P13 117P14 121P14 135P13
+. 140P14 147P14 153P13 159P13 165P13 17|41d7 42d7 43d7 44e85
+41p7*Port{11|50P9} 44r52
+42p7*RST{10|49P9} 44r58
+43p7*Time{12|36P9} 44r63
+46R9*SSD1306_128x64_Screen<16|46R9> 16|68p14 72P13 74p14 75p14 76p14 77p14
+. 79p14 83P13 87P13 92P14 97P14 102P13 106P13 110P13 117P14 121P14 135P13
+. 140P14 147P14 153P13 159P13 165P13 17|47d7 48d7 49d7 50e85
+47p7*Port{11|50P9} 50r52
+48p7*RST{10|49P9} 50r58
+49p7*Time{12|36P9} 50r63
+

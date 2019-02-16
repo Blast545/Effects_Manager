@@ -1,0 +1,125 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U command_line.filesystem.cat%b  command_line-filesystem-cat.adb  6e8fbed3 OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W command_line.filesystem%s  command_line-filesystem.adb  command_line-filesystem.ali
+W file_io%s		file_io.adb		file_io.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U command_line.filesystem.cat%s  command_line-filesystem-cat.ads  50d2d1fd EE OO PF PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W command_line.filesystem%s  command_line-filesystem.adb  command_line-filesystem.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D adl_config.ads	20190128195910 7e43e0f0 adl_config%s
+D command_line.ads	20190116062806 29283dc6 command_line%s
+D command_line-filesystem.ads  20190116062806 9888f716 command_line.filesystem%s
+D command_line-filesystem-cat.ads  20190116062806 c85a26eb command_line.filesystem.cat%s
+D command_line-filesystem-cat.adb  20190116062806 edf58191 command_line.filesystem.cat%b
+D file_io.ads		20190116062806 4b2019a9 file_io%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-block_drivers.ads	20190116062806 3a6f071f hal.block_drivers%s
+D hal-filesystem.ads	20190116062806 6998b52b hal.filesystem%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D system.ads		20180524194940 db831581 system%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-imenne.ads		20180524194940 614c06c0 system.img_enum_new%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-stratt.ads		20180524194940 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 8 command_line.ads
+32K9*Command_Line 146e17 10|32r9 53r5 11|34r14 101r5
+34P9*Put_Procedure 10|43r34 47r31 11|43r18 92r31
+35P9*Put_Line_Procedure 10|44r34 48r31 11|44r18 93r31
+41R9*Arguments 96e14 10|42r41 11|42r25
+43V13*Next{string} 11|76R43
+54H9*Command 104e14 10|34r24 51r24
+X 9 command_line-filesystem.ads
+32K22*Filesystem 8|32k9 9|37e28 10|32r22 53r18 11|34r27 101r18
+X 10 command_line-filesystem-cat.ads
+32K33*Cat 9|32k22 10|51E9 53l29 53e32 11|34b38 101l29 101t32
+34R9*Cat_Cmd<8|54R9> 37P13 37r26 41P14 41r41 46P14 46r38 51c9 51e48 11|41r25
+. 91r38
+37V13*Name{string}<8|58p13> 37>19
+37r19 This{34R9}
+41U14*Execute<8|61p14> 41=23 42=23 43>23 44>23 11|40b25 84l8 84t15
+41r23 This{34R9} 11|41b7 46r28
+42c23 Args<8|41R9> 11|42b7 76m38 76r38
+43p23 Put{8|34P9} 11|43b7 68r13
+44p23 Put_Line{8|35P9} 11|44b7 61r13
+46U14*Help<8|66p14> 46=20 47>20 48>20 11|91b14 99l8 99t12
+46r20 This{34R9} 11|91b20 95r33
+47p20 Put{8|34P9} 11|92b20 95r28
+48p20 Put_Line{8|35P9} 11|93b20 97r7 98r7
+X 11 command_line-filesystem-cat.adb
+47U17 Display_File 47>31 53b17 71l11 71t23 81s13
+47a31 Path{string} 53b31 59r30 61r46
+54r10 FD{12|89R9} 59m26 59r26 66r29 70m17 70r17
+55e10 Status{12|44E9} 59m10 60r13 61r61
+56a10 Data{string} 66m33 66r33 66r47 68r18 68r24 68r38
+57m10 Amount{12|83M9} 66m13 67r23 68r60
+76a13 Arg{string} 78r16 81r27
+X 12 file_io.ads
+42K9*File_IO 11|32w6 32r19 12|250e12
+44E9*Status_Code 11|55r19 12|69e31
+45n7*OK{44E9} 11|60r23
+71n23*Read_Only{71E9} 11|59r36
+83M9*File_Size<13|160M9> 11|57r19
+89R9*File_Descriptor 11|54r19 12|197e14
+91V13*Open{44E9} 11|59s20
+97U14*Close 11|70s10
+108V13*Read{83M9} 11|66s23
+X 13 hal.ads
+160M9*UInt64<16|77M9>
+X 16 interfac.ads
+77M9*Unsigned_64
+

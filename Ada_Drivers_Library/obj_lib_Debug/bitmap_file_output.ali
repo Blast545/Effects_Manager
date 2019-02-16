@@ -1,0 +1,132 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U bitmap_file_output%b	bitmap_file_output.adb	ed720623 NE OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+
+U bitmap_file_output%s	bitmap_file_output.ads	072b5064 EE NE OO PK
+W file_io%s		file_io.adb		file_io.ali
+W hal%s			hal.ads			hal.ali
+W hal.bitmap%s		hal-bitmap.ads		hal-bitmap.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D adl_config.ads	20190128195910 7e43e0f0 adl_config%s
+D bitmap_file_output.ads  20190116062806 4fe08882 bitmap_file_output%s
+D bitmap_file_output.adb  20190116062806 d36514c7 bitmap_file_output%b
+D file_io.ads		20190116062806 4b2019a9 file_io%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-bitmap.ads	20190116062806 03ebc14f hal.bitmap%s
+D hal-block_drivers.ads	20190116062806 3a6f071f hal.block_drivers%s
+D hal-filesystem.ads	20190116062806 6998b52b hal.filesystem%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D system.ads		20180524194940 db831581 system%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+X 8 bitmap_file_output.ads
+35K9*Bitmap_File_Output 40l5 40e23 9|35b14 143l5 143t23
+37U14*Write_BMP_File 37=30 38>30 9|73b14 141l8 141t22
+37r30 File{10|89R9} 9|73b30 113r17 117r17 130r23 136r20
+38c30 Bitmap<12|98R9> 9|74b30 78r56 80r83 101r32 102r33 121r29 122r24 124r24
+X 9 bitmap_file_output.adb
+37R9 Header 37d17 48e15 76r21
+37b17*As_Array{boolean} 38r12
+40a13*Arr{11|162A9}
+42i13*Signature{15|49I9} 89m11
+43i13*Size{15|52I9} 90m11
+44i13*Reserved1{15|49I9} 97m11
+45i13*Reserved2{15|49I9} 98m11
+46i13*Offset{15|52I9} 91m11
+50R9 Info 50d15 67e15 77r21
+50b15*As_Array{boolean} 51r12
+53a13*Arr{11|162A9}
+55i13*Struct_Size{15|52I9} 100m11
+56i13*Width{15|52I9} 101m11
+57i13*Height{15|52I9} 102m11
+58i13*Planes{15|49I9} 103m11
+59i13*Pixel_Size{15|49I9} 104m11
+60i13*Compression{15|52I9} 105m11
+61i13*Image_Size{15|52I9} 106m11
+62i13*PPMX{15|52I9} 107m11
+63i13*PPMY{15|52I9} 108m11
+64i13*Palette_Size{15|52I9} 109m11
+65i13*Important{15|52I9} 110m11
+76r7 Hdr{37R9} 89m7 90m7 91m7 97m7 98m7 113m23 113r23 113r36 113r54
+77r7 Inf{50R9} 100m7 101m7 102m7 103m7 104m7 105m7 106m7 107m7 108m7 109m7
+. 110m7 117m23 117r23 117r36 117r54
+78i7 Row_Size{15|52I9} 79r51 80r45
+79i7 Row_Padding{15|52I9} 80r56 84r53
+80i7 Data_Size{15|52I9} 90r25 106r25
+82r7 RGB_Pix{12|84R9} 124m13 126r28 127r28 128r28
+83a7 Pix_Out{11|162A9} 126m13 127m13 128m13 130m29 130r29 130r46 130r65
+84a7 Padding{11|162A9} 136r26 136r43 136r62
+121i11 Y{integer} 124r42
+122i14 X{integer} 124r39
+X 10 file_io.ads
+42K9*File_IO 8|32w6 32r22 10|250e12
+83M9*File_Size<11|160M9>
+89R9*File_Descriptor 8|37r46 9|73r46 10|197e14
+113V13*Write{83M9} 9|113s10 117s10 130s16 136s13
+X 11 hal.ads
+34K9*HAL 8|33r6 33r22 9|33w6 33r22 11|166e8
+53M9*UInt8<15|63M9>
+160M9*UInt64<15|77M9>
+162A9*UInt8_Array(53M9)<integer> 9|40r19 53r19 83r17 84r26
+X 12 hal-bitmap.ads
+34K13*Bitmap 8|33w10 33r26 12|424e15
+84R9*Bitmap_Color 9|82r17 12|89e15
+86m7*Red{11|53M9} 9|128r36
+87m7*Green{11|53M9} 9|127r36
+88m7*Blue{11|53M9} 9|126r36
+98h9*Bitmap_Buffer 8|38r39 9|74r39
+102y13*Width{natural} 9|78R63 101R39 122R31
+106y13*Height{natural} 9|80R90 102R40 121R36
+179y13*Pixel{84R9} 9|124R31
+X 15 interfac.ads
+38K9*Interfaces 9|32w6 32r22 15|184e15
+49I9*Integer_16<short_integer> 9|42r25 44r25 45r25 58r29 59r29
+52I9*Integer_32<integer> 9|43r25 46r25 55r29 56r29 57r29 60r29 61r29 62r29
+. 63r29 64r29 65r29 78r30 78r44 79r30 80r30 80r71 101r20 102r21
+63M9*Unsigned_8
+77M9*Unsigned_64
+

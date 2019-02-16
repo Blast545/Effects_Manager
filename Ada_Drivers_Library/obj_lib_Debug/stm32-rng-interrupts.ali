@@ -1,0 +1,154 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB LC TF  ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U stm32.rng.interrupts%b  stm32-rng-interrupts.adb  1c3a47dc OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.interrupts%s	a-interr.adb		a-interr.ali
+W ada.interrupts.names%s  a-intnam.ads		a-intnam.ali
+W stm32.rng%s		stm32-rng.adb		stm32-rng.ali
+Z system%s		system.ads		system.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.interrupts%s	s-interr.adb		s-interr.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U stm32.rng.interrupts%s  stm32-rng-interrupts.ads  1057416e EE NE OO PK IU
+W stm32.rng%s		stm32-rng.adb		stm32-rng.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-interr.ads		20180524194940 bdf68b51 ada.interrupts%s
+D a-intnam.ads		20180524194940 cdde51a1 ada.interrupts.names%s
+D a-taside.ads		20180524194940 c3e0cda8 ada.task_identification%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D i-stm32.ads		20180524194940 4d2e1e9b interfaces.stm32%s
+D i-stm32-pwr.ads	20180524194940 10ed2a13 interfaces.stm32.pwr%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D stm32-rng.ads		20190116062804 e3005cde stm32.rng%s
+D stm32-rng-interrupts.ads  20190116062804 f3571db0 stm32.rng.interrupts%s
+D stm32-rng-interrupts.adb  20190116062804 22b30bcd stm32.rng.interrupts%b
+D system.ads		20180524194940 db831581 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-bb.ads		20180524194940 09e072ae system.bb%s
+D s-bbbopa.ads		20180524194940 95d97b26 system.bb.board_parameters%s
+D s-bbbosu.ads		20180524194940 0f820a2a system.bb.board_support%s
+D s-bbcppr.ads		20180524194940 bcfa73ad system.bb.cpu_primitives%s
+D s-bbinte.ads		20180524194940 c88d39da system.bb.interrupts%s
+D s-bbmcpa.ads		20180524194940 c4c55388 system.bb.mcu_parameters%s
+D s-bbpara.ads		20180524194940 431abc17 system.bb.parameters%s
+D s-bbthre.ads		20180524194940 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20180524194940 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20180524194940 ad086247 system.bb.time%s
+D s-interr.ads		20180524194940 f1954f09 system.interrupts%s
+D s-multip.ads		20180524194940 f33e0e35 system.multiprocessors%s
+D s-mufalo.ads		20180524194940 3dca0374 system.multiprocessors.fair_locks%s
+D s-musplo.ads		20180524194940 69fa25c4 system.multiprocessors.spin_locks%s
+D s-osinte.ads		20180524194940 229b14dd system.os_interface%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-soflin.ads		20180524194940 09900c20 system.soft_links%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stm32.ads		20180524194940 e898dba2 system.stm32%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20180524194940 801abd01 system.task_info%s
+D s-taspri.ads		20180524194940 351848fa system.task_primitives%s
+D s-taskin.ads		20180524194940 58b15916 system.tasking%s
+D s-taprob.ads		20180524194940 c8fc0753 system.tasking.protected_objects%s
+D s-tpoben.ads		20180524194940 8351b91e system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20180524194940 1882ba41 system.tasking.protected_objects.operations%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 14|42r6 71r10
+X 3 a-interr.ads
+40K13*Interrupts 100e19 14|42r10 71r14
+42I9*Interrupt_ID<27|57I9>
+X 4 a-intnam.ads
+8K24*Names 261e25 14|42w21 71r25
+256i4*HASH_RNG_Interrupt{3|42I9} 14|71r31
+X 7 hal.ads
+97M9*UInt32<8|74M9> 13|56r27 14|46r55 60r40 63r24 85r40 107r20 152r17 167r27
+. 168r16
+X 8 interfac.ads
+74M9*Unsigned_32
+X 11 stm32.ads
+39K9*STM32 48e10 13|48r9 60r5 14|44r14 174r5
+X 12 stm32-rng.ads
+48K15*RNG 11|39k9 12|78e14 13|48r15 60r11 14|44r20 174r11
+50U14*Enable_RNG 14|99s10 156s7
+52U14*Disable_RNG 14|132s19
+54U14*Reset_RNG 14|114s13
+56U14*Enable_RNG_Clock 14|154s7
+60U14*Enable_RNG_Interrupt 14|155s7
+64V13*RNG_Interrupt_Enabled{boolean} 13|51s14
+66V13*RNG_Data{7|97M9} 14|125s24
+68V13*RNG_Data_Ready{boolean} 14|124s13
+70V13*RNG_Seed_Error_Status{boolean} 14|109s13
+72V13*RNG_Clock_Error_Status{boolean} 14|117s13
+74U14*Clear_RNG_Seed_Error_Status 14|110s13
+76U14*Clear_RNG_Clock_Error_Status 14|121s13
+X 13 stm32-rng-interrupts.ads
+48K19*Interrupts 12|48k15 13|60l15 60e25 14|44b24 174l15 174t25
+50U14*Initialize_RNG 14|151b14 161l8 161t22
+56V13*Random{7|97M9} 14|167b13 172l8 172t14
+X 14 stm32-rng-interrupts.adb
+46A9 Buffer_Content(7|97M9)<integer> 49r17
+48R9 Ring_Buffer 52e14 64r24
+49a7*Content{46A9} 87r41 90r26 129r48 135r63 136m26
+50i7*Head{integer} 95r34 129r27 135m26 135r42 136r42
+51i7*Tail{integer} 87r20 91m17 95r20 129r72
+58w14 Receiver 79b19 145l8 145t16 160r7 170r7
+60Y13 Get_Random_32 60<28 85b13 100l11 100t24 160s16 170s16
+60m28 Value{7|97M9} 90m10
+63m7 Last{7|97M9} 127r27 139r19
+64r7 Buffer{48R9} 87r13 87r34 90r19 91r10 95r13 95r27 129r20 129r41 129r65
+. 135r19 135r35 135r56 136r19 136r35
+65b7 Data_Available{boolean} 85r53 96r13 138r19
+67U17 Interrupt_Handler 70r10 106b17 143l11 143t28
+85m28 Value{7|97M9}
+86i10 Next{integer} 90r35 91r25
+107m10 Current{7|97M9} 125m13 127r16 136r51 139r27
+152m7 Discard{7|97M9} 160m31
+168m7 Result{7|97M9} 170m31 171r14
+X 27 s-interr.ads
+57I9*Ada_Interrupt_ID<integer>
+97U14*Install_Restricted_Handlers_Sequential 98i<c,__gnat_attach_all_handlers>22
+X 33 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 40 s-taskin.ads
+407V13*Get_Sec_Stack{33|46P9} 408i<c,__gnat_get_secondary_stack>22
+

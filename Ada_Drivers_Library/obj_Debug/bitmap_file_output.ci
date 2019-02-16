@@ -1,0 +1,67 @@
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "1:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:78:62"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "2:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:80:89"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "1:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:101:38"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "2:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:102:39"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "2:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:121:35"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "1:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:122:30"
+}
+edge: { sourcename: "bitmap_file_output__write_bmp_file"
+  targetname: "15:hal__bitmap__bitmap_buffer,hal__bitmap__bitmap_buffer"
+  label: "bitmap_file_output.adb:124:30"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb"
+node: { title: "__gnat_rcheck_PE_Explicit_Raise" label: "gnat_rcheck_PE_Explicit_Raise\n<built-in>" shape : ellipse }
+node: { title: "file_io__write" label: "Write\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.ads:113:13" shape : ellipse }
+node: { title: "memset" label: "builtin_memset\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Length_Check" label: "gnat_rcheck_CE_Length_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "memcmp" label: "builtin_memcmp\n<built-in>" shape : ellipse }
+node: { title: "bitmap_file_output__write_bmp_file" label: "Write_Bmp_File\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:73:4\n152 bytes (dynamic)" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:138:13" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "file_io__write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:136:13" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:132:16" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "file_io__write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:130:16" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:124:21" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:122:30" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:121:35" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:118:10" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "file_io__write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:117:10" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:114:10" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "file_io__write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:113:10" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:102:39" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:101:38" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:90:41" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "memset" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_rcheck_CE_Length_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:84:70" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:80:69" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:80:89" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:80:54" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:78:69" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:78:62" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "bitmap_file_output__infoIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:77:7" }
+edge: { sourcename: "bitmap_file_output__write_bmp_file" targetname: "bitmap_file_output__headerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:76:7" }
+node: { title: "bitmap_file_output__infoIP" label: "Infoip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:50:9\n16 bytes (static)" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:bitmap_file_output__infoEQ" label: "Infoeq\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:50:9\n24 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:bitmap_file_output__infoEQ" targetname: "memcmp" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:50:9" }
+node: { title: "bitmap_file_output__headerIP" label: "Headerip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:37:9\n16 bytes (static)" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:bitmap_file_output__headerEQ" label: "Headereq\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:37:9\n24 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:bitmap_file_output__headerEQ" targetname: "memcmp" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\bitmap\bitmap_file_output.adb:37:9" }
+}

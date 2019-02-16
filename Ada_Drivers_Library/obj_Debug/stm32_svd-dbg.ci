@@ -1,0 +1,10 @@
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-dbg.ads"
+node: { title: "stm32_svd__dbg__dbg_peripheralIP" label: "DBG_PERIPHERALIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-dbg.ads:192:9\n16 bytes (static)" }
+edge: { sourcename: "stm32_svd__dbg__dbg_peripheralIP" targetname: "stm32_svd__dbg__dbgmcu_apb2_fz_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-dbg.ads:200:7" }
+edge: { sourcename: "stm32_svd__dbg__dbg_peripheralIP" targetname: "stm32_svd__dbg__dbgmcu_apb1_fz_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-dbg.ads:198:7" }
+edge: { sourcename: "stm32_svd__dbg__dbg_peripheralIP" targetname: "stm32_svd__dbg__dbgmcu_cr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-dbg.ads:196:7" }
+node: { title: "stm32_svd__dbg__dbgmcu_apb2_fz_registerIP" label: "DBGMCU_APB2_FZ_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-dbg.ads:158:9\n16 bytes (static)" }
+node: { title: "stm32_svd__dbg__dbgmcu_apb1_fz_registerIP" label: "DBGMCU_APB1_FZ_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-dbg.ads:89:9\n16 bytes (static)" }
+node: { title: "stm32_svd__dbg__dbgmcu_cr_registerIP" label: "DBGMCU_CR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-dbg.ads:41:9\n16 bytes (static)" }
+node: { title: "stm32_svd__dbg__dbgmcu_idcode_registerIP" label: "DBGMCU_IDCODE_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-dbg.ads:21:9\n16 bytes (static)" }
+}

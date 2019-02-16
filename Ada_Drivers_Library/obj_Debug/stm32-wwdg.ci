@@ -1,0 +1,14 @@
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb"
+node: { title: "stm32__wwdg__reset_system" label: "RESET_SYSTEM\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:138:4\n4 bytes (static)" }
+node: { title: "stm32__wwdg__clear_wwdg_reset_flag" label: "CLEAR_WWDG_RESET_FLAG\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:129:4\n4 bytes (static)" }
+node: { title: "stm32__wwdg__wwdg_reset_indicated" label: "WWDG_RESET_INDICATED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:122:4\n4 bytes (static)" }
+node: { title: "stm32__wwdg__clear_early_wakeup_interrupt" label: "CLEAR_EARLY_WAKEUP_INTERRUPT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:113:4\n4 bytes (static)" }
+node: { title: "stm32__wwdg__early_wakeup_interrupt_indicated" label: "EARLY_WAKEUP_INTERRUPT_INDICATED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:106:4\n4 bytes (static)" }
+node: { title: "stm32__wwdg__enable_early_wakeup_interrupt" label: "ENABLE_EARLY_WAKEUP_INTERRUPT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:97:4\n4 bytes (static)" }
+node: { title: "stm32__wwdg__refresh_watchdog_counter" label: "REFRESH_WATCHDOG_COUNTER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:88:4\n16 bytes (static)" }
+node: { title: "stm32__wwdg__activate_watchdog" label: "ACTIVATE_WATCHDOG\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:78:4\n16 bytes (static)" }
+node: { title: "stm32__wwdg__set_watchdog_window" label: "SET_WATCHDOG_WINDOW\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:69:4\n16 bytes (static)" }
+node: { title: "stm32__wwdg__set_watchdog_prescaler" label: "SET_WATCHDOG_PRESCALER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:60:4\n16 bytes (static)" }
+node: { title: "stm32__wwdg__reset_watchdog" label: "RESET_WATCHDOG\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:50:4\n4 bytes (static)" }
+node: { title: "stm32__wwdg__enable_watchdog_clock" label: "ENABLE_WATCHDOG_CLOCK\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-wwdg.adb:41:4\n4 bytes (static)" }
+}

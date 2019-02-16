@@ -1,0 +1,77 @@
+edge: { sourcename: "ravenscar_time__Travenscar_delaysCFD"
+  targetname: "-9:ravenscar_time__ravenscar_delays,ravenscar_time__ravenscar_delays"
+  label: "ravenscar_time.ads:40:9"
+}
+class {
+  classname: "ravenscar_time__ravenscar_delays"
+  label: "ravenscar_time__ravenscar_delays\ravenscar_time.ads:40:9"
+  parent: "hal__time__delays"
+  virtuals: "1:ravenscar_time__delay_microseconds__2,1:hal__time__delays\n
+             2:ravenscar_time__delay_milliseconds__2,2:hal__time__delays\n
+             3:ravenscar_time__delay_seconds__2,3:hal__time__delays\n
+             -1:ravenscar_time___size__2,-1:hal__time__delays\n
+             -2:ravenscar_time__ravenscar_delaysSR__2,-2:hal__time__delays\n
+             -3:ravenscar_time__ravenscar_delaysSW__2,-3:hal__time__delays\n
+             -4:ravenscar_time__ravenscar_delaysSI__2,-4:hal__time__delays\n
+             -5:ravenscar_time__ravenscar_delaysSO__2,-5:hal__time__delays\n
+             -9:ravenscar_time__ravenscar_delaysDF__2,-9:hal__time__delays\n
+             -6:ravenscar_time__Oeq\n
+             -7:ravenscar_time___assign\n
+             -8:ravenscar_time__ravenscar_delaysDA"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "ada__real_time__seconds" label: "Seconds\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-reatim.ads:131:13" shape : ellipse }
+node: { title: "ada__real_time__milliseconds" label: "Milliseconds\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-reatim.ads:128:13" shape : ellipse }
+node: { title: "ada__real_time__delays__delay_until" label: "Delay_Until\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-retide.ads:42:14" shape : ellipse }
+node: { title: "ada__real_time__Oadd" label: "+\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-reatim.ads:72:13" shape : ellipse }
+node: { title: "ada__real_time__microseconds" label: "Microseconds\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-reatim.ads:126:13" shape : ellipse }
+node: { title: "ada__real_time__clock" label: "Clock\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-reatim.ads:68:13" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-secsta.ads:58:14" shape : ellipse }
+node: { title: "ravenscar_time___elabs" label: "Ravenscar_Time\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "ravenscar_time___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9" }
+edge: { sourcename: "ravenscar_time___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9" }
+node: { title: "ravenscar_time___elabb" label: "Ravenscar_Time\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:34:1\n8 bytes (static)" }
+edge: { sourcename: "ravenscar_time___elabb" targetname: "ravenscar_time__ravenscar_delaysIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:36:4" }
+node: { title: "ravenscar_time__delay_seconds__2" label: "Delay_Seconds\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:77:15\n24 bytes (static)" }
+edge: { sourcename: "ravenscar_time__delay_seconds__2" targetname: "ada__real_time__delays__delay_until" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:83:7" }
+edge: { sourcename: "ravenscar_time__delay_seconds__2" targetname: "ada__real_time__Oadd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:83:25" }
+edge: { sourcename: "ravenscar_time__delay_seconds__2" targetname: "ada__real_time__seconds" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:83:27" }
+edge: { sourcename: "ravenscar_time__delay_seconds__2" targetname: "ada__real_time__clock" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:83:19" }
+edge: { sourcename: "ravenscar_time__delay_seconds__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:77:15" }
+node: { title: "ravenscar_time__delay_milliseconds__2" label: "Delay_Milliseconds\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:64:15\n24 bytes (static)" }
+edge: { sourcename: "ravenscar_time__delay_milliseconds__2" targetname: "ada__real_time__delays__delay_until" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:70:7" }
+edge: { sourcename: "ravenscar_time__delay_milliseconds__2" targetname: "ada__real_time__Oadd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:70:25" }
+edge: { sourcename: "ravenscar_time__delay_milliseconds__2" targetname: "ada__real_time__milliseconds" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:70:27" }
+edge: { sourcename: "ravenscar_time__delay_milliseconds__2" targetname: "ada__real_time__clock" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:70:19" }
+edge: { sourcename: "ravenscar_time__delay_milliseconds__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:64:15" }
+node: { title: "ravenscar_time__delay_microseconds__2" label: "Delay_Microseconds\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:51:15\n24 bytes (static)" }
+edge: { sourcename: "ravenscar_time__delay_microseconds__2" targetname: "ada__real_time__delays__delay_until" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:57:7" }
+edge: { sourcename: "ravenscar_time__delay_microseconds__2" targetname: "ada__real_time__Oadd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:57:25" }
+edge: { sourcename: "ravenscar_time__delay_microseconds__2" targetname: "ada__real_time__microseconds" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:57:27" }
+edge: { sourcename: "ravenscar_time__delay_microseconds__2" targetname: "ada__real_time__clock" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:57:19" }
+edge: { sourcename: "ravenscar_time__delay_microseconds__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:51:15" }
+node: { title: "ravenscar_time__delays" label: "Delays\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.adb:42:4\n4 bytes (static)" }
+node: { title: "ravenscar_time__finalize_spec" label: "Finalize_Spec\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "ravenscar_time__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:34:1" }
+node: { title: "ravenscar_time__Travenscar_delaysCFD" label: "Travenscar_Delayscfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9\n32 bytes (static)" }
+edge: { sourcename: "ravenscar_time__Travenscar_delaysCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "ravenscar_time__ravenscar_delaysDF__2" label: "Ravenscar_Delaysdf\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9\n16 bytes (static)" }
+node: { title: "ravenscar_time__ravenscar_delaysDA" label: "Ravenscar_Delaysda\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9\n16 bytes (static)" }
+node: { title: "ravenscar_time___assign" label: "Ravenscar_Time\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9\n440 bytes (static)" }
+node: { title: "ravenscar_time__Oeq" label: "=\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:4\n16 bytes (static)" }
+node: { title: "ravenscar_time__ravenscar_delaysSO__2" label: "Ravenscar_Delaysso\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9\n24 bytes (static)" }
+edge: { sourcename: "ravenscar_time__ravenscar_delaysSO__2" targetname: "ravenscar_time__ravenscar_delaysSW__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9" }
+node: { title: "ravenscar_time__ravenscar_delaysSI__2" label: "Ravenscar_Delayssi\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9\n24 bytes (static)" }
+edge: { sourcename: "ravenscar_time__ravenscar_delaysSI__2" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9" }
+edge: { sourcename: "ravenscar_time__ravenscar_delaysSI__2" targetname: "ravenscar_time__ravenscar_delaysSR__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9" }
+edge: { sourcename: "ravenscar_time__ravenscar_delaysSI__2" targetname: "ravenscar_time__ravenscar_delaysIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9" }
+node: { title: "ravenscar_time__ravenscar_delaysSW__2" label: "Ravenscar_Delayssw\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9\n24 bytes (static)" }
+node: { title: "ravenscar_time__ravenscar_delaysSR__2" label: "Ravenscar_Delayssr\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9\n24 bytes (static)" }
+node: { title: "ravenscar_time___size__2" label: "Ravenscar_Time\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9\n16 bytes (static)" }
+node: { title: "ravenscar_time__ravenscar_delaysIP" label: "Ravenscar_Delaysip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:40:9\n16 bytes (static)" }
+}

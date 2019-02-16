@@ -1,0 +1,285 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB SS ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U memory_mapped_bitmap%b  memory_mapped_bitmap.adb  0aac1b73 OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W bitmap_color_conversion%s  bitmap_color_conversion.adb  bitmap_color_conversion.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U memory_mapped_bitmap%s  memory_mapped_bitmap.ads  051331d4 EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.bitmap%s		hal-bitmap.ads		hal-bitmap.ali
+W soft_drawing_bitmap%s	soft_drawing_bitmap.adb	soft_drawing_bitmap.ali
+W system%s		system.ads		system.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D bitmap_color_conversion.ads  20190116062806 7ec7e967 bitmap_color_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-bitmap.ads	20190116062806 03ebc14f hal.bitmap%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D memory_mapped_bitmap.ads  20190116062806 b7ed57c8 memory_mapped_bitmap%s
+D memory_mapped_bitmap.adb  20190116062806 ee45efd8 memory_mapped_bitmap%b
+D soft_drawing_bitmap.ads  20190116062806 41d47adc soft_drawing_bitmap%s
+D system.ads		20180524194940 db831581 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-stratt.ads		20180524194940 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 7 bitmap_color_conversion.ads
+35K9*Bitmap_Color_Conversion 47e28 12|33w6 71r31 97r14 227r31 261r9 400r14
+37V13*Bitmap_Color_To_Word{8|97M9} 12|71s55 227s55
+42V13*Word_To_Bitmap_Color{9|84R9} 12|97s38 261s33 400s38
+X 8 hal.ads
+34K9*HAL 166e8 11|32w6 32r31 33r6 33r31
+37M9*Bit 12|205r60 377r60
+53M9*UInt8<10|63M9> 12|151r34 154r34 157r34 160r35 161r28 162r35 163r28 164r35
+. 164r44 182r32 186r25 191r32 198r33 200r50 283r27 284r27 285r27 286r27 331r34
+. 334r34 337r34 356r32 365r32
+66M9*UInt16<10|66M9> 12|173r32 177r25 347r32
+97M9*UInt32<10|74M9> 11|71r23 107r35 115r28 132r17 149r14 12|81r35 107r28
+. 123r25 142r32 240r17 303r14 309r22 322r32 341r44 342r33 342r57 351r32 360r32
+. 370r35 372r35 382r32
+X 9 hal-bitmap.ads
+34K13*Bitmap 424e15 11|33w10 33r35
+43E9*Bitmap_Color_Mode 56e8 11|49r27 90r70
+44n7*ARGB_8888{43E9} 12|140r15 320r15
+45n7*RGB_888{43E9} 12|149r15 329r15
+46n7*RGB_565{43E9} 12|171r39 345r39
+47n7*ARGB_1555{43E9} 12|171r15 345r15
+48n7*ARGB_4444{43E9} 12|171r27 345r27
+49n7*L_8{43E9} 12|180r15 354r15
+50n7*AL_44{43E9} 12|180r21 354r21
+51n7*AL_88{43E9} 12|171r49 345r49
+52n7*L_4{43E9} 12|189r15 363r15
+53n7*A_8{43E9} 12|180r29 354r29
+54n7*A_4{43E9} 12|189r21 363r21
+55n7*M_1{43E9} 12|203r15 375r15
+58V13*Bits_Per_Pixel{positive} 12|413s14
+67R9*Point 70e14 11|120r17 125r17 131r17 137r16 142r16 148r16 12|117r16 223r17
+. 239r17 254r16 302r16 396r16
+68i7*X{natural} 12|119r30 125r13 136r23 305r26 316r23
+69i7*Y{natural} 12|120r30 126r20 136r30 306r26 316r30
+84R9*Bitmap_Color 89e15 11|103r35 111r28 126r17 143r14 12|68r35 94r14 224r17
+. 256r13 260r24 397r14
+85m7*Alpha{8|53M9} 12|264r16 268r28 273r30 283m18
+86m7*Red{8|53M9} 12|269r28 274r30 284m18
+87m7*Green{8|53M9} 12|270r28 275r30 285m18
+88m7*Blue{8|53M9} 12|271r28 276r30 286m18
+98h9*Bitmap_Buffer 12|38r16 47r16 267r24
+102y13*Width{natural} 12|59R19
+110y13*Swapped{boolean} 12|53R21
+179y13*Pixel{84R9} 12|267R17
+X 10 interfac.ads
+63M9*Unsigned_8
+66M9*Unsigned_16
+74M9*Unsigned_32
+81V13*Shift_Left{63M9} 12|198s21
+85V13*Shift_Right{63M9} 12|370s43
+121V13*Shift_Left{74M9} 12|341s32 342s21
+125V13*Shift_Right{74M9} 12|161s35 163s35
+X 11 memory_mapped_bitmap.ads
+37K9*Memory_Mapped_Bitmap 154l5 154e25 12|35b14 416l5 416t25
+39H12*Parent{13|42R9} 41r44
+41R9*Memory_Mapped_Bitmap_Buffer<13|42R9> 73e14 75r55 78P13 78r29 82P13 82r30
+. 86P13 86r31 90P13 90r34 94P13 94r37 98P13 98r38 102P14 102r42 106P14 106r42
+. 110P13 110r30 114P13 114r30 118P14 119r24 123P14 124r24 129P14 130r24 135P14
+. 136r23 140P13 141r16 146P13 147r16 152P13 152r35 12|67r42 80r42 93r16 106r30
+. 116r23 222r24 238r24 253r23 265r21 301r16 395r16 410r35 13|75P14 82P14
+. 87P14 93P14 105P14 115P14 125P14 131P14 137P14 144P14 151P14 157P14 163P14
+. 169P14
+42m7*Addr{14|80M9} 99r14 12|144r41 153r41 156r41 159r41 175r41 184r41 193r41
+. 208r49 324r41 333r41 336r41 339r41 349r41 358r41 367r41 380r49
+44i7*Actual_Width{natural} 79r73 83r47
+45i7*Actual_Height{natural} 79r47 83r72
+49e7*Actual_Color_Mode{9|43E9} 91r14 12|72r17 98r17 228r17 261r62 401r17
+54b7*Currently_Swapped{boolean} 79r17 83r17 87r14
+71m7*Native_Source{8|97M9} 12|71m14 84m14 98r43 108r15 123r42 227m14 243m14
+. 262r62
+75P9*Any_Memory_Mapped_Bitmap_Buffer(41R9)
+78V13*Width{natural}<9|102p13> 78>20 12|125s25 136s41 207s67 316s41 379s67
+. 414s16
+78r20 Buffer{41R9} 79r10 79r40 79r66
+82V13*Height{natural}<9|106p13> 82>21 12|126s32 133s37 207s51 313s37 379s51
+. 414s31
+82r21 Buffer{41R9} 83r10 83r40 83r65
+86V13*Swapped{boolean}<9|110p13> 86>22 12|131s17 311s17
+86r22 Buffer{41R9} 87r7
+90V13*Color_Mode{9|43E9}<9|127p13> 90>25 12|139s19 319s19 413s37
+90r25 Buffer{41R9} 91r7
+94V13*Mapped_In_RAM{boolean}<9|132p13> 94>28
+94r28 Buffer{41R9}
+98V13*Memory_Address{14|80M9}<9|135p13> 98>29
+98r29 Buffer{41R9} 99r7
+102U14*Set_Source<13|48p14> 102=26 103>26 12|67b14 73l8 73t18 287s10 292s7
+102r26 Buffer{41R9} 12|67b26 71m7 72r10
+103r26 ARGB{9|84R9} 12|68b26 72r36
+106U14*Set_Source<9|144p14> 106=26 107>26 12|80b14 85l8 85t18
+106r26 Buffer{41R9} 12|80b26 84m7
+107m26 Native{8|97M9} 12|81b26 84r31
+110V13*Source{9|84R9}<13|52p13> 110>21 12|92b13 99l8 99t14
+110r21 Buffer{41R9} 12|93b7 98r10 98r36
+114V13*Source{8|97M9}<9|153p13> 114>21 12|106b13
+114r21 Buffer{41R9} 12|108r8
+118U14*Set_Pixel<9|158p14> 119=7 120>7 12|115b14 214l8 214t17 229s7 244s7
+. 265R10 288s10
+119r7 Buffer{41R9} 12|116b7 123r35 125r18 126r25 131r10 132r23 133r30 136r34
+. 139r12 144r34 153r34 156r34 159r34 175r34 184r34 193r34 207r44 207r60 208r42
+120r7 Pt{9|67R9} 12|117b7 119r27 120r27 125r10 126r17 136r20 136r27
+123U14*Set_Pixel<13|57p14> 124=7 125>7 126>7 12|221b14 230l8 230t17
+124r7 Buffer{41R9} 12|222b7 227m7 228r10 229m18
+125r7 Pt{9|67R9} 12|223b7 229r26
+126r7 Color{9|84R9} 12|224b7 228r36
+129U14*Set_Pixel<13|63p14> 130=7 131>7 132>7 12|237b14 245l8 245t17
+130r7 Buffer{41R9} 12|238b7 243m7 244m18
+131r7 Pt{9|67R9} 12|239b7 244r26
+132m7 Raw{8|97M9} 12|240b7 243r31
+135U14*Set_Pixel_Blend<9|175p14> 136=7 137>7 12|252b14 293l8 293t23
+136r7 Buffer{41R9} 12|253b7 261r55 262r55 265m56 265r56 267r45 287m22 288m21
+. 292m19
+137r7 Pt{9|67R9} 12|254b7 265r65 267r54 288r29
+140V13*Pixel{9|84R9}<13|69p13> 141>7 142>7 12|394b13 403l8 403t13
+141r7 Buffer{41R9} 12|395b7 401r10 402r17
+142r7 Pt{9|67R9} 12|396b7 402r25
+146V13*Pixel{8|97M9}<9|185p13> 147>7 148>7 12|300b13 387l8 387t13 402s10
+147r7 Buffer{41R9} 12|301b7 311r10 312r23 313r30 316r34 319r12 324r34 333r34
+. 336r34 339r34 349r34 358r34 367r34 379r44 379r60 380r42
+148r7 Pt{9|67R9} 12|302b7 305r23 306r23 316r20 316r27
+152V13*Buffer_Size{natural}<9|281p13> 152>26 12|410b13 415l8 415t19
+152r26 Buffer{41R9} 12|410b26 413r30 414r9 414r24
+X 12 memory_mapped_bitmap.adb
+37U14 Handle_Swap 38>7 39=7 40=7 46b14 60l8 60t19 132s10 312s10
+38c7 Buffer<9|98R9> 47b7 53r14 59r12
+39i7 X{natural} 48b7 57r14 58m7
+40i7 Y{natural} 49b7 58r12 59m7
+51i7 Tmp{natural} 57m7 59r27
+119i7 X0{natural} 132m31 132r31 133r20
+120i7 Y0{natural} 132m35 132r35 133r25
+121i7 Offset{natural} 133m10 136m10 144r64 153r64 156r64 159r64 175r64 184r64
+. 193r64 195r19 210r20
+123m7 Value{8|97M9} 146r25 161r48 163r48 164r51 177r33 186r32 198r40 200r57
+. 210r35
+142m16 Pixel{8|97M9} 146m16
+151m16 Pixel_B{8|53M9} 166m16
+154m16 Pixel_G{8|53M9} 167m16
+157m16 Pixel_R{8|53M9} 168m16
+160m16 R{8|53M9} 168r27
+162m16 G{8|53M9} 167r27
+164m16 B{8|53M9} 166r27
+173m16 Pixel{8|66M9} 177m16
+182m16 Pixel{8|53M9} 186m16
+191m16 Pixel{8|53M9} 196m19 197r22 200m19 200r29
+205A21 Mono_BM(8|37M9)<integer> 207r29
+207a16 BM{205A21} 210m16
+256r7 Col{9|84R9} 267m10 268r24 269r24 270r24 271r24 283m10 287r30
+257f7 FgA{float} 273m10 278r29 279r22 279r52 280r22 280r52 281r22 281r52
+257f12 FgR{float} 274m10 279r16
+257f17 FgG{float} 275m10 280r16
+257f22 FgB{float} 276m10 278r43 281r16
+258f7 BgA{float} 268m10 279r39 280r39 281r39
+258f12 BgR{float} 269m10 279r33
+258f17 BgG{float} 270m10 280r33
+258f22 BgB{float} 271m10 281r33
+259f7 RA{float} 278m10 279r28 279r59 280r28 280r59 281r28 281r59 283r34
+259f11 RR{float} 279m10 284r34
+259f15 RG{float} 280m10 285r34
+259f19 RB{float} 281m10 286r34
+260r7 Value{9|84R9} 264r10 273r24 274r24 275r24 276r24 292r27
+305i7 X0{natural} 312m31 312r31 313r20
+306i7 Y0{natural} 312m35 312r35 313r25
+307i7 Offset{natural} 313m10 316m10 324r64 333r64 336r64 339r64 349r64 358r64
+. 367r64 369r19 382r44
+309m7 Native_Color{8|97M9} 326m16 341m16 351m16 360m16 370m19 372m19 382m16
+. 386r14
+322m16 Pixel{8|97M9} 326r32
+331m16 Pixel_B{8|53M9} 342r65
+334m16 Pixel_G{8|53M9} 342r41
+337m16 Pixel_R{8|53M9} 341r52
+347m16 Pixel{8|66M9} 351r40
+356m16 Pixel{8|53M9} 360r40
+365m16 Pixel{8|53M9} 370r56 372r43
+377A21 Mono_BM(8|37M9)<integer> 379r29
+379a16 BM{377A21} 382r40
+X 13 soft_drawing_bitmap.ads
+38K9*Soft_Drawing_Bitmap 11|34w6 34r31 13|175e24
+42H9*Soft_Drawing_Bitmap_Buffer<9|98R9> 11|39r22 13|42e75
+75U14*Draw_Line<9|191p14>
+82U14*Fill<9|200p14>
+87U14*Fill_Rect<9|204p14>
+93U14*Copy_Rect<9|209p14>
+105U14*Copy_Rect<9|220p14>
+115U14*Copy_Rect_Blend<9|229p14>
+125U14*Draw_Vertical_Line<9|238p14>
+131U14*Draw_Horizontal_Line<9|243p14>
+137U14*Draw_Rect<9|248p14>
+144U14*Draw_Rounded_Rect<9|254p14>
+151U14*Fill_Rounded_Rect<9|260p14>
+157U14*Draw_Circle<9|265p14>
+163U14*Fill_Circle<9|270p14>
+169U14*Cubic_Bezier<9|275p14>
+X 14 system.ads
+50K9*System 11|35w6 42r27 98r74 12|32r6 32r35 14|164e11
+80M9*Address 11|42r34 98r81
+X 22 s-stoele.ads
+42K16*Storage_Elements 12|32w13 32r42 22|117e28
+54I9*Storage_Offset<integer> 12|144r48 153r48 156r48 159r48 175r48 184r48
+. 193r48 324r48 333r48 336r48 339r48 349r48 358r48 367r48
+76V14*"+"{14|80M9} 12|144s46 153s46 156s46 159s46 175s46 184s46 193s46 324s46
+. 333s46 336s46 339s46 349s46 358s46 367s46
+

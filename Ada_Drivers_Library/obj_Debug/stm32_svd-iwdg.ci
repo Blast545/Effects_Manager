@@ -1,0 +1,10 @@
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-iwdg.ads"
+node: { title: "stm32_svd__iwdg__iwdg_peripheralIP" label: "IWDG_PERIPHERALIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-iwdg.ads:91:9\n16 bytes (static)" }
+edge: { sourcename: "stm32_svd__iwdg__iwdg_peripheralIP" targetname: "stm32_svd__iwdg__rlr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-iwdg.ads:97:7" }
+edge: { sourcename: "stm32_svd__iwdg__iwdg_peripheralIP" targetname: "stm32_svd__iwdg__pr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-iwdg.ads:95:7" }
+edge: { sourcename: "stm32_svd__iwdg__iwdg_peripheralIP" targetname: "stm32_svd__iwdg__kr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-iwdg.ads:93:7" }
+node: { title: "stm32_svd__iwdg__sr_registerIP" label: "SR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-iwdg.ads:69:9\n16 bytes (static)" }
+node: { title: "stm32_svd__iwdg__rlr_registerIP" label: "RLR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-iwdg.ads:54:9\n16 bytes (static)" }
+node: { title: "stm32_svd__iwdg__pr_registerIP" label: "PR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-iwdg.ads:37:9\n16 bytes (static)" }
+node: { title: "stm32_svd__iwdg__kr_registerIP" label: "KR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-iwdg.ads:20:9\n16 bytes (static)" }
+}

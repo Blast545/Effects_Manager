@@ -1,0 +1,391 @@
+edge: { sourcename: "file_io__Tvfs_directory_handleCFD"
+  targetname: "-9:file_io__vfs_directory_handle,file_io__vfs_directory_handle"
+  label: "file_io.adb:59:9"
+}
+edge: { sourcename: "file_io__close"
+  targetname: "9:hal__filesystem__file_handle,hal__filesystem__file_handle"
+  label: "file_io.adb:134:21"
+}
+edge: { sourcename: "file_io__flush"
+  targetname: "7:hal__filesystem__file_handle,hal__filesystem__file_handle"
+  label: "file_io.adb:158:37"
+}
+edge: { sourcename: "file_io__size"
+  targetname: "2:hal__filesystem__file_handle,hal__filesystem__file_handle"
+  label: "file_io.adb:176:37"
+}
+edge: { sourcename: "file_io__read"
+  targetname: "3:hal__filesystem__file_handle,hal__filesystem__file_handle"
+  label: "hal-filesystem.ads:195:24"
+}
+edge: { sourcename: "file_io__read"
+  targetname: "4:hal__filesystem__file_handle,hal__filesystem__file_handle"
+  label: "file_io.adb:198:37"
+}
+edge: { sourcename: "file_io__write"
+  targetname: "3:hal__filesystem__file_handle,hal__filesystem__file_handle"
+  label: "hal-filesystem.ads:203:21"
+}
+edge: { sourcename: "file_io__write"
+  targetname: "5:hal__filesystem__file_handle,hal__filesystem__file_handle"
+  label: "file_io.adb:225:37"
+}
+edge: { sourcename: "file_io__offset"
+  targetname: "6:hal__filesystem__file_handle,hal__filesystem__file_handle"
+  label: "file_io.adb:244:37"
+}
+edge: { sourcename: "file_io__seek"
+  targetname: "8:hal__filesystem__file_handle,hal__filesystem__file_handle"
+  label: "file_io.adb:265:37"
+}
+edge: { sourcename: "file_io__close__2"
+  targetname: "4:hal__filesystem__directory_handle,hal__filesystem__directory_handle"
+  label: "file_io.adb:338:20"
+}
+edge: { sourcename: "file_io__read__2"
+  targetname: "2:hal__filesystem__directory_handle,hal__filesystem__directory_handle"
+  label: "file_io.adb:356:36"
+}
+edge: { sourcename: "file_io__read__2"
+  targetname: "2:hal__filesystem__node_handle,hal__filesystem__node_handle"
+  label: "file_io.adb:362:40"
+}
+edge: { sourcename: "file_io__read__2"
+  targetname: "5:hal__filesystem__node_handle,hal__filesystem__node_handle"
+  label: "file_io.adb:366:34"
+}
+edge: { sourcename: "file_io__read__2"
+  targetname: "3:hal__filesystem__node_handle,hal__filesystem__node_handle"
+  label: "file_io.adb:367:34"
+}
+edge: { sourcename: "file_io__read__2"
+  targetname: "4:hal__filesystem__node_handle,hal__filesystem__node_handle"
+  label: "file_io.adb:368:34"
+}
+edge: { sourcename: "file_io__read__2"
+  targetname: "6:hal__filesystem__node_handle,hal__filesystem__node_handle"
+  label: "file_io.adb:369:34"
+}
+edge: { sourcename: "file_io__read__2"
+  targetname: "7:hal__filesystem__node_handle,hal__filesystem__node_handle"
+  label: "file_io.adb:370:43"
+}
+edge: { sourcename: "file_io__read__2"
+  targetname: "8:hal__filesystem__node_handle,hal__filesystem__node_handle"
+  label: "file_io.adb:371:14"
+}
+edge: { sourcename: "file_io__reset"
+  targetname: "3:hal__filesystem__directory_handle,hal__filesystem__directory_handle"
+  label: "file_io.adb:383:20"
+}
+edge: { sourcename: "file_io__create_file"
+  targetname: "2:hal__filesystem__filesystem_driver,hal__filesystem__filesystem_driver"
+  label: "file_io.adb:401:25"
+}
+edge: { sourcename: "file_io__unlink"
+  targetname: "3:hal__filesystem__filesystem_driver,hal__filesystem__filesystem_driver"
+  label: "file_io.adb:418:25"
+}
+edge: { sourcename: "file_io__remove_directory"
+  targetname: "4:hal__filesystem__filesystem_driver,hal__filesystem__filesystem_driver"
+  label: "file_io.adb:435:25"
+}
+edge: { sourcename: "file_io__unmount"
+  targetname: "7:hal__filesystem__filesystem_driver,hal__filesystem__filesystem_driver"
+  label: "file_io.adb:624:32"
+}
+edge: { sourcename: "file_io__read__4"
+  targetname: "5:hal__filesystem__filesystem_driver,hal__filesystem__filesystem_driver"
+  label: "file_io.adb:665:50"
+}
+edge: { sourcename: "file_io__open__4"
+  targetname: "6:hal__filesystem__filesystem_driver,hal__filesystem__filesystem_driver"
+  label: "file_io.adb:712:25"
+}
+edge: { sourcename: "file_io__open__3"
+  targetname: "1:hal__filesystem__filesystem_driver,hal__filesystem__filesystem_driver"
+  label: "file_io.adb:751:28"
+}
+edge: { sourcename: "file_io__open__3"
+  targetname: "1:hal__filesystem__filesystem_driver,hal__filesystem__filesystem_driver"
+  label: "file_io.adb:753:28"
+}
+class {
+  classname: "file_io__vfs_directory_handle"
+  label: "file_io__vfs_directory_handle\file_io.adb:59:9"
+  parent: "hal__filesystem__directory_handle"
+  virtuals: "1:file_io__get_fs__2,1:hal__filesystem__directory_handle\n
+             2:file_io__read__4,2:hal__filesystem__directory_handle\n
+             3:file_io__reset__3,3:hal__filesystem__directory_handle\n
+             4:file_io__close__4,4:hal__filesystem__directory_handle\n
+             -1:file_io___size__2,-1:hal__filesystem__directory_handle\n
+             -2:file_io__vfs_directory_handleSR__2,-2:hal__filesystem__directory_handle\n
+             -3:file_io__vfs_directory_handleSW__2,-3:hal__filesystem__directory_handle\n
+             -4:file_io__vfs_directory_handleSI__2,-4:hal__filesystem__directory_handle\n
+             -5:file_io__vfs_directory_handleSO__2,-5:hal__filesystem__directory_handle\n
+             -9:file_io__vfs_directory_handleDF__2,-9:hal__filesystem__directory_handle\n
+             -6:file_io__Oeq\n
+             -7:file_io___assign\n
+             -8:file_io__vfs_directory_handleDA"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "filesystem__fat__open__4" label: "Open\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\filesystem-fat.ads:134:13" shape : ellipse }
+node: { title: "filesystem__mbr__lba" label: "Lba\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\filesystem-mbr.ads:55:13" shape : ellipse }
+node: { title: "filesystem__fat__fat_filesystemIP" label: "Fat_Filesystemip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\filesystem-fat.ads:299:9" shape : ellipse }
+node: { title: "__gnat_malloc" label: "gnat_malloc\n<built-in>" shape : ellipse }
+node: { title: "filesystem__mbr__get_type" label: "Get_Type\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\filesystem-mbr.ads:53:13" shape : ellipse }
+node: { title: "filesystem__mbr__valid" label: "Valid\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\filesystem-mbr.ads:51:13" shape : ellipse }
+node: { title: "filesystem__mbr__read" label: "Read\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\filesystem-mbr.ads:45:13" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+node: { title: "system__secondary_stack__ss_release" label: "Ss_Release\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-secsta.ads:70:14" shape : ellipse }
+node: { title: "memcmp" label: "builtin_memcmp\n<built-in>" shape : ellipse }
+node: { title: "system__secondary_stack__ss_mark" label: "Ss_Mark\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-secsta.ads:67:13" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Index_Check" label: "gnat_rcheck_CE_Index_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Length_Check" label: "gnat_rcheck_CE_Length_Check\n<built-in>" shape : ellipse }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-assert.ads:46:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-secsta.ads:58:14" shape : ellipse }
+node: { title: "system__stream_attributes__w_i" label: "W_I\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:137:14" shape : ellipse }
+node: { title: "system__stream_attributes__w_b" label: "W_B\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:134:14" shape : ellipse }
+node: { title: "system__stream_attributes__i_i" label: "I_I\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:106:13" shape : ellipse }
+node: { title: "system__stream_attributes__i_b" label: "I_B\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:103:13" shape : ellipse }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:_GLOBAL__SZ1_file_io" label: "SZ1_file_io\n<built-in>\n16 bytes (static)" }
+node: { title: "file_io___elabb" label: "FILE_IO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:38:1\n16 bytes (static)" }
+edge: { sourcename: "file_io___elabb" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+edge: { sourcename: "file_io___elabb" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+edge: { sourcename: "file_io___elabb" targetname: "file_io__ThandlesBIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:93:4" }
+edge: { sourcename: "file_io___elabb" targetname: "file_io__Tmount_arrayBIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:91:4" }
+node: { title: "file_io__finalize_body" label: "FINALIZE_BODY\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:38:1\n8 bytes (static)" }
+edge: { sourcename: "file_io__finalize_body" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:38:1" }
+node: { title: "file_io__open__3" label: "OPEN\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:721:4\n112 bytes (static)" }
+edge: { sourcename: "file_io__open__3" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:753:28" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "file_io__open__3" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:753:45" }
+edge: { sourcename: "file_io__open__3" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:753:26" }
+edge: { sourcename: "file_io__open__3" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:751:28" }
+edge: { sourcename: "file_io__open__3" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:751:26" }
+edge: { sourcename: "file_io__open__3" targetname: "file_io__split" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:743:7" }
+node: { title: "file_io__open__4" label: "OPEN\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:696:4\n88 bytes (static)" }
+edge: { sourcename: "file_io__open__4" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:712:25" }
+edge: { sourcename: "file_io__open__4" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:712:42" }
+edge: { sourcename: "file_io__open__4" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:712:23" }
+edge: { sourcename: "file_io__open__4" targetname: "file_io__split" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:705:7" }
+node: { title: "file_io__close__4" label: "CLOSE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:686:15\n16 bytes (static)" }
+edge: { sourcename: "file_io__close__4" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:686:15" }
+node: { title: "file_io__reset__3" label: "RESET\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:676:15\n16 bytes (static)" }
+edge: { sourcename: "file_io__reset__3" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:676:15" }
+node: { title: "file_io__read__4" label: "READ\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:650:15\n72 bytes (static)" }
+edge: { sourcename: "file_io__read__4" targetname: "_Unwind_Resume" }
+edge: { sourcename: "file_io__read__4" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__read__L_8__B209b___finalizer__4.7330" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:665:0" }
+edge: { sourcename: "file_io__read__4" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:665:50" }
+edge: { sourcename: "file_io__read__4" targetname: "file_io__name" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:666:16" }
+edge: { sourcename: "file_io__read__4" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:666:22" }
+edge: { sourcename: "file_io__read__4" targetname: "system__secondary_stack__ss_mark" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:665:13" }
+edge: { sourcename: "file_io__read__4" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:665:47" }
+edge: { sourcename: "file_io__read__4" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:665:20" }
+edge: { sourcename: "file_io__read__4" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:664:17" }
+edge: { sourcename: "file_io__read__4" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:662:39" }
+edge: { sourcename: "file_io__read__4" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:650:15" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__read__L_8__B209b___finalizer__4.7330" label: "B209B\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:665:13\n16 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__read__L_8__B209b___finalizer__4.7330" targetname: "system__secondary_stack__ss_release" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:665:13" }
+node: { title: "file_io__get_fs__2" label: "GET_FS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:638:15\n16 bytes (static)" }
+edge: { sourcename: "file_io__get_fs__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:638:15" }
+node: { title: "file_io__unmount" label: "UNMOUNT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:619:4\n72 bytes (static)" }
+edge: { sourcename: "file_io__unmount" targetname: "_Unwind_Resume" }
+edge: { sourcename: "file_io__unmount" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:624:32" }
+edge: { sourcename: "file_io__unmount" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:624:29" }
+edge: { sourcename: "file_io__unmount" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__unmount__L_7__B195b___finalizer.7318" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:623:0" }
+edge: { sourcename: "file_io__unmount" targetname: "memcmp" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:623:37" }
+edge: { sourcename: "file_io__unmount" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:_GLOBAL__SZ1_file_io" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:623:37" }
+edge: { sourcename: "file_io__unmount" targetname: "file_io__name" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:623:13" }
+edge: { sourcename: "file_io__unmount" targetname: "system__secondary_stack__ss_mark" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:623:37" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__unmount__L_7__B195b___finalizer.7318" label: "B195B\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:623:37\n16 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__unmount__L_7__B195b___finalizer.7318" targetname: "system__secondary_stack__ss_release" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:623:37" }
+node: { title: "file_io__mount_drive" label: "MOUNT_DRIVE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:584:4\n584 bytes (static)" }
+edge: { sourcename: "file_io__mount_drive" targetname: "file_io__mount_volume" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:608:13" }
+edge: { sourcename: "file_io__mount_drive" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:608:34" }
+edge: { sourcename: "file_io__mount_drive" targetname: "file_io__mount_pathPredicate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:608:34" }
+edge: { sourcename: "file_io__mount_drive" targetname: "filesystem__fat__open__4" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:605:20" }
+edge: { sourcename: "file_io__mount_drive" targetname: "filesystem__mbr__lba" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:606:52" }
+edge: { sourcename: "file_io__mount_drive" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:607:59" }
+edge: { sourcename: "file_io__mount_drive" targetname: "filesystem__fat__fat_filesystemIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:604:23" }
+edge: { sourcename: "file_io__mount_drive" targetname: "__gnat_malloc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:604:23" }
+edge: { sourcename: "file_io__mount_drive" targetname: "filesystem__mbr__get_type" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:601:21" }
+edge: { sourcename: "file_io__mount_drive" targetname: "filesystem__mbr__valid" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:600:13" }
+edge: { sourcename: "file_io__mount_drive" targetname: "filesystem__mbr__read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:593:14" }
+node: { title: "file_io__mount_volume" label: "MOUNT_VOLUME\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:552:4\n80 bytes (static)" }
+edge: { sourcename: "file_io__mount_volume" targetname: "_Unwind_Resume" }
+edge: { sourcename: "file_io__mount_volume" targetname: "file_io__set_name" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:575:7" }
+edge: { sourcename: "file_io__mount_volume" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:575:31" }
+edge: { sourcename: "file_io__mount_volume" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:575:37" }
+edge: { sourcename: "file_io__mount_volume" targetname: "file_io__mount_pathPredicate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:575:37" }
+edge: { sourcename: "file_io__mount_volume" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:575:17" }
+edge: { sourcename: "file_io__mount_volume" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:574:21" }
+edge: { sourcename: "file_io__mount_volume" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:574:7" }
+edge: { sourcename: "file_io__mount_volume" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:573:21" }
+edge: { sourcename: "file_io__mount_volume" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:573:7" }
+edge: { sourcename: "file_io__mount_volume" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__mount_volume__L_5__B171b___finalizer.7106" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:560:0" }
+edge: { sourcename: "file_io__mount_volume" targetname: "memcmp" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:560:45" }
+edge: { sourcename: "file_io__mount_volume" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:_GLOBAL__SZ1_file_io" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:560:45" }
+edge: { sourcename: "file_io__mount_volume" targetname: "file_io__name" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:560:21" }
+edge: { sourcename: "file_io__mount_volume" targetname: "system__secondary_stack__ss_mark" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:560:12" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__mount_volume__L_5__B171b___finalizer.7106" label: "B171B\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:560:12\n16 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__mount_volume__L_5__B171b___finalizer.7106" targetname: "system__secondary_stack__ss_release" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:560:12" }
+node: { title: "file_io__split" label: "SPLIT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:511:4\n112 bytes (static)" }
+edge: { sourcename: "file_io__split" targetname: "_Unwind_Resume" }
+edge: { sourcename: "file_io__split" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__split__L_4__B161b___finalizer.7087" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:536:0" }
+edge: { sourcename: "file_io__split" targetname: "memcmp" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:536:30" }
+edge: { sourcename: "file_io__split" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:_GLOBAL__SZ1_file_io" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:536:30" }
+edge: { sourcename: "file_io__split" targetname: "file_io__name" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:536:21" }
+edge: { sourcename: "file_io__split" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:536:49" }
+edge: { sourcename: "file_io__split" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:536:53" }
+edge: { sourcename: "file_io__split" targetname: "system__secondary_stack__ss_mark" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:536:12" }
+edge: { sourcename: "file_io__split" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:528:28" }
+edge: { sourcename: "file_io__split" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:527:13" }
+edge: { sourcename: "file_io__split" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:526:27" }
+edge: { sourcename: "file_io__split" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:524:32" }
+edge: { sourcename: "file_io__split" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:524:32" }
+edge: { sourcename: "file_io__split" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:517:36" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__split__L_4__B161b___finalizer.7087" label: "B161B\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:536:12\n16 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:file_io__split__L_4__B161b___finalizer.7087" targetname: "system__secondary_stack__ss_release" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:536:12" }
+node: { title: "file_io__set_name" label: "SET_NAME\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:499:4\n56 bytes (static)" }
+edge: { sourcename: "file_io__set_name" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:504:29" }
+edge: { sourcename: "file_io__set_name" targetname: "memcpy" }
+edge: { sourcename: "file_io__set_name" targetname: "__gnat_rcheck_CE_Length_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:503:40" }
+edge: { sourcename: "file_io__set_name" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:503:28" }
+edge: { sourcename: "file_io__set_name" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:503:21" }
+node: { title: "file_io__name" label: "NAME\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:492:4\n24 bytes (static)" }
+edge: { sourcename: "file_io__name" targetname: "memcpy" }
+edge: { sourcename: "file_io__name" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:493:13" }
+edge: { sourcename: "file_io__name" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:493:22" }
+node: { title: "file_io__copy_file" label: "COPY_FILE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:442:4\n72 bytes (dynamic)" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__close" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:484:7" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__close" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:483:7" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__close" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:477:13" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__close" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:476:13" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:473:18" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:469:18" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__close" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:464:10" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__open" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:462:14" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__close" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:458:10" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__create_file" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:456:14" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__open" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:451:14" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__file_descriptorIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:446:7" }
+edge: { sourcename: "file_io__copy_file" targetname: "file_io__file_descriptorIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:446:7" }
+node: { title: "file_io__remove_directory" label: "REMOVE_DIRECTORY\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:425:4\n64 bytes (static)" }
+edge: { sourcename: "file_io__remove_directory" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:435:7" }
+edge: { sourcename: "file_io__remove_directory" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:435:54" }
+edge: { sourcename: "file_io__remove_directory" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:435:23" }
+edge: { sourcename: "file_io__remove_directory" targetname: "file_io__split" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:429:7" }
+node: { title: "file_io__unlink" label: "UNLINK\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:408:4\n64 bytes (static)" }
+edge: { sourcename: "file_io__unlink" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:418:7" }
+edge: { sourcename: "file_io__unlink" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:418:44" }
+edge: { sourcename: "file_io__unlink" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:418:23" }
+edge: { sourcename: "file_io__unlink" targetname: "file_io__split" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:412:7" }
+node: { title: "file_io__create_file" label: "CREATE_FILE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:391:4\n64 bytes (static)" }
+edge: { sourcename: "file_io__create_file" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:401:7" }
+edge: { sourcename: "file_io__create_file" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:401:49" }
+edge: { sourcename: "file_io__create_file" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:401:23" }
+edge: { sourcename: "file_io__create_file" targetname: "file_io__split" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:395:7" }
+node: { title: "file_io__reset" label: "RESET\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:380:4\n16 bytes (static)" }
+edge: { sourcename: "file_io__reset" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:383:20" }
+edge: { sourcename: "file_io__reset" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:383:13" }
+node: { title: "file_io__read__2" label: "READ\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:346:4\n128 bytes (dynamic)" }
+edge: { sourcename: "file_io__read__2" targetname: "memcpy" }
+edge: { sourcename: "file_io__read__2" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:372:10" }
+edge: { sourcename: "file_io__read__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:371:14" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:371:10" }
+edge: { sourcename: "file_io__read__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:370:43" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:370:39" }
+edge: { sourcename: "file_io__read__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:369:34" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:369:30" }
+edge: { sourcename: "file_io__read__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:368:34" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:368:30" }
+edge: { sourcename: "file_io__read__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:367:34" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:367:30" }
+edge: { sourcename: "file_io__read__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:366:34" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:366:30" }
+edge: { sourcename: "file_io__read__2" targetname: "memcpy" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Length_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:365:30" }
+edge: { sourcename: "file_io__read__2" targetname: "file_io__directory_entryIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:363:10" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:363:53" }
+edge: { sourcename: "file_io__read__2" targetname: "memcpy" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:362:40" }
+edge: { sourcename: "file_io__read__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:362:40" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:362:36" }
+edge: { sourcename: "file_io__read__2" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:358:10" }
+edge: { sourcename: "file_io__read__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:356:36" }
+edge: { sourcename: "file_io__read__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:356:29" }
+edge: { sourcename: "file_io__read__2" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:353:10" }
+node: { title: "file_io__close__2" label: "CLOSE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:335:4\n16 bytes (static)" }
+edge: { sourcename: "file_io__close__2" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:338:20" }
+edge: { sourcename: "file_io__close__2" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:338:13" }
+node: { title: "file_io__open__2" label: "OPEN\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:312:4\n40 bytes (static)" }
+edge: { sourcename: "file_io__open__2" targetname: "file_io__open__3" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:322:14" }
+node: { title: "file_io__seek" label: "SEEK\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:254:4\n72 bytes (static)" }
+edge: { sourcename: "file_io__seek" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:265:37" }
+edge: { sourcename: "file_io__seek" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:265:30" }
+node: { title: "file_io__offset" label: "OFFSET\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:238:4\n24 bytes (static)" }
+edge: { sourcename: "file_io__offset" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:244:10" }
+edge: { sourcename: "file_io__offset" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:244:30" }
+node: { title: "file_io__write" label: "WRITE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:211:4\n56 bytes (static)" }
+edge: { sourcename: "file_io__write" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:225:14" }
+edge: { sourcename: "file_io__write" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:225:37" }
+edge: { sourcename: "file_io__write" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:203:21" }
+edge: { sourcename: "file_io__write" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:225:30" }
+node: { title: "file_io__read" label: "READ\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:184:4\n80 bytes (static)" }
+edge: { sourcename: "file_io__read" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:198:37" }
+edge: { sourcename: "file_io__read" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:198:37" }
+edge: { sourcename: "file_io__read" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:195:24" }
+edge: { sourcename: "file_io__read" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:198:30" }
+node: { title: "file_io__size" label: "SIZE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:168:4\n24 bytes (static)" }
+edge: { sourcename: "file_io__size" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:176:10" }
+edge: { sourcename: "file_io__size" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:176:30" }
+node: { title: "file_io__flush" label: "FLUSH\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:152:4\n16 bytes (static)" }
+edge: { sourcename: "file_io__flush" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:158:10" }
+edge: { sourcename: "file_io__flush" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:158:30" }
+node: { title: "file_io__is_open" label: "IS_OPEN\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:143:4\n16 bytes (static)" }
+node: { title: "file_io__close" label: "CLOSE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:131:4\n16 bytes (static)" }
+edge: { sourcename: "file_io__close" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:134:21" }
+edge: { sourcename: "file_io__close" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:134:14" }
+node: { title: "file_io__open" label: "OPEN\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:107:4\n48 bytes (static)" }
+edge: { sourcename: "file_io__open" targetname: "file_io__open__4" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:118:14" }
+edge: { sourcename: "file_io__open" targetname: "file_io__is_open" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:115:10" }
+node: { title: "file_io__ThandlesBIP" label: "THANDLESBIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:93:4\n32 bytes (static)" }
+edge: { sourcename: "file_io__ThandlesBIP" targetname: "file_io__vfs_directory_handleIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:93:4" }
+node: { title: "file_io__Tvfs_directory_handleCFD" label: "TVFS_DIRECTORY_HANDLECFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9\n32 bytes (static)" }
+edge: { sourcename: "file_io__Tvfs_directory_handleCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+node: { title: "file_io__vfs_directory_handleDF__2" label: "VFS_DIRECTORY_HANDLEDF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9\n16 bytes (static)" }
+node: { title: "file_io__vfs_directory_handleDA" label: "VFS_DIRECTORY_HANDLEDA\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9\n16 bytes (static)" }
+node: { title: "file_io___assign" label: "FILE_IO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9\n440 bytes (static)" }
+node: { title: "file_io__Oeq" label: "=\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:4\n16 bytes (static)" }
+node: { title: "file_io__vfs_directory_handleSO__2" label: "VFS_DIRECTORY_HANDLESO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9\n24 bytes (static)" }
+edge: { sourcename: "file_io__vfs_directory_handleSO__2" targetname: "file_io__vfs_directory_handleSW__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+node: { title: "file_io__vfs_directory_handleSI__2" label: "VFS_DIRECTORY_HANDLESI\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9\n40 bytes (static)" }
+edge: { sourcename: "file_io__vfs_directory_handleSI__2" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+edge: { sourcename: "file_io__vfs_directory_handleSI__2" targetname: "file_io__vfs_directory_handleSR__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+edge: { sourcename: "file_io__vfs_directory_handleSI__2" targetname: "file_io__vfs_directory_handleIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+node: { title: "file_io__vfs_directory_handleSW__2" label: "VFS_DIRECTORY_HANDLESW\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9\n24 bytes (static)" }
+edge: { sourcename: "file_io__vfs_directory_handleSW__2" targetname: "system__stream_attributes__w_i" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+edge: { sourcename: "file_io__vfs_directory_handleSW__2" targetname: "system__stream_attributes__w_b" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+node: { title: "file_io__vfs_directory_handleSR__2" label: "VFS_DIRECTORY_HANDLESR\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9\n24 bytes (static)" }
+edge: { sourcename: "file_io__vfs_directory_handleSR__2" targetname: "system__stream_attributes__i_i" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+edge: { sourcename: "file_io__vfs_directory_handleSR__2" targetname: "system__stream_attributes__i_b" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9" }
+node: { title: "file_io___size__2" label: "FILE_IO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9\n16 bytes (static)" }
+node: { title: "file_io__vfs_directory_handleIP" label: "VFS_DIRECTORY_HANDLEIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:59:9\n16 bytes (static)" }
+node: { title: "file_io__Tmount_arrayBIP" label: "TMOUNT_ARRAYBIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:57:4\n32 bytes (static)" }
+edge: { sourcename: "file_io__Tmount_arrayBIP" targetname: "file_io__mount_recordIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:57:4" }
+node: { title: "file_io__mount_recordIP" label: "MOUNT_RECORDIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.adb:48:9\n16 bytes (static)" }
+node: { title: "file_io__mount_pathPredicate" label: "Mount_Pathpredicate\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.ads:180:12\n16 bytes (static)" }
+node: { title: "file_io__directory_descriptorIP" label: "Directory_Descriptorip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.ads:199:9\n16 bytes (static)" }
+node: { title: "file_io__file_descriptorIP" label: "File_Descriptorip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.ads:195:9\n16 bytes (static)" }
+node: { title: "file_io__directory_entryIP" label: "Directory_Entryip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\filesystem\file_io.ads:147:9\n16 bytes (static)" }
+}

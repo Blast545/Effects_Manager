@@ -1,0 +1,128 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_DISPATCHING_CALLS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U monitor.block_drivers%b  monitor-block_drivers.adb  53afb0b4 OO PK
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hex_dump%s		hex_dump.adb		hex_dump.ali
+W monitor%s		monitor.ads		monitor.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.img_lli%s	s-imglli.adb		s-imglli.ali
+Z system.img_llu%s	s-imgllu.adb		s-imgllu.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+
+U monitor.block_drivers%s  monitor-block_drivers.ads  372071f2 EE OO PF PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.block_drivers%s	hal-block_drivers.ads	hal-block_drivers.ali
+W monitor%s		monitor.ads		monitor.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-block_drivers.ads	20190116062806 3a6f071f hal.block_drivers%s
+D hex_dump.ads		20190116062806 bcf26d97 hex_dump%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D monitor.ads		20190116062806 bf804365 monitor%s
+D monitor-block_drivers.ads  20190116062806 998dfd86 monitor.block_drivers%s
+D monitor-block_drivers.adb  20190116062806 76d020a5 monitor.block_drivers%b
+D system.ads		20180524194940 db831581 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-imglli.ads		20180524194940 114f55d1 system.img_lli%s
+D s-imgllu.ads		20180524194940 49c900c3 system.img_llu%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-stratt.ads		20180524194940 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 7 hal.ads
+34K9*HAL 166e8 12|32w6 32r29 33r6 33r29
+53M9*UInt8<10|63M9>
+160M9*UInt64<10|77M9> 12|47r22 54r22 13|42r22 77r22
+162A9*UInt8_Array(53M9)<integer>
+X 8 hal-block_drivers.ads
+32K13*Block_Drivers 56e22 12|33w10 33r33
+34h9*Block_Driver 12|42r11 69r11
+35P9*Any_Block_Driver(34R9) 12|40r42 67r42
+37A12*Block{7|162A9}<integer> 12|48r26 55r22 13|43r26 78r22
+42y13*Read{boolean} 13|53R43
+49y13*Write{boolean} 13|88R43
+X 9 hex_dump.ads
+34K9*Hex_Dump 42e13 13|32w6 59r13 98r10
+38U14*Hex_Dump 13|59s22 98s19
+40m24 Base_Addr{7|160M9} 13|61r32 100r29
+X 10 interfac.ads
+63M9*Unsigned_8
+77M9*Unsigned_64
+X 11 monitor.ads
+32K9*Monitor 34e12 12|35r9 72r5 13|34r14 123r5
+X 12 monitor-block_drivers.ads
+35K17*Block_Drivers 11|32k9 12|66E9 72l13 72e26 13|34b22 123l13 123t26
+37P9*Put_Line_Procedure 37>49 41r42 68r42
+37a49 Str{string}
+39R9*Block_Driver_Monitor<8|34R9> 40d7 41d7 45P13 46r29 52P13 53r29 58p14
+. 58r36 61p14 61r37 66c9 71e14 13|41r29 76r29 109r36 118r37
+40p7*Driver_Under_Monitoring{8|35P9} 67r7 13|53r19 88r19
+41p7*Put_Line{37P9} 68r7 13|49r15 57r18 60r37 63r18 84r15 92r18 95r18 99r34
+45V13*Read{boolean}<8|42p13> 46=7 47>7 48<7 13|40b24 69l8 69t12
+46r7 This{39R9} 13|41b7 48r10 49r10 53r14 55r10 57r13 60r32 63r13
+47m7 Block_Number{7|160M9} 13|42b7 50r27 53r49 58r30 61r45 64r30
+48a7 Data{8|37A12} 13|43b7 50r57 53m63 53r63 59r32
+52V13*Write{boolean}<8|49p13> 53=7 54>7 55>7 13|75b24 103l8 103t13
+53r7 This{39R9} 13|76b7 83r10 84r10 88r14 90r10 92r13 95r13 99r29
+54m7 Block_Number{7|160M9} 13|77b7 85r27 88r50 93r30 96r30 100r42
+55a7 Data{8|37A12} 13|78b7 85r57 88r64 98r29
+58U14*Enable 58=22 13|109b14 112l8 112t14
+58r22 This{39R9} 13|109b22 111m7
+61U14*Disable 61=23 13|118b14 121l8 121t15
+61r23 This{39R9} 13|118b23 120m7
+70b7 Enabled{boolean} 13|48r15 55r15 83r15 90r15 111m12 120m12
+X 13 monitor-block_drivers.adb
+46b7 Ret{boolean} 53m7 56r13 68r14
+81b7 Ret{boolean} 88m7 91r13 102r14
+

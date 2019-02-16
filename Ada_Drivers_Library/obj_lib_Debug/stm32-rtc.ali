@@ -1,0 +1,196 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U stm32.rtc%b		stm32-rtc.adb		6c130ec9 OO PK IU
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.real_time_clock%s	hal-real_time_clock.ads	hal-real_time_clock.ali
+W stm32%s		stm32.ads		stm32.ali
+W stm32.power_control%s	stm32-power_control.adb	stm32-power_control.ali
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W stm32_svd.rcc%s	stm32_svd-rcc.ads	stm32_svd-rcc.ali
+W stm32_svd.rtc%s	stm32_svd-rtc.ads	stm32_svd-rtc.ali
+
+U stm32.rtc%s		stm32-rtc.ads		0b03a019 EE OO PF PK IU
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.real_time_clock%s	hal-real_time_clock.ads	hal-real_time_clock.ali
+W stm32%s		stm32.ads		stm32.ali
+Z system%s		system.ads		system.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-real_time_clock.ads  20190116062806 9dd52fca hal.real_time_clock%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D stm32-power_control.ads  20190116062804 522664d2 stm32.power_control%s
+D stm32-rtc.ads		20190116062804 ff58a3e8 stm32.rtc%s
+D stm32-rtc.adb		20190116062804 cfd3b47e stm32.rtc%b
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-rcc.ads	20190116062804 bab05c47 stm32_svd.rcc%s
+D stm32_svd-rtc.ads	20190116062804 29db0e00 stm32_svd.rtc%s
+D system.ads		20180524194940 db831581 system%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 7 hal.ads
+34K9*HAL 166e8 12|32r6 36r27 40r26 41r26 45r30 46r30 49r49 52r49 59r27 13|37r6
+. 37r31 72r26 73r26 139r30 140r30 158r49 178r49
+39M9*UInt2 13|99r16 116r16
+41M9*UInt3 13|102r17 105r16 111r17
+43M9*UInt4 13|100r16 103r17 106r16 108r16 109r16 114r16 117r16
+49M9*UInt7
+53M9*UInt8<9|63M9>
+64M9*UInt15
+X 8 hal-real_time_clock.ads
+32K13*Real_Time_Clock 99e24 12|32w10 36r31 40r30 41r30 45r34 46r34 49r53
+. 52r53 59r31 13|37w10 37r35 72r30 73r30 139r34 140r34 158r53 178r53
+34M9*RTC_Hour 13|164r19 164r43
+35M9*RTC_Minute 13|166r18 166r45
+36M9*RTC_Second 13|168r18 168r44
+38R9*RTC_Time 42e14 12|40r46 45r50 49r69 13|72r46 139r50 158r69 161r13
+39m7*Hour{34M9} 13|99r28 100r28 164m11
+40m7*Min{35M9} 13|102r29 103r29 166m11
+41m7*Sec{36M9} 13|105r28 106r28 168m11
+44E9*RTC_Month 45e62 13|113r17 114r23 187r20
+46E9*RTC_Day_Of_Week 47e46 13|111r24 184r26
+48I9*RTC_Day<short_short_integer> 13|185r18
+49I9*RTC_Year<short_short_integer> 13|186r19 186r43
+51R9*RTC_Date 56e14 12|41r46 46r50 52r69 13|73r46 140r50 178r69 181r13
+52e7*Day_Of_Week{46E9} 13|111r55 184m11
+53i7*Day{48I9} 13|116r28 117r28 185m11
+54e7*Month{44E9} 13|113r42 114r48 187m11
+55i7*Year{49I9} 13|108r28 109r28 186m11
+79h9*RTC_Device 12|36r47 59r47
+X 9 interfac.ads
+63M9*Unsigned_8
+X 10 stm32.ads
+39K9*STM32 48e10 12|34r9 62r5 13|35r6 39r14 237r5
+X 11 stm32-power_control.ads
+32K15*Power_Control 73e24 13|35w12 50r7 63r7 199r7 201r7 222r7 232r7 234r7
+34U14*Enable 13|199s21
+37U14*Disable_Backup_Domain_Protection 13|50s21 201s21 232s21
+38U14*Enable_Backup_Domain_Protection 13|63s21 222s21 234s21
+X 12 stm32-rtc.ads
+34K15*RTC 10|39k9 12|59E9 62l11 62e14 13|39b20 237l11 237t14
+36R9*RTC_Device<8|79R9> 39P14 39r33 44P14 44r33 49P13 49r30 52P13 52r30 54p14
+. 54r36 55p14 55r37 59c9 60e17 13|71r33 138r33 158r30 178r30 195r36 229r37
+39U14*Set<8|82p14> 39=19 40>19 41>19 13|71b14 131l8 131t11
+39r19 This{36R9} 13|71b19 75r28
+40r19 Time{8|38R9} 13|72b19 99r23 100r23 102r24 103r24 105r23 106r23
+41r19 Date{8|51R9} 13|73b19 108r23 109r23 111r50 113r37 114r43 116r23 117r23
+44U14*Get<8|86p14> 44=19 45<19 46<19 13|138b14 151l8 151t11
+44r19 This{36R9} 13|138b19 144r18 145r18 149r20
+45r19 Time{8|38R9} 13|139b19 144m10 149r36
+46r19 Date{8|51R9} 13|140b19 145m10
+49V13*Get_Time{8|38R9}<8|91p13> 49>23 13|144s23 149s25 158b13 171l8 171t16
+49r23 This{36R9} 13|158b23 160r28
+52V13*Get_Date{8|51R9}<8|95p13> 52>23 13|145s23 178b13 189l8 189t16
+52r23 This{36R9} 13|178b23 180r28
+54U14*Enable 54=22 13|195b14 223l8 223t14
+54r22 This{36R9} 13|195b22 196r28
+55U14*Disable 55=23 13|229b14 235l8 235t15
+55r23 This{36R9} 13|229b23 230r28
+X 13 stm32-rtc.adb
+41U14 Disable_Write_Protection 48b14 53l8 53t32 80s7
+42U14 Enable_Write_Protection 59b14 64l8 64t31 126s7
+77r7 DR{16|71R9} 108m7 109m7 111m7 113m7 114m7 116m7 117m7 121r24
+78r7 TR{16|25R9} 97m7 99m7 100m7 102m7 103m7 105m7 106m7 120r24
+161r7 Ret{8|38R9} 164m7 166m7 168m7 170r14
+162r7 TR{16|25R9} 164r29 166r30 166r57 168r30 168r56
+181r7 Ret{8|51R9} 184m7 185m7 186m7 187m7 188r14
+182r7 DR{16|71R9} 184r52 185r36 185r59 186r29 186r53 187r44 187r68
+X 14 stm32_svd.ads
+10K9*STM32_SVD 13|32r6 32r25 33r6 33r25 14|164e14
+X 15 stm32_svd-rcc.ads
+10K19*RCC 13|33w16 33r35 15|1346e18
+1116m13*Val{7|39M9} 13|211m30 212r33
+1140r7*RTCSEL{1110R9} 13|211m23 212r26
+1144b7*RTCEN{boolean} 13|216m23 233m23
+1168b7*LSION{boolean} 13|204m22
+1170b7*LSIRDY{boolean} 13|206r32
+1306r7*BDCR{1130R9} 13|211m18 212r21 216m18 233m18
+1308r7*CSR{1166R9} 13|204m18 206r28
+1343r4*RCC_Periph{1266R9} 13|204m7 206r17 211m7 212r10 216m7 233m7
+X 16 stm32_svd-rtc.ads
+10K19*RTC 13|32w16 32r35 16|838e18
+25R9*TR_Register 13|78r12 162r22 16|47e6
+27m7*SU{17M12} 13|106m10 168r59
+29m7*ST{18M12} 13|105m10 168r33
+33m7*MNU{19M12} 13|103m10 166r60
+35m7*MNT{20M12} 13|102m10 166r33
+39m7*HU{21M12} 13|100m10 164r67
+41m7*HT{22M12} 13|99m10 164r32
+43b7*PM{boolean} 13|97m10
+71R9*DR_Register 13|77r12 182r22 16|91e6
+73m7*DU{63M12} 13|117m10 185r62
+75m7*DT{64M12} 13|116m10 185r39
+79m7*MU{65M12} 13|114m10 187r71
+81b7*MT{boolean} 13|113m10 187r47
+83m7*WDU{66M12} 13|111m10 184r55
+85m7*YU{67M12} 13|109m10 186r56
+87m7*YT{68M12} 13|108m10 186r32
+197b7*RSF{boolean} 13|128r32 218r32
+199b7*INITF{boolean} 13|82r29 87r35
+201b7*INIT{boolean} 13|84m25 124m22
+247M12*PRER_PREDIV_S_Field{7|64M9}
+248M12*PRER_PREDIV_A_Field{7|49M9}
+253m7*PREDIV_S{247M12} 13|93m23
+257m7*PREDIV_A{248M12} 13|94m23
+431M12*WPR_KEY_Field{7|53M9}
+436m7*KEY{431M12} 13|51m22 52m22 62m22
+712r7*TR{25R9} 13|120m18 162r48 164r64
+714r7*DR{71R9} 13|121m18 182r48
+718r7*ISR{185R9} 13|82r25 84m21 87r31 124m18 128r28 218r28
+720r7*PRER{251R9} 13|93m18 94m18
+730r7*WPR{434R9} 13|51m18 52m18 62m18
+835r4*RTC_Periph{710R9} 13|51m7 52m7 62m7 82r14 84m10 87r20 93m7 94m7 120m7
+. 121m7 124m7 128r17 162r37 164r53 182r37 218r17
+

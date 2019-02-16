@@ -1,0 +1,92 @@
+edge: { sourcename: "stm32__i2s__Ti2s_portCFD"
+  targetname: "-9:stm32__i2s__i2s_port,stm32__i2s__i2s_port"
+  label: "stm32-i2s.ads:86:9"
+}
+class {
+  classname: "stm32__i2s__i2s_port"
+  label: "stm32__i2s__i2s_port\stm32-i2s.ads:86:9"
+  parent: "hal__audio__audio_stream"
+  virtuals: "1:stm32__i2s__set_frequency,1:hal__audio__audio_stream\n
+             2:stm32__i2s__transmit,2:hal__audio__audio_stream\n
+             3:stm32__i2s__receive,3:hal__audio__audio_stream\n
+             -1:stm32__i2s___size__2,-1:hal__audio__audio_stream\n
+             -9:stm32__i2s__i2s_portDF__2,-9:hal__audio__audio_stream\n
+             4:stm32__i2s__in_i2s_mode\n
+             5:stm32__i2s__configure\n
+             6:stm32__i2s__enable\n
+             7:stm32__i2s__disable\n
+             8:stm32__i2s__enabled\n
+             9:stm32__i2s__data_register_address"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Divide_By_Zero" label: "gnat_rcheck_CE_Divide_By_Zero\n<built-in>" shape : ellipse }
+node: { title: "stm32__device__system_clock_frequencies" label: "SYSTEM_CLOCK_FREQUENCIES\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads:446:13" shape : ellipse }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-except.ads:188:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-assert.ads:46:14" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "stm32__i2s___elabs" label: "I2S\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:49:1\n8 bytes (static)" }
+edge: { sourcename: "stm32__i2s___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:136:9" }
+edge: { sourcename: "stm32__i2s___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:136:9" }
+node: { title: "stm32__i2s___elabb" label: "I2S\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:45:1\n4 bytes (static)" }
+node: { title: "stm32__i2s__transmit" label: "TRANSMIT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:197:15\n56 bytes (static)" }
+edge: { sourcename: "stm32__i2s__transmit" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:125:18" }
+edge: { sourcename: "stm32__i2s__transmit" targetname: "stm32__i2s__in_i2s_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:125:22" }
+edge: { sourcename: "stm32__i2s__transmit" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:197:15" }
+node: { title: "stm32__i2s__receive" label: "RECEIVE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:180:15\n48 bytes (static)" }
+edge: { sourcename: "stm32__i2s__receive" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:130:18" }
+edge: { sourcename: "stm32__i2s__receive" targetname: "stm32__i2s__in_i2s_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:130:22" }
+edge: { sourcename: "stm32__i2s__receive" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:180:15" }
+node: { title: "stm32__i2s__set_frequency" label: "SET_FREQUENCY\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:140:4\n72 bytes (static)" }
+edge: { sourcename: "stm32__i2s__set_frequency" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:173:42" }
+edge: { sourcename: "stm32__i2s__set_frequency" targetname: "__gnat_rcheck_CE_Divide_By_Zero" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:156:38" }
+edge: { sourcename: "stm32__i2s__set_frequency" targetname: "__gnat_rcheck_CE_Divide_By_Zero" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:153:34" }
+edge: { sourcename: "stm32__i2s__set_frequency" targetname: "stm32__device__system_clock_frequencies" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:143:41" }
+edge: { sourcename: "stm32__i2s__set_frequency" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:120:19" }
+edge: { sourcename: "stm32__i2s__set_frequency" targetname: "stm32__i2s__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:120:27" }
+edge: { sourcename: "stm32__i2s__set_frequency" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:140:4" }
+node: { title: "stm32__i2s__data_register_address" label: "DATA_REGISTER_ADDRESS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:128:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__i2s__data_register_address" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:128:4" }
+node: { title: "stm32__i2s__enabled" label: "ENABLED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:119:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__i2s__enabled" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:119:4" }
+node: { title: "stm32__i2s__disable" label: "DISABLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:110:4\n24 bytes (static)" }
+edge: { sourcename: "stm32__i2s__disable" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:109:18" }
+edge: { sourcename: "stm32__i2s__disable" targetname: "stm32__i2s__in_i2s_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:109:22" }
+edge: { sourcename: "stm32__i2s__disable" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:110:4" }
+node: { title: "stm32__i2s__enable" label: "ENABLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:97:4\n32 bytes (static)" }
+edge: { sourcename: "stm32__i2s__enable" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:stm32__i2s__enable___postconditions.6569" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:104:8" }
+edge: { sourcename: "stm32__i2s__enable" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:100:10" }
+edge: { sourcename: "stm32__i2s__enable" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:97:4" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:stm32__i2s__enable___postconditions.6569" label: "ENABLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:97:4\n32 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:stm32__i2s__enable___postconditions.6569" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:106:19" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:stm32__i2s__enable___postconditions.6569" targetname: "stm32__i2s__in_i2s_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:106:40" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:stm32__i2s__enable___postconditions.6569" targetname: "stm32__i2s__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:106:23" }
+node: { title: "stm32__i2s__in_i2s_mode" label: "IN_I2S_MODE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:90:4\n16 bytes (static)" }
+node: { title: "stm32__i2s__configure" label: "CONFIGURE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:55:4\n40 bytes (static)" }
+edge: { sourcename: "stm32__i2s__configure" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:stm32__i2s__configure___postconditions.6546" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:84:8" }
+edge: { sourcename: "stm32__i2s__configure" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:73:47" }
+edge: { sourcename: "stm32__i2s__configure" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:65:47" }
+edge: { sourcename: "stm32__i2s__configure" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:57:47" }
+edge: { sourcename: "stm32__i2s__configure" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:102:20" }
+edge: { sourcename: "stm32__i2s__configure" targetname: "stm32__i2s__valid_extended_config" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:102:46" }
+edge: { sourcename: "stm32__i2s__configure" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:100:19" }
+edge: { sourcename: "stm32__i2s__configure" targetname: "stm32__i2s__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:100:27" }
+edge: { sourcename: "stm32__i2s__configure" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:55:4" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:stm32__i2s__configure___postconditions.6546" label: "CONFIGURE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:55:4\n24 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:stm32__i2s__configure___postconditions.6546" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:103:19" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.adb:stm32__i2s__configure___postconditions.6546" targetname: "stm32__i2s__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:103:27" }
+node: { title: "stm32__i2s__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:49:1\n8 bytes (static)" }
+edge: { sourcename: "stm32__i2s__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:49:1" }
+node: { title: "stm32__i2s__valid_extended_config" label: "VALID_EXTENDED_CONFIG\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:94:4\n16 bytes (static)" }
+node: { title: "stm32__i2s__Ti2s_portCFD" label: "TI2S_PORTCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:86:9\n32 bytes (static)" }
+edge: { sourcename: "stm32__i2s__Ti2s_portCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:86:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "stm32__i2s__i2s_portDF__2" label: "I2S_PORTDF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:136:9\n16 bytes (static)" }
+node: { title: "stm32__i2s___size__2" label: "I2S\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:136:9\n16 bytes (static)" }
+node: { title: "stm32__i2s__i2s_portIP" label: "I2S_PORTIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:136:9\n24 bytes (static)" }
+node: { title: "stm32__i2s__i2s_configurationIP" label: "I2S_CONFIGURATIONIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:72:9\n16 bytes (static)" }
+}

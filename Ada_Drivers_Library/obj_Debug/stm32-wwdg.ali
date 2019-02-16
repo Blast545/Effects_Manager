@@ -1,0 +1,101 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U stm32.wwdg%b		stm32-wwdg.adb		61543d15 NE OO PK IU
+W stm32%s		stm32.ads		stm32.ali
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W stm32_svd.rcc%s	stm32_svd-rcc.ads	stm32_svd-rcc.ali
+W stm32_svd.wwdg%s	stm32_svd-wwdg.ads	stm32_svd-wwdg.ali
+
+U stm32.wwdg%s		stm32-wwdg.ads		4c23973b BN EB NE OO PK IU
+W stm32%s		stm32.ads		stm32.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D stm32-wwdg.ads	20190116062804 25adbb00 stm32.wwdg%s
+D stm32-wwdg.adb	20190116062804 43413f31 stm32.wwdg%b
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-rcc.ads	20190116062804 bab05c47 stm32_svd.rcc%s
+D stm32_svd-wwdg.ads	20190116062804 bd08e563 stm32_svd.wwdg%s
+D system.ads		20180524194940 db831581 system%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 1 hal.ads
+39M9*UInt2
+49M9*UInt7 4|78r27 78r49
+X 3 stm32.ads
+39K9*STM32 48e10 4|40r9 142r5 5|35r14 144r5
+X 4 stm32-wwdg.ads
+40K15*WWDG 3|39k9 4|142l11 142e15 5|35b20 144l11 144t15
+43U14*Enable_Watchdog_Clock 5|41b14 44l8 44t29
+45U14*Reset_Watchdog 5|50b14 54l8 54t22
+48E9*Prescalers 53e6 67r46 5|60r46
+49n7*Divider_1{48E9}
+50n7*Divider_2{48E9}
+51n7*Divider_4{48E9}
+52n7*Divider_8{48E9}
+67U14*Set_Watchdog_Prescaler 67>38 5|60b14 63l8 63t30
+67e38 Value{48E9} 5|60b38 62r36
+78M12*Downcounter{1|49M9} 84r56 97r45 109r52 5|69r56 78r45 88r52
+84U14*Set_Watchdog_Window 84>35 5|69b14 72l8 72t27
+84m35 Window_Start_Count{78M12} 5|69b35 71r28
+97U14*Activate_Watchdog 97>33 5|78b14 82l8 82t25
+97m33 New_Count{78M12} 5|78b33 80r27
+109U14*Refresh_Watchdog_Counter 109>40 5|88b14 91l8 91t32
+109m40 New_Count{78M12} 5|88b40 90r27
+117U14*Enable_Early_Wakeup_Interrupt 5|97b14 100l8 100t37
+123V13*Early_Wakeup_Interrupt_Indicated{boolean} 5|106b13
+129U14*Clear_Early_Wakeup_Interrupt 5|113b14 116l8 116t36
+133V13*WWDG_Reset_Indicated{boolean} 5|122b13
+136U14*Clear_WWDG_Reset_Flag 5|129b14 132l8 132t29
+139U14*Reset_System 5|138b14 142l8 142t20
+X 6 stm32_svd.ads
+10K9*STM32_SVD 5|32r6 32r26 33r6 33r26 6|164e14
+X 7 stm32_svd-rcc.ads
+10K19*RCC 5|32w16 32r36 7|1346e18
+404b7*WWDGRST{boolean} 5|52m27 53m27
+680b7*WWDGEN{boolean} 5|43m26
+1174b7*RMVF{boolean} 5|131m22
+1186b7*WWDGRSTF{boolean} 5|123r22
+1282r7*APB1RSTR{382R9} 5|52m18 53m18
+1292r7*APB1ENR{658R9} 5|43m18
+1308r7*CSR{1166R9} 5|123r18 131m18
+1343r4*RCC_Periph{1266R9} 5|43m7 52m7 53m7 123r7 131m7
+X 8 stm32_svd-wwdg.ads
+10K19*WWDG 5|33w16 33r36 8|124e19
+22m7*T{17M12} 5|80m22 90m22 140m22
+24b7*WDGA{boolean} 5|81m22 141m22
+50m13*Val{1|39M9} 5|62m29
+66m7*W{37M12} 5|71m23
+68r7*WDGTB{44R9} 5|62m23
+70b7*EWI{boolean} 5|99m23
+87b7*EWIF{boolean} 5|107r22 115m22
+106r7*CR{20R9} 5|80m19 81m19 90m19 140m19 141m19
+108r7*CFR{64R9} 5|62m19 71m19 99m19
+110r7*SR{85R9} 5|107r19 115m19
+121r4*WWDG_Periph{104R9} 5|62m7 71m7 80m7 81m7 90m7 99m7 107r7 115m7 140m7
+. 141m7
+

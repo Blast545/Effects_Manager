@@ -1,0 +1,45 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U memory_barriers%b	memory_barriers.adb	e6f8af69 NE OO PK
+W system%s		system.ads		system.ali
+W system.machine_code%s	s-maccod.ads		s-maccod.ali
+
+U memory_barriers%s	memory_barriers.ads	fbb4db09 BN EE NE OO PK
+
+D memory_barriers.ads	20190116062804 fbb4db09 memory_barriers%s
+D memory_barriers.adb	20190116062804 7024d361 memory_barriers%b
+D system.ads		20180524194940 db831581 system%s
+D s-maccod.ads		20180524194940 6d68a701 system.machine_code%s
+X 1 memory_barriers.ads
+34K9*Memory_Barriers 41l5 41e20 2|34b14 46l5 46t20
+36U14*Data_Synchronization_Barrier 39r26 2|40b14 44l8 44t36
+39U14*DSB=39:26
+X 3 system.ads
+50K9*System 2|32r6 32r32 3|164e11
+X 4 s-maccod.ads
+36K16*Machine_Code 2|32w13 32r39 4|131e24
+83U14*Asm 2|43s7
+88b6 Volatile{boolean} 2|43r24
+

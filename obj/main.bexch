@@ -1,0 +1,39 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr
+20190215080402
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr
+20190215212446
+[BOUND OBJECT FILES]
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\bmp_fonts.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\hal-audio_effect.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\Almost_Raw.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\Echo.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\ili9341_extended.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\Only_voice.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\Pitch.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\Robot.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\apds9960_interrupts.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\audio_stream.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\apds9960_gesture.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\custom_board.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\adc_interrupt_handling.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\last_chance_handler.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\stm32f4_timer_interrupts.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\user_button.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\Gesture_Manager.o
+C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\
+-LC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\obj\
+-LC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\obj_lib_Debug\
+-LC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\adalib\
+-static
+-static-libgcc
+C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\adalib\libgnarl.a
+C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\adalib\libgnat.a

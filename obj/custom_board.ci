@@ -1,0 +1,107 @@
+edge: { sourcename: "custom_board__TTscreenSCFD"
+  targetname: "-9:ili9341_extended__ili9341_device,ili9341_extended__ili9341_device"
+  label: "custom_board.ads:69:4"
+}
+edge: { sourcename: "custom_board__TTgesture_objectSCFD"
+  targetname: "-9:apds9960_gesture__apds9960_device,apds9960_gesture__apds9960_device"
+  label: "custom_board.ads:80:4"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb"
+node: { title: "apds9960_gesture__apds9960_deviceIP" label: "apds9960_deviceip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:220:9" shape : ellipse }
+node: { title: "ili9341_extended__ili9341_deviceIP" label: "Ili9341_Deviceip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\ili9341_extended.ads:211:9" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "ravenscar_time__delays" label: "Delays\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\ravenscar-common\ravenscar_time.ads:36:13" shape : ellipse }
+node: { title: "robot__robot_effectIP" label: "Robot_Effectip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:32:9" shape : ellipse }
+node: { title: "pitch__pitch_effectIP" label: "Pitch_Effectip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Pitch.ads:22:9" shape : ellipse }
+node: { title: "echo__echo_effectIP" label: "Echo_Effectip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:30:9" shape : ellipse }
+node: { title: "only_voice__only_voice_effectIP" label: "Only_Voice_Effectip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Only_voice.ads:26:9" shape : ellipse }
+node: { title: "almost_raw__almost_raw_effectIP" label: "Almost_Raw_Effectip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:24:9" shape : ellipse }
+node: { title: "memset" label: "builtin_memset\n<built-in>" shape : ellipse }
+node: { title: "ada__synchronous_task_control__suspension_objectVIP" label: "Suspension_Objectvip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-sytaco.ads:77:4" shape : ellipse }
+node: { title: "stm32__gpio__configure_trigger" label: "CONFIGURE_TRIGGER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-gpio.ads:220:14" shape : ellipse }
+node: { title: "stm32__device__enable_clock__2" label: "ENABLE_CLOCK\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads:71:14" shape : ellipse }
+node: { title: "stm32__spi__enable" label: "ENABLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:89:14" shape : ellipse }
+node: { title: "stm32__spi__configure" label: "CONFIGURE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:87:14" shape : ellipse }
+node: { title: "stm32__device__reset__9" label: "RESET\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads:372:14" shape : ellipse }
+node: { title: "stm32__gpio__configure_io__2" label: "CONFIGURE_IO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-gpio.ads:267:14" shape : ellipse }
+node: { title: "stm32__device__enable_clock__3" label: "ENABLE_CLOCK\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads:72:14" shape : ellipse }
+node: { title: "stm32__gpio___assign" label: "GPIO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-gpio.ads:138:9" shape : ellipse }
+node: { title: "stm32__gpio__gpio_pointsIP" label: "GPIO_POINTSIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-gpio.ads:232:9" shape : ellipse }
+node: { title: "stm32__device__enable_clock__10" label: "ENABLE_CLOCK\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads:371:14" shape : ellipse }
+node: { title: "stm32__gpio__gpio_port_configurationIP" label: "GPIO_PORT_CONFIGURATIONIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-gpio.ads:123:9" shape : ellipse }
+node: { title: "stm32__timers__enable_interrupt" label: "ENABLE_INTERRUPT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-timers.ads:204:14" shape : ellipse }
+node: { title: "stm32__timers__configure" label: "CONFIGURE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-timers.ads:65:14" shape : ellipse }
+node: { title: "stm32__device__reset__11" label: "RESET\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads:407:14" shape : ellipse }
+node: { title: "stm32__device__enable_clock__12" label: "ENABLE_CLOCK\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads:405:14" shape : ellipse }
+node: { title: "stm32__adc__enable" label: "ENABLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-adc.ads:103:14" shape : ellipse }
+node: { title: "stm32__adc__enable_interrupts" label: "ENABLE_INTERRUPTS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-adc.ads:530:14" shape : ellipse }
+node: { title: "stm32__adc__configure_regular_conversions" label: "CONFIGURE_REGULAR_CONVERSIONS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-adc.ads:193:14" shape : ellipse }
+node: { title: "stm32__adc__configure_unit" label: "CONFIGURE_UNIT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-adc.ads:119:14" shape : ellipse }
+node: { title: "stm32__adc__configure_common_properties" label: "CONFIGURE_COMMON_PROPERTIES\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-adc.ads:617:14" shape : ellipse }
+node: { title: "stm32__device__enable_clock__4" label: "ENABLE_CLOCK\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads:300:14" shape : ellipse }
+node: { title: "stm32__gpio__configure_io" label: "CONFIGURE_IO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-gpio.ads:207:14" shape : ellipse }
+node: { title: "stm32__device__enable_clock" label: "ENABLE_CLOCK\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads:70:14" shape : ellipse }
+node: { title: "custom_board___elabs" label: "Custom_Board\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:27:1\n24 bytes (static)" }
+edge: { sourcename: "custom_board___elabs" targetname: "apds9960_gesture__apds9960_deviceIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:80:4" }
+edge: { sourcename: "custom_board___elabs" targetname: "ili9341_extended__ili9341_deviceIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:69:4" }
+edge: { sourcename: "custom_board___elabs" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:73:28" }
+edge: { sourcename: "custom_board___elabs" targetname: "ravenscar_time__delays" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:55:62" }
+edge: { sourcename: "custom_board___elabs" targetname: "robot__robot_effectIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:48:4" }
+edge: { sourcename: "custom_board___elabs" targetname: "pitch__pitch_effectIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:47:4" }
+edge: { sourcename: "custom_board___elabs" targetname: "echo__echo_effectIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:46:4" }
+edge: { sourcename: "custom_board___elabs" targetname: "only_voice__only_voice_effectIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:45:4" }
+edge: { sourcename: "custom_board___elabs" targetname: "almost_raw__almost_raw_effectIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:44:4" }
+edge: { sourcename: "custom_board___elabs" targetname: "memset" }
+edge: { sourcename: "custom_board___elabs" targetname: "memset" }
+edge: { sourcename: "custom_board___elabs" targetname: "ada__synchronous_task_control__suspension_objectVIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:36:4" }
+edge: { sourcename: "custom_board___elabs" targetname: "ada__synchronous_task_control__suspension_objectVIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:34:4" }
+node: { title: "custom_board__initialize_gesture_sensing" label: "Initialize_Gesture_Sensing\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:109:4\n8 bytes (static)" }
+edge: { sourcename: "custom_board__initialize_gesture_sensing" targetname: "stm32__gpio__configure_trigger" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:115:7" }
+edge: { sourcename: "custom_board__initialize_gesture_sensing" targetname: "stm32__gpio__configure_io" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:114:7" }
+edge: { sourcename: "custom_board__initialize_gesture_sensing" targetname: "stm32__device__enable_clock__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:113:7" }
+node: { title: "custom_board__initialize_spi" label: "Initialize_Spi\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:57:4\n160 bytes (static)" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio__configure_io__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:104:10" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:104:34" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:104:34" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:104:34" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio__gpio_pointsIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:104:34" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio__gpio_port_configurationIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:97:10" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__spi__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:93:19" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__spi__configure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:91:10" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__device__reset__9" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:75:10" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio__configure_io__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:74:10" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:74:45" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:74:45" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:74:45" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio__gpio_pointsIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:74:45" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__device__enable_clock__3" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:65:10" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:65:63" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:65:63" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:65:63" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:65:63" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:65:63" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio___assign" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:65:63" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio__gpio_pointsIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:65:63" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__device__enable_clock__10" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:64:10" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__device__enable_clock" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:63:10" }
+edge: { sourcename: "custom_board__initialize_spi" targetname: "stm32__gpio__gpio_port_configurationIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:61:10" }
+node: { title: "custom_board__initialize_timer" label: "Initialize_Timer\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:45:4\n8 bytes (static)" }
+edge: { sourcename: "custom_board__initialize_timer" targetname: "stm32__timers__enable_interrupt" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:53:7" }
+edge: { sourcename: "custom_board__initialize_timer" targetname: "stm32__timers__configure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:52:7" }
+edge: { sourcename: "custom_board__initialize_timer" targetname: "stm32__device__reset__11" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:48:7" }
+edge: { sourcename: "custom_board__initialize_timer" targetname: "stm32__device__enable_clock__12" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:47:7" }
+node: { title: "custom_board__initialize_adc" label: "Initialize_Adc\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:15:4\n32 bytes (static)" }
+edge: { sourcename: "custom_board__initialize_adc" targetname: "stm32__adc__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:42:7" }
+edge: { sourcename: "custom_board__initialize_adc" targetname: "stm32__adc__enable_interrupts" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:41:7" }
+edge: { sourcename: "custom_board__initialize_adc" targetname: "stm32__adc__configure_regular_conversions" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:34:7" }
+edge: { sourcename: "custom_board__initialize_adc" targetname: "stm32__adc__configure_unit" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:29:7" }
+edge: { sourcename: "custom_board__initialize_adc" targetname: "stm32__adc__configure_common_properties" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:23:7" }
+edge: { sourcename: "custom_board__initialize_adc" targetname: "stm32__device__enable_clock__4" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:20:7" }
+edge: { sourcename: "custom_board__initialize_adc" targetname: "stm32__gpio__configure_io" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:19:7" }
+edge: { sourcename: "custom_board__initialize_adc" targetname: "stm32__device__enable_clock" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb:18:7" }
+node: { title: "custom_board__TTgesture_objectSCFD" label: "Ttgesture_Objectscfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:80:4\n32 bytes (static)" }
+edge: { sourcename: "custom_board__TTgesture_objectSCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:80:4" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "custom_board__TTscreenSCFD" label: "Ttscreenscfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:69:4\n32 bytes (static)" }
+edge: { sourcename: "custom_board__TTscreenSCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:69:4" }
+}

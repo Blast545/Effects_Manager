@@ -1,0 +1,331 @@
+edge: { sourcename: "stm32__spi__Tspi_portCFD"
+  targetname: "-9:stm32__spi__spi_port,stm32__spi__spi_port"
+  label: "stm32-spi.ads:53:9"
+}
+class {
+  classname: "stm32__spi__spi_port"
+  label: "stm32__spi__spi_port\stm32-spi.ads:53:9"
+  parent: "hal__spi__spi_port"
+  virtuals: "1:stm32__spi__data_size,1:hal__spi__spi_port\n
+             2:stm32__spi__transmit,2:hal__spi__spi_port\n
+             3:stm32__spi__transmit__2,3:hal__spi__spi_port\n
+             4:stm32__spi__receive,4:hal__spi__spi_port\n
+             5:stm32__spi__receive__2,5:hal__spi__spi_port\n
+             -1:stm32__spi___size__2,-1:hal__spi__spi_port\n
+             -9:stm32__spi__spi_portDF__2,-9:hal__spi__spi_port\n
+             6:stm32__spi__configure\n
+             7:stm32__spi__enable\n
+             8:stm32__spi__disable\n
+             9:stm32__spi__enabled\n
+             10:stm32__spi__send\n
+             11:stm32__spi__data\n
+             12:stm32__spi__send__2\n
+             13:stm32__spi__data__2\n
+             14:stm32__spi__is_busy\n
+             15:stm32__spi__rx_is_empty\n
+             16:stm32__spi__tx_is_empty\n
+             17:stm32__spi__busy\n
+             18:stm32__spi__channel_side_indicated\n
+             19:stm32__spi__underrun_indicated\n
+             20:stm32__spi__crc_error_indicated\n
+             21:stm32__spi__mode_fault_indicated\n
+             22:stm32__spi__overrun_indicated\n
+             23:stm32__spi__frame_fmt_error_indicated\n
+             24:stm32__spi__clear_overrun\n
+             25:stm32__spi__reset_crc\n
+             26:stm32__spi__crc_enabled\n
+             27:stm32__spi__is_data_frame_16bit\n
+             28:stm32__spi__current_mode\n
+             29:stm32__spi__current_data_direction\n
+             30:stm32__spi__transmit__3\n
+             31:stm32__spi__receive__3\n
+             32:stm32__spi__transmit_receive\n
+             33:stm32__spi__transmit_receive__2\n
+             34:stm32__spi__data_register_address\n
+             35:stm32__spi__send_receive_16bit_mode\n
+             36:stm32__spi__send_receive_8bit_mode\n
+             37:stm32__spi__send_16bit_mode\n
+             38:stm32__spi__send_8bit_mode\n
+             39:stm32__spi__receive_16bit_mode\n
+             40:stm32__spi__receive_8bit_mode"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Index_Check" label: "gnat_rcheck_CE_Index_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Explicit_Raise" label: "gnat_rcheck_PE_Explicit_Raise\n<built-in>" shape : ellipse }
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-assert.ads:46:14" shape : ellipse }
+node: { title: "stm32_svd__spi__sr_registerIP" label: "SR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-spi.ads:110:9" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "stm32__spi___elabs" label: "SPI\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:49:1\n8 bytes (static)" }
+edge: { sourcename: "stm32__spi___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:218:9" }
+edge: { sourcename: "stm32__spi___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:218:9" }
+node: { title: "stm32__spi___elabb" label: "SPI\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:46:1\n4 bytes (static)" }
+node: { title: "stm32__spi__receive_8bit_mode" label: "RECEIVE_8BIT_MODE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:956:4\n48 bytes (static)" }
+edge: { sourcename: "stm32__spi__receive_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:969:36" }
+edge: { sourcename: "stm32__spi__receive_8bit_mode" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:966:16" }
+edge: { sourcename: "stm32__spi__receive_8bit_mode" targetname: "stm32__spi__current_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:960:44" }
+edge: { sourcename: "stm32__spi__receive_8bit_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:956:4" }
+node: { title: "stm32__spi__receive_16bit_mode" label: "RECEIVE_16BIT_MODE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:935:4\n48 bytes (static)" }
+edge: { sourcename: "stm32__spi__receive_16bit_mode" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:945:16" }
+edge: { sourcename: "stm32__spi__receive_16bit_mode" targetname: "stm32__spi__current_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:939:44" }
+edge: { sourcename: "stm32__spi__receive_16bit_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:935:4" }
+node: { title: "stm32__spi__send_8bit_mode" label: "SEND_8BIT_MODE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:902:4\n56 bytes (static)" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:926:10" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:923:31" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:922:25" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:921:39" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "stm32__spi__tx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:917:20" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:912:31" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:911:25" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:910:39" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "stm32__spi__current_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:909:10" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:907:37" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:906:37" }
+edge: { sourcename: "stm32__spi__send_8bit_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:902:4" }
+node: { title: "stm32__spi__send_16bit_mode" label: "SEND_16BIT_MODE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:867:4\n56 bytes (static)" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:893:10" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:890:31" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:889:25" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:888:60" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:888:34" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "stm32__spi__tx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:883:20" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:878:31" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:877:25" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:876:60" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:876:34" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "stm32__spi__current_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:874:10" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:872:37" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:871:37" }
+edge: { sourcename: "stm32__spi__send_16bit_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:867:4" }
+node: { title: "stm32__spi__send_receive_8bit_mode" label: "SEND_RECEIVE_8BIT_MODE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:795:4\n80 bytes (static)" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "stm32__spi__data__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:859:39" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:859:20" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:859:10" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:855:16" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "stm32__spi__current_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:853:10" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:850:43" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:849:20" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:849:60" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:849:10" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:845:16" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:840:30" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:837:31" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:836:43" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:835:39" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "stm32__spi__tx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:831:20" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:823:20" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:823:60" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:823:10" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:819:16" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:814:13" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:808:31" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:807:43" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:806:39" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "stm32__spi__current_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:805:10" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:803:43" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:802:43" }
+edge: { sourcename: "stm32__spi__send_receive_8bit_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:795:4" }
+node: { title: "stm32__spi__send_receive_16bit_mode" label: "SEND_RECEIVE_16BIT_MODE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:718:4\n80 bytes (static)" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:786:67" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:786:32" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:782:16" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "stm32__spi__current_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:780:10" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:776:43" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:774:67" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:774:32" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:770:16" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:765:30" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:762:31" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:761:43" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:760:69" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:760:34" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "stm32__spi__tx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:755:20" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:747:67" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:747:32" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:743:16" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:738:13" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:732:31" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:731:43" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:730:69" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:730:34" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "stm32__spi__current_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:728:10" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:726:43" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:725:43" }
+edge: { sourcename: "stm32__spi__send_receive_16bit_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:718:4" }
+node: { title: "stm32__spi__data_register_address" label: "DATA_REGISTER_ADDRESS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:706:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__data_register_address" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:706:4" }
+node: { title: "stm32__spi__transmit_receive__2" label: "TRANSMIT_RECEIVE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:648:4\n32 bytes (static)" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:698:10" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__crc_error_indicated" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:697:33" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:697:10" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__busy" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:693:13" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:683:16" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:681:10" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:678:40" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:674:13" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:669:10" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "__gnat_rcheck_PE_Explicit_Raise" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:663:10" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__is_data_frame_16bit" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:662:10" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:659:10" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:658:14" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:655:10" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:654:10" }
+edge: { sourcename: "stm32__spi__transmit_receive__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:648:4" }
+node: { title: "stm32__spi__transmit_receive" label: "TRANSMIT_RECEIVE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:601:4\n72 bytes (static)" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:640:10" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__crc_error_indicated" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:639:33" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:639:10" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__busy" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:635:13" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:625:16" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:623:10" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__send_receive_8bit_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:619:10" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__send_receive_16bit_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:617:10" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__is_data_frame_16bit" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:616:10" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:613:10" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:612:14" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:609:10" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:608:10" }
+edge: { sourcename: "stm32__spi__transmit_receive" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:601:4" }
+node: { title: "stm32__spi__receive__3" label: "RECEIVE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:556:4\n32 bytes (static)" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:593:10" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__crc_error_indicated" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:592:33" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:592:10" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__busy" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:588:13" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:578:16" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:577:10" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:575:40" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:571:13" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:566:10" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:565:14" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:562:10" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:561:10" }
+edge: { sourcename: "stm32__spi__receive__3" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:556:4" }
+node: { title: "stm32__spi__receive__2" label: "RECEIVE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:523:4\n40 bytes (static)" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:546:10" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "stm32__spi__crc_error_indicated" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:545:33" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:545:10" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "stm32__spi__busy" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:541:13" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "stm32__spi__receive_16bit_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:539:7" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "stm32__spi__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:536:10" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "stm32__spi__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:535:14" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:532:10" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:531:10" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-spi.ads:84:21" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "stm32__spi__data_size" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-spi.ads:84:21" }
+edge: { sourcename: "stm32__spi__receive__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:523:4" }
+node: { title: "stm32__spi__receive" label: "RECEIVE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:489:4\n40 bytes (static)" }
+edge: { sourcename: "stm32__spi__receive" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:512:10" }
+edge: { sourcename: "stm32__spi__receive" targetname: "stm32__spi__crc_error_indicated" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:511:33" }
+edge: { sourcename: "stm32__spi__receive" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:511:10" }
+edge: { sourcename: "stm32__spi__receive" targetname: "stm32__spi__busy" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:507:13" }
+edge: { sourcename: "stm32__spi__receive" targetname: "stm32__spi__receive_8bit_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:505:7" }
+edge: { sourcename: "stm32__spi__receive" targetname: "stm32__spi__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:502:10" }
+edge: { sourcename: "stm32__spi__receive" targetname: "stm32__spi__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:501:14" }
+edge: { sourcename: "stm32__spi__receive" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:498:10" }
+edge: { sourcename: "stm32__spi__receive" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:497:10" }
+edge: { sourcename: "stm32__spi__receive" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-spi.ads:76:21" }
+edge: { sourcename: "stm32__spi__receive" targetname: "stm32__spi__data_size" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-spi.ads:76:21" }
+edge: { sourcename: "stm32__spi__receive" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:489:4" }
+node: { title: "stm32__spi__transmit__3" label: "TRANSMIT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:448:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__transmit__3" targetname: "stm32__spi__clear_overrun" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:480:10" }
+edge: { sourcename: "stm32__spi__transmit__3" targetname: "stm32__spi__current_data_direction" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:478:10" }
+edge: { sourcename: "stm32__spi__transmit__3" targetname: "stm32__spi__busy" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:472:13" }
+edge: { sourcename: "stm32__spi__transmit__3" targetname: "stm32__spi__tx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:468:17" }
+edge: { sourcename: "stm32__spi__transmit__3" targetname: "stm32__spi__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:463:10" }
+edge: { sourcename: "stm32__spi__transmit__3" targetname: "stm32__spi__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:462:14" }
+edge: { sourcename: "stm32__spi__transmit__3" targetname: "stm32__spi__current_data_direction" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:458:10" }
+edge: { sourcename: "stm32__spi__transmit__3" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:454:10" }
+edge: { sourcename: "stm32__spi__transmit__3" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:453:10" }
+edge: { sourcename: "stm32__spi__transmit__3" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:448:4" }
+node: { title: "stm32__spi__transmit__2" label: "TRANSMIT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:399:4\n40 bytes (static)" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__clear_overrun" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:438:10" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__current_data_direction" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:436:10" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__busy" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:430:13" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__tx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:425:17" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__send_16bit_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:422:7" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:419:10" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:418:14" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__clear_overrun" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:416:7" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__current_data_direction" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:412:10" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:408:10" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:407:10" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-spi.ads:68:21" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "stm32__spi__data_size" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-spi.ads:68:21" }
+edge: { sourcename: "stm32__spi__transmit__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:399:4" }
+node: { title: "stm32__spi__transmit" label: "TRANSMIT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:350:4\n40 bytes (static)" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__clear_overrun" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:389:10" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__current_data_direction" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:387:10" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__busy" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:381:13" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__tx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:376:17" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__send_8bit_mode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:373:7" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__enable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:370:10" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:369:14" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__clear_overrun" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:367:7" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__current_data_direction" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:363:10" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__reset_crc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:359:10" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__crc_enabled" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:358:10" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-spi.ads:60:21" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "stm32__spi__data_size" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-spi.ads:60:21" }
+edge: { sourcename: "stm32__spi__transmit" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:350:4" }
+node: { title: "stm32__spi__data_size" label: "DATA_SIZE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:336:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__data_size" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:336:4" }
+node: { title: "stm32__spi__is_data_frame_16bit" label: "IS_DATA_FRAME_16BIT\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:328:4\n16 bytes (static)" }
+node: { title: "stm32__spi__reset_crc" label: "RESET_CRC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:318:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__reset_crc" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:318:4" }
+node: { title: "stm32__spi__clear_overrun" label: "CLEAR_OVERRUN\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:306:4\n24 bytes (static)" }
+edge: { sourcename: "stm32__spi__clear_overrun" targetname: "stm32_svd__spi__sr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:308:7" }
+edge: { sourcename: "stm32__spi__clear_overrun" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:306:4" }
+node: { title: "stm32__spi__frame_fmt_error_indicated" label: "FRAME_FMT_ERROR_INDICATED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:297:4\n16 bytes (static)" }
+node: { title: "stm32__spi__overrun_indicated" label: "OVERRUN_INDICATED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:290:4\n16 bytes (static)" }
+node: { title: "stm32__spi__mode_fault_indicated" label: "MODE_FAULT_INDICATED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:283:4\n16 bytes (static)" }
+node: { title: "stm32__spi__crc_error_indicated" label: "CRC_ERROR_INDICATED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:276:4\n16 bytes (static)" }
+node: { title: "stm32__spi__underrun_indicated" label: "UNDERRUN_INDICATED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:269:4\n16 bytes (static)" }
+node: { title: "stm32__spi__channel_side_indicated" label: "CHANNEL_SIDE_INDICATED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:262:4\n16 bytes (static)" }
+node: { title: "stm32__spi__crc_enabled" label: "CRC_ENABLED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:255:4\n16 bytes (static)" }
+node: { title: "stm32__spi__current_data_direction" label: "CURRENT_DATA_DIRECTION\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:233:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__current_data_direction" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:233:4" }
+node: { title: "stm32__spi__current_mode" label: "CURRENT_MODE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:220:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__current_mode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:220:4" }
+node: { title: "stm32__spi__busy" label: "BUSY\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:211:4\n16 bytes (static)" }
+node: { title: "stm32__spi__rx_is_empty" label: "RX_IS_EMPTY\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:202:4\n16 bytes (static)" }
+node: { title: "stm32__spi__tx_is_empty" label: "TX_IS_EMPTY\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:193:4\n16 bytes (static)" }
+node: { title: "stm32__spi__is_busy" label: "IS_BUSY\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:182:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__is_busy" targetname: "stm32__spi__busy" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:186:17" }
+edge: { sourcename: "stm32__spi__is_busy" targetname: "stm32__spi__tx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:185:28" }
+edge: { sourcename: "stm32__spi__is_busy" targetname: "stm32__spi__rx_is_empty" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:184:15" }
+node: { title: "stm32__spi__data__2" label: "DATA\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:173:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__data__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:175:27" }
+edge: { sourcename: "stm32__spi__data__2" targetname: "stm32__spi__data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:175:27" }
+node: { title: "stm32__spi__send__2" label: "SEND\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:164:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__send__2" targetname: "stm32__spi__send" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:166:7" }
+edge: { sourcename: "stm32__spi__send__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:164:4" }
+node: { title: "stm32__spi__data" label: "DATA\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:155:4\n16 bytes (static)" }
+node: { title: "stm32__spi__send" label: "SEND\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:146:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__send" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:146:4" }
+node: { title: "stm32__spi__enabled" label: "ENABLED\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:137:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__enabled" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:137:4" }
+node: { title: "stm32__spi__disable" label: "DISABLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:128:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__disable" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:128:4" }
+node: { title: "stm32__spi__enable" label: "ENABLE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:119:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__enable" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:119:4" }
+node: { title: "stm32__spi__configure" label: "CONFIGURE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:72:4\n16 bytes (static)" }
+edge: { sourcename: "stm32__spi__configure" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:83:16" }
+edge: { sourcename: "stm32__spi__configure" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:74:16" }
+edge: { sourcename: "stm32__spi__configure" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.adb:72:4" }
+node: { title: "stm32__spi__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:49:1\n8 bytes (static)" }
+edge: { sourcename: "stm32__spi__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:49:1" }
+node: { title: "stm32__spi__uint8_bufferIP" label: "UINT8_BUFFERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:150:9\n16 bytes (static)" }
+node: { title: "stm32__spi__spi_configurationIP" label: "SPI_CONFIGURATIONIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:75:9\n16 bytes (static)" }
+node: { title: "stm32__spi__Tspi_portCFD" label: "TSPI_PORTCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:53:9\n32 bytes (static)" }
+edge: { sourcename: "stm32__spi__Tspi_portCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:53:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "stm32__spi__spi_portDF__2" label: "SPI_PORTDF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:218:9\n16 bytes (static)" }
+node: { title: "stm32__spi___size__2" label: "SPI\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:218:9\n16 bytes (static)" }
+node: { title: "stm32__spi__spi_portIP" label: "SPI_PORTIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-spi.ads:218:9\n24 bytes (static)" }
+}

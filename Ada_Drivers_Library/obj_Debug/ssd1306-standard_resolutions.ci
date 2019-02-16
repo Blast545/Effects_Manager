@@ -1,0 +1,103 @@
+edge: { sourcename: "ssd1306__standard_resolutions__TT6sCFD"
+  targetname: "-9:ssd1306__ssd1306_screen,ssd1306__ssd1306_screen"
+  label: "ssd1306-standard_resolutions.ads:38:7"
+}
+edge: { sourcename: "ssd1306__standard_resolutions___size__TT40sCFD"
+  targetname: "-9:ssd1306__ssd1306_screen,ssd1306__ssd1306_screen"
+  label: "ssd1306-standard_resolutions.ads:34:9"
+}
+edge: { sourcename: "ssd1306__standard_resolutions__Tssd1306_96x16_screenCFD"
+  targetname: "-9:ssd1306__standard_resolutions__ssd1306_96x16_screen,ssd1306__standard_resolutions__ssd1306_96x16_screen"
+  label: "ssd1306-standard_resolutions.ads:34:9"
+}
+edge: { sourcename: "ssd1306__standard_resolutions__TT16sCFD"
+  targetname: "-9:ssd1306__ssd1306_screen,ssd1306__ssd1306_screen"
+  label: "ssd1306-standard_resolutions.ads:44:7"
+}
+edge: { sourcename: "ssd1306__standard_resolutions___size__TT63sCFD__2"
+  targetname: "-9:ssd1306__ssd1306_screen,ssd1306__ssd1306_screen"
+  label: "ssd1306-standard_resolutions.ads:40:9"
+}
+edge: { sourcename: "ssd1306__standard_resolutions__Tssd1306_128x32_screenCFD"
+  targetname: "-9:ssd1306__standard_resolutions__ssd1306_128x32_screen,ssd1306__standard_resolutions__ssd1306_128x32_screen"
+  label: "ssd1306-standard_resolutions.ads:40:9"
+}
+edge: { sourcename: "ssd1306__standard_resolutions__TT26sCFD"
+  targetname: "-9:ssd1306__ssd1306_screen,ssd1306__ssd1306_screen"
+  label: "ssd1306-standard_resolutions.ads:50:7"
+}
+edge: { sourcename: "ssd1306__standard_resolutions___size__TT86sCFD__3"
+  targetname: "-9:ssd1306__ssd1306_screen,ssd1306__ssd1306_screen"
+  label: "ssd1306-standard_resolutions.ads:46:9"
+}
+edge: { sourcename: "ssd1306__standard_resolutions__Tssd1306_128x64_screenCFD"
+  targetname: "-9:ssd1306__standard_resolutions__ssd1306_128x64_screen,ssd1306__standard_resolutions__ssd1306_128x64_screen"
+  label: "ssd1306-standard_resolutions.ads:46:9"
+}
+class {
+  classname: "ssd1306__standard_resolutions__ssd1306_96x16_screen"
+  label: "ssd1306__standard_resolutions__ssd1306_96x16_screen\ssd1306-standard_resolutions.ads:34:9"
+  parent: "ssd1306__ssd1306_screen"
+  virtuals: "-1:ssd1306__standard_resolutions___size,-1:ssd1306__ssd1306_screen\n
+             -9:ssd1306__standard_resolutions__ssd1306_96x16_screenDF,-9:ssd1306__ssd1306_screen"
+}
+class {
+  classname: "ssd1306__standard_resolutions__ssd1306_128x32_screen"
+  label: "ssd1306__standard_resolutions__ssd1306_128x32_screen\ssd1306-standard_resolutions.ads:40:9"
+  parent: "ssd1306__ssd1306_screen"
+  virtuals: "-1:ssd1306__standard_resolutions___size__2,-1:ssd1306__ssd1306_screen\n
+             -9:ssd1306__standard_resolutions__ssd1306_128x32_screenDF,-9:ssd1306__ssd1306_screen"
+}
+class {
+  classname: "ssd1306__standard_resolutions__ssd1306_128x64_screen"
+  label: "ssd1306__standard_resolutions__ssd1306_128x64_screen\ssd1306-standard_resolutions.ads:46:9"
+  parent: "ssd1306__ssd1306_screen"
+  virtuals: "-1:ssd1306__standard_resolutions___size__3,-1:ssd1306__ssd1306_screen\n
+             -9:ssd1306__standard_resolutions__ssd1306_128x64_screenDF,-9:ssd1306__ssd1306_screen"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "ada__tags__register_interface_offset" label: "Register_Interface_Offset\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:538:14" shape : ellipse }
+node: { title: "ssd1306__ssd1306_screenIP" label: "SSD1306_SCREENIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306.ads:216:9" shape : ellipse }
+node: { title: "ssd1306__standard_resolutions___elabs" label: "STANDARD_RESOLUTIONS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:32:1\n8 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:46:9" }
+edge: { sourcename: "ssd1306__standard_resolutions___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:46:9" }
+edge: { sourcename: "ssd1306__standard_resolutions___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:40:9" }
+edge: { sourcename: "ssd1306__standard_resolutions___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:40:9" }
+edge: { sourcename: "ssd1306__standard_resolutions___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:34:9" }
+edge: { sourcename: "ssd1306__standard_resolutions___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:34:9" }
+node: { title: "ssd1306__standard_resolutions__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:32:1\n8 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:32:1" }
+edge: { sourcename: "ssd1306__standard_resolutions__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:32:1" }
+edge: { sourcename: "ssd1306__standard_resolutions__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:32:1" }
+node: { title: "ssd1306__standard_resolutions__Tssd1306_128x64_screenCFD" label: "TSSD1306_128X64_SCREENCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:46:9\n32 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions__Tssd1306_128x64_screenCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:46:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "ssd1306__standard_resolutions__ssd1306_128x64_screenDF" label: "SSD1306_128X64_SCREENDF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:46:9\n16 bytes (static)" }
+node: { title: "ssd1306__standard_resolutions___size__3" label: "STANDARD_RESOLUTIONS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:46:9\n24 bytes (static)" }
+node: { title: "ssd1306__standard_resolutions__ssd1306_128x64_screenIP" label: "SSD1306_128X64_SCREENIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:46:9\n40 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions__ssd1306_128x64_screenIP" targetname: "ada__tags__register_interface_offset" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:46:9" }
+edge: { sourcename: "ssd1306__standard_resolutions__ssd1306_128x64_screenIP" targetname: "ssd1306__ssd1306_screenIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:50:7" }
+node: { title: "ssd1306__standard_resolutions__TT26sCFD" label: "TT26SCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:50:7\n32 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions__TT26sCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:50:7" }
+node: { title: "ssd1306__standard_resolutions__Tssd1306_128x32_screenCFD" label: "TSSD1306_128X32_SCREENCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:40:9\n32 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions__Tssd1306_128x32_screenCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:40:9" }
+node: { title: "ssd1306__standard_resolutions__ssd1306_128x32_screenDF" label: "SSD1306_128X32_SCREENDF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:40:9\n16 bytes (static)" }
+node: { title: "ssd1306__standard_resolutions___size__2" label: "STANDARD_RESOLUTIONS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:40:9\n24 bytes (static)" }
+node: { title: "ssd1306__standard_resolutions__ssd1306_128x32_screenIP" label: "SSD1306_128X32_SCREENIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:40:9\n40 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions__ssd1306_128x32_screenIP" targetname: "ada__tags__register_interface_offset" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:40:9" }
+edge: { sourcename: "ssd1306__standard_resolutions__ssd1306_128x32_screenIP" targetname: "ssd1306__ssd1306_screenIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:44:7" }
+node: { title: "ssd1306__standard_resolutions__TT16sCFD" label: "TT16SCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:44:7\n32 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions__TT16sCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:44:7" }
+node: { title: "ssd1306__standard_resolutions__Tssd1306_96x16_screenCFD" label: "TSSD1306_96X16_SCREENCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:34:9\n32 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions__Tssd1306_96x16_screenCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:34:9" }
+node: { title: "ssd1306__standard_resolutions__ssd1306_96x16_screenDF" label: "SSD1306_96X16_SCREENDF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:34:9\n16 bytes (static)" }
+node: { title: "ssd1306__standard_resolutions___size" label: "STANDARD_RESOLUTIONS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:34:9\n24 bytes (static)" }
+node: { title: "ssd1306__standard_resolutions__ssd1306_96x16_screenIP" label: "SSD1306_96X16_SCREENIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:34:9\n40 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions__ssd1306_96x16_screenIP" targetname: "ada__tags__register_interface_offset" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:34:9" }
+edge: { sourcename: "ssd1306__standard_resolutions__ssd1306_96x16_screenIP" targetname: "ssd1306__ssd1306_screenIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:38:7" }
+node: { title: "ssd1306__standard_resolutions__TT6sCFD" label: "TT6SCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:38:7\n32 bytes (static)" }
+edge: { sourcename: "ssd1306__standard_resolutions__TT6sCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\screen\ssd1306\ssd1306-standard_resolutions.ads:38:7" }
+}

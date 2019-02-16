@@ -1,0 +1,31 @@
+edge: { sourcename: "hal__audio__Taudio_streamCFD"
+  targetname: "-9:hal__audio__audio_stream,hal__audio__audio_stream"
+  label: "hal-audio.ads:61:9"
+}
+class {
+  classname: "hal__audio__audio_stream"
+  label: "hal__audio__audio_stream\hal-audio.ads:61:9"
+  virtuals: "1:hal__audio__set_frequency\n
+             2:hal__audio__transmit\n
+             3:hal__audio__receive\n
+             -1:hal__audio___size\n
+             -2:hal__audio__audio_streamSR\n
+             -3:hal__audio__audio_streamSW\n
+             -4:hal__audio__audio_streamSI\n
+             -5:hal__audio__audio_streamSO\n
+             -9:hal__audio__audio_streamDF"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-audio.ads"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+node: { title: "hal__audio___elabs" label: "AUDIO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-audio.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "hal__audio___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-audio.ads:61:9" }
+edge: { sourcename: "hal__audio___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-audio.ads:61:9" }
+node: { title: "hal__audio__Taudio_streamCFD" label: "TAUDIO_STREAMCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-audio.ads:61:9\n32 bytes (static)" }
+edge: { sourcename: "hal__audio__Taudio_streamCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-audio.ads:61:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "hal__audio__audio_frequencyRP" label: "AUDIO_FREQUENCYRP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-audio.ads:41:9\n16 bytes (static)" }
+edge: { sourcename: "hal__audio__audio_frequencyRP" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-audio.ads:41:9" }
+node: { title: "hal__audio__audio_bufferIP" label: "AUDIO_BUFFERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-audio.ads:36:9\n16 bytes (static)" }
+}

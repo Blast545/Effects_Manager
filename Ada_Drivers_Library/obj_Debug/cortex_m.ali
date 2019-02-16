@@ -1,0 +1,30 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U cortex_m%s		cortex_m.ads		38b367df NE OO PU PK
+
+D cortex_m.ads		20190116062804 38b367df cortex_m%s
+D system.ads		20180524194940 db831581 system%s
+X 1 cortex_m.ads
+32K9*Cortex_M 34l5 34e13
+

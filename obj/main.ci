@@ -1,0 +1,68 @@
+edge: { sourcename: "_ada_main"
+  targetname: "1:hal__time__delays,hal__time__delays"
+  label: "main.adb:60:12"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb"
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "audio_stream__double_buffer_controller__not_in_transferP" label: "Not_In_Transferp\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\audio_stream.ads:55:7" shape : ellipse }
+node: { title: "system__tasking__protected_objects__operations__protected_entry_call" label: "Protected_Entry_Call\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-tpobop.ads:55:14" shape : ellipse }
+node: { title: "system__tasking__protected_objects__operations__communication_blockIP" label: "Communication_Blockip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-tpobop.ads:115:9" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Index_Check" label: "gnat_rcheck_CE_Index_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-except.ads:188:14" shape : ellipse }
+node: { title: "robot__process_audio_block" label: "Process_Audio_Block\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Robot.ads:18:14" shape : ellipse }
+node: { title: "pitch__process_audio_block" label: "Process_Audio_Block\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Pitch.ads:14:14" shape : ellipse }
+node: { title: "echo__process_audio_block" label: "Process_Audio_Block\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:16:14" shape : ellipse }
+node: { title: "only_voice__process_audio_block" label: "Process_Audio_Block\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Only_voice.ads:16:14" shape : ellipse }
+node: { title: "almost_raw__process_audio_block" label: "Process_Audio_Block\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Almost_Raw.ads:15:14" shape : ellipse }
+node: { title: "ada__synchronous_task_control__suspend_until_true" label: "Suspend_Until_True\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-sytaco.ads:63:14" shape : ellipse }
+node: { title: "ada__synchronous_task_control__set_true" label: "Set_True\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-sytaco.ads:49:14" shape : ellipse }
+node: { title: "audio_stream__double_buffer_controller__startP" label: "Startp\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\audio_stream.ads:47:7" shape : ellipse }
+node: { title: "stm32__i2s__data_register_address" label: "DATA_REGISTER_ADDRESS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-i2s.ads:113:13" shape : ellipse }
+node: { title: "custom_board__initialize_gesture_sensing" label: "Initialize_Gesture_Sensing\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:87:14" shape : ellipse }
+node: { title: "ili9341_extended__fill" label: "Fill\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\ili9341_extended.ads:137:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "ili9341_extended__set_font" label: "Set_Font\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\ili9341_extended.ads:165:14" shape : ellipse }
+node: { title: "ili9341_extended__set_orientation" label: "Set_Orientation\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\ili9341_extended.ads:146:14" shape : ellipse }
+node: { title: "ili9341_extended__initialize" label: "Initialize\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\ili9341_extended.ads:75:14" shape : ellipse }
+node: { title: "custom_board__initialize_spi" label: "Initialize_Spi\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:86:14" shape : ellipse }
+node: { title: "custom_board__initialize_timer" label: "Initialize_Timer\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:85:14" shape : ellipse }
+node: { title: "custom_board__initialize_adc" label: "Initialize_Adc\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads:84:14" shape : ellipse }
+node: { title: "stm32__board__initialize_audio" label: "INITIALIZE_AUDIO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\stm32f407disco\stm32-board.ads:85:14" shape : ellipse }
+node: { title: "stm32__board__initialize_leds" label: "INITIALIZE_LEDS\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\stm32f407disco\stm32-board.ads:73:14" shape : ellipse }
+node: { title: "_ada_main" label: "Main\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:28:1\n1664 bytes (static)" }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+edge: { sourcename: "_ada_main" targetname: "audio_stream__double_buffer_controller__not_in_transferP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:117:26" }
+edge: { sourcename: "_ada_main" targetname: "system__tasking__protected_objects__operations__protected_entry_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:114:23" }
+edge: { sourcename: "_ada_main" targetname: "system__tasking__protected_objects__operations__communication_blockIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:114:23" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:110:10" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:110:30" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:109:10" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:109:35" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:109:30" }
+edge: { sourcename: "_ada_main" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:103:10" }
+edge: { sourcename: "_ada_main" targetname: "robot__process_audio_block" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:100:22" }
+edge: { sourcename: "_ada_main" targetname: "pitch__process_audio_block" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:98:23" }
+edge: { sourcename: "_ada_main" targetname: "echo__process_audio_block" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:96:22" }
+edge: { sourcename: "_ada_main" targetname: "only_voice__process_audio_block" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:94:23" }
+edge: { sourcename: "_ada_main" targetname: "almost_raw__process_audio_block" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:92:22" }
+edge: { sourcename: "_ada_main" targetname: "memcpy" }
+edge: { sourcename: "_ada_main" targetname: "ada__synchronous_task_control__suspend_until_true" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:85:7" }
+edge: { sourcename: "_ada_main" targetname: "ada__synchronous_task_control__set_true" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:81:4" }
+edge: { sourcename: "_ada_main" targetname: "audio_stream__double_buffer_controller__startP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:68:20" }
+edge: { sourcename: "_ada_main" targetname: "stm32__i2s__data_register_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:68:64" }
+edge: { sourcename: "_ada_main" targetname: "custom_board__initialize_gesture_sensing" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:65:4" }
+edge: { sourcename: "_ada_main" targetname: "ili9341_extended__fill" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:61:4" }
+edge: { sourcename: "_ada_main" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:60:12" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "_ada_main" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:60:4" }
+edge: { sourcename: "_ada_main" targetname: "ili9341_extended__set_font" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:59:10" }
+edge: { sourcename: "_ada_main" targetname: "ili9341_extended__set_orientation" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:58:10" }
+edge: { sourcename: "_ada_main" targetname: "ili9341_extended__initialize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:57:4" }
+edge: { sourcename: "_ada_main" targetname: "custom_board__initialize_spi" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:54:4" }
+edge: { sourcename: "_ada_main" targetname: "custom_board__initialize_timer" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:52:4" }
+edge: { sourcename: "_ada_main" targetname: "custom_board__initialize_adc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:45:4" }
+edge: { sourcename: "_ada_main" targetname: "stm32__board__initialize_audio" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:42:4" }
+edge: { sourcename: "_ada_main" targetname: "stm32__board__initialize_leds" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb:40:4" }
+}

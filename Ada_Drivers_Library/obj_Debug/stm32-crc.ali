@@ -1,0 +1,103 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U stm32.crc%b		stm32-crc.adb		f13509a8 NE OO PK IU
+W stm32%s		stm32.ads		stm32.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U stm32.crc%s		stm32-crc.ads		0f821132 EB NE OO PK IU
+W stm32%s		stm32.ads		stm32.ali
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W stm32_svd.crc%s	stm32_svd-crc.ads	stm32_svd-crc.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D stm32-crc.ads		20190116062804 9ef7b3c1 stm32.crc%s
+D stm32-crc.adb		20190116062804 6fc2ba69 stm32.crc%b
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-crc.ads	20190116062804 f8fb8ec8 stm32_svd.crc%s
+D system.ads		20180524194940 db831581 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+X 1 hal.ads
+53M9*UInt8<2|63M9> 4|89r49 101r15 108r53 5|122r15 132r53
+66M9*UInt16<2|66M9> 4|79r50
+97M9*UInt32<2|74M9> 4|51r42 63r16 64r20 68r50 74r20 85r20 95r20 5|47r42 56r16
+. 57r20 75r20 91r20 95r21 107r20 111r21
+X 2 interfac.ads
+63M9*Unsigned_8
+66M9*Unsigned_16
+74M9*Unsigned_32
+X 3 stm32.ads
+39K9*STM32 48e10 4|40r9 115r5 5|32r14 135r5
+X 4 stm32-crc.ads
+40K15*CRC 3|39k9 4|113E9 115l11 115e14 5|32b20 135l11 135t14
+43R9*CRC_32<7|54R9> 45r46 51r27 62r23 72r23 83r23 93r23 100r22 108r38 113c9
+. 5|38r46 47r27 55r23 73r23 89r23 105r23 121r22 132r38
+45U14*Reset_Calculator 45=32 5|38b14 41l8 41t24
+45r32 This{43R9} 46r21 5|38b32 40m7
+51V13*Value{1|97M9} 46s14 51>20 5|47b13
+51r20 This{43R9} 5|48r8
+61U14*Update_CRC 62=7 63>7 64<7 5|54b14 66l8 66t18
+62r7 This{43R9} 5|55b7 60m7 65r17
+63m7 Input{1|97M9} 5|56b7 60r18
+64m7 Output{1|97M9} 5|57b7 65m7
+68A9*Block_32(1|97M9)<integer> 73r16 5|74r16
+71U14*Update_CRC 72=7 73>7 74<7 5|72b14 82l8 82t18
+72r7 This{43R9} 5|73b7 79m10 81r17
+73a7 Input{68A9} 5|74b7 78r16 79r21
+74m7 Output{1|97M9} 5|75b7 81m7
+79A9*Block_16(1|66M9)<integer> 84r16 5|90r16
+82U14*Update_CRC 83=7 84>7 85<7 5|88b14 98l8 98t18
+83r7 This{43R9} 5|89b7 95m10 97r17
+84a7 Input{79A9} 5|90b7 94r16 95r29
+85m7 Output{1|97M9} 5|91b7 97m7
+89A9*Block_8(1|53M9)<integer> 94r16 5|106r16
+92U14*Update_CRC 93=7 94>7 95<7 5|104b14 114l8 114t18
+93r7 This{43R9} 5|105b7 111m10 113r17
+94a7 Input{89A9} 5|106b7 110r16 111r29
+95m7 Output{1|97M9} 5|107b7 113m7
+99U14*Set_Independent_Data 100=7 101>7 5|120b14 126l8 126t28
+100r7 This{43R9} 5|121b7 125m7
+101m7 Value{1|53M9} 5|122b7 125r23
+108V13*Independent_Data{1|53M9} 108>31 5|132b13
+108r31 This{43R9} 5|133r7
+X 5 stm32-crc.adb
+78i11 K{integer} 79r28
+94i11 K{integer} 95r36
+110i11 K{integer} 111r36
+X 6 stm32_svd.ads
+10K9*STM32_SVD 4|38r14 113r23 6|164e14
+X 7 stm32_svd-crc.ads
+10K19*CRC 4|38w24 113r33 7|74e18
+17M12*IDR_IDR_Field{1|53M9}
+22m7*IDR{17M12} 5|125m16 133r16
+37b7*CR{boolean} 5|40m15
+54R9*CRC_Peripheral 4|113r37 7|62e6
+56m7*DR{1|97M9} 5|48r13 60m12 65r22 79m15 81r22 95m15 97r22 111m15 113r22
+58r7*IDR{20R9} 5|125m12 133r12
+60r7*CR{35R9} 5|40m12
+

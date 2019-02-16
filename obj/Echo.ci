@@ -1,0 +1,60 @@
+edge: { sourcename: "echo__Techo_effectCFD"
+  targetname: "-9:echo__echo_effect,echo__echo_effect"
+  label: "echo.ads:10:9"
+}
+class {
+  classname: "echo__echo_effect"
+  label: "echo__echo_effect\echo.ads:10:9"
+  parent: "hal__audio_effect__audio_effect"
+  virtuals: "1:echo__reset_variables,1:hal__audio_effect__audio_effect\n
+             2:echo__process_audio_block,2:hal__audio_effect__audio_effect\n
+             -1:echo___size__2,-1:hal__audio_effect__audio_effect\n
+             -9:echo__echo_effectDF__2,-9:hal__audio_effect__audio_effect"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.adb"
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "memmove" label: "builtin_memmove\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Length_Check" label: "gnat_rcheck_CE_Length_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Index_Check" label: "gnat_rcheck_CE_Index_Check\n<built-in>" shape : ellipse }
+node: { title: "memset" label: "builtin_memset\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "echo___elabs" label: "Echo\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:8:1\n8 bytes (static)" }
+edge: { sourcename: "echo___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:30:9" }
+edge: { sourcename: "echo___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:30:9" }
+node: { title: "echo___elabb" label: "Echo\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:7:1\n4 bytes (static)" }
+node: { title: "echo__process_audio_block" label: "Process_Audio_Block\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:19:4\n120 bytes (dynamic)" }
+edge: { sourcename: "echo__process_audio_block" targetname: "memcpy" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Length_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:54:109" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:54:75" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:54:50" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:54:78" }
+edge: { sourcename: "echo__process_audio_block" targetname: "memmove" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:52:80" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Length_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:52:87" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:52:125" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:52:128" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:52:54" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:52:28" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:48:50" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:40:35" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:40:55" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:39:34" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:34:44" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:34:10" }
+edge: { sourcename: "echo__process_audio_block" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:19:4" }
+node: { title: "echo__reset_variables" label: "Reset_Variables\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:10:4\n16 bytes (static)" }
+edge: { sourcename: "echo__reset_variables" targetname: "memset" }
+edge: { sourcename: "echo__reset_variables" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\echo.adb:10:4" }
+node: { title: "echo__finalize_spec" label: "Finalize_Spec\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:8:1\n8 bytes (static)" }
+edge: { sourcename: "echo__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:8:1" }
+node: { title: "echo__Techo_effectCFD" label: "Techo_Effectcfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:10:9\n32 bytes (static)" }
+edge: { sourcename: "echo__Techo_effectCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:10:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "echo__echo_effectDF__2" label: "Echo_Effectdf\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:30:9\n16 bytes (static)" }
+node: { title: "echo___size__2" label: "Echo\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:30:9\n16 bytes (static)" }
+node: { title: "echo__echo_effectIP" label: "Echo_Effectip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Echo.ads:30:9\n16 bytes (static)" }
+}

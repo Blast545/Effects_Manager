@@ -1,0 +1,103 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U stm32.power_control%b	stm32-power_control.adb	5dafeacb NE OO PK IU
+W cortex_m_svd%s	cortex_m_svd.ads	cortex_m_svd.ali
+W cortex_m_svd.scb%s	cortex_m_svd-scb.ads	cortex_m_svd-scb.ali
+W stm32%s		stm32.ads		stm32.ali
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W stm32_svd.pwr%s	stm32_svd-pwr.ads	stm32_svd-pwr.ali
+W stm32_svd.rcc%s	stm32_svd-rcc.ads	stm32_svd-rcc.ali
+W system%s		system.ads		system.ali
+W system.machine_code%s	s-maccod.ads		s-maccod.ali
+
+U stm32.power_control%s	stm32-power_control.ads	3ba848e9 EE NE OO PK IU
+W stm32%s		stm32.ads		stm32.ali
+
+D cortex_m_svd.ads	20190116062804 cd5bf229 cortex_m_svd%s
+D cortex_m_svd-scb.ads	20190116062804 cd959b58 cortex_m_svd.scb%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D stm32-power_control.ads  20190116062804 522664d2 stm32.power_control%s
+D stm32-power_control.adb  20190116062804 928e9010 stm32.power_control%b
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-pwr.ads	20190116062804 874a7e17 stm32_svd.pwr%s
+D stm32_svd-rcc.ads	20190116062804 bab05c47 stm32_svd.rcc%s
+D system.ads		20180524194940 db831581 system%s
+D s-maccod.ads		20180524194940 6d68a701 system.machine_code%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 1 cortex_m_svd.ads
+9K9*Cortex_M_SVD 31e17 7|34r6 34r31
+X 2 cortex_m_svd-scb.ads
+10K22*SCB 985e21 7|34w19 34r44
+569b7*SLEEPDEEP{boolean} 7|136m22
+935r7*SCR{561R9} 7|136m18
+982r4*SCB_Periph{918R9} 7|136m7
+X 5 stm32.ads
+39K9*STM32 48e10 6|32r9 73r5 7|37r14 143r5
+X 6 stm32-power_control.ads
+32K15*Power_Control 5|39k9 6|73l11 73e24 7|37b20 143l11 143t24
+34U14*Enable 7|43b14 46l8 46t14
+37U14*Disable_Backup_Domain_Protection 7|52b14 55l8 55t40
+38U14*Enable_Backup_Domain_Protection 7|61b14 64l8 64t39
+40V13*Wakeup_Flag{boolean} 7|70b13
+44U14*Clear_Wakeup_Flag 7|77b14 80l8 80t25 131s7
+46V13*Standby_Flag{boolean} 7|86b13
+50U14*Clear_Standby_Flag 7|93b14 96l8 96t26 132s7
+52U14*Set_Power_Down_Deepsleep 52>40 7|102b14 105l8 105t32 134s7
+52b40 Enabled{boolean} 7|102b40 104r29
+56U14*Set_Low_Power_Deepsleep 56>39 7|111b14 114l8 114t31
+56b39 Enabled{boolean} 7|111b39 113r29
+60U14*Enable_Wakeup_Pin 60>33 7|120b14 123l8 123t25
+60b33 Enabled{boolean} 7|120b33 122r30
+67U14*Enter_Standby_Mode 7|129b14 141l8 141t26
+X 8 stm32_svd.ads
+10K9*STM32_SVD 7|32r6 32r31 33r6 33r31 8|164e14
+X 9 stm32_svd-pwr.ads
+10K19*PWR 7|32w16 32r41 9|122e18
+22b7*LPDS{boolean} 7|113m21
+24b7*PDDS{boolean} 7|104m21
+26b7*CWUF{boolean} 7|79m21
+28b7*CSBF{boolean} 7|95m21
+34b7*DBP{boolean} 7|54m21 63m21
+64b7*WUF{boolean} 7|71r23
+66b7*SBF{boolean} 7|87r23
+74b7*EWUP{boolean} 7|122m22
+107r7*CR{20R9} 7|54m18 63m18 79m18 95m18 104m18 113m18
+109r7*CSR{62R9} 7|71r19 87r19 122m18
+119r4*PWR_Periph{105R9} 7|54m7 63m7 71r8 79m7 87r8 95m7 104m7 113m7 122m7
+X 10 stm32_svd-rcc.ads
+10K19*RCC 7|33w16 33r41 10|1346e18
+712b7*PWREN{boolean} 7|45m26
+1292r7*APB1ENR{658R9} 7|45m18
+1343r4*RCC_Periph{1266R9} 7|45m7
+X 11 system.ads
+50K9*System 7|35r6 35r31 11|164e11
+X 12 s-maccod.ads
+36K16*Machine_Code 7|35w13 35r38 12|131e24
+83U14*Asm 7|139s10
+88b6 Volatile{boolean} 7|139r22
+

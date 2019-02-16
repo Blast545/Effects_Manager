@@ -1,0 +1,114 @@
+edge: { sourcename: "bno055_i2c_io__Tio_portCFD"
+  targetname: "-9:bno055_i2c_io__io_port,bno055_i2c_io__io_port"
+  label: "bno055_i2c_io.ads:40:9"
+}
+class {
+  classname: "bno055_i2c_io__io_port"
+  label: "bno055_i2c_io__io_port\bno055_i2c_io.ads:40:9"
+  virtuals: "-1:bno055_i2c_io___size\n
+             -2:bno055_i2c_io__io_portSR\n
+             -3:bno055_i2c_io__io_portSW\n
+             -4:bno055_i2c_io__io_portSI\n
+             -5:bno055_i2c_io__io_portSO\n
+             -6:bno055_i2c_io__Oeq\n
+             -7:bno055_i2c_io___assign\n
+             -8:bno055_i2c_io__io_portDA\n
+             -9:bno055_i2c_io__io_portDF"
+}
+edge: { sourcename: "bno055_i2c_io__read"
+  targetname: "4:hal__i2c__i2c_port,hal__i2c__i2c_port"
+  label: "bno055_i2c_io.adb:46:7"
+}
+edge: { sourcename: "bno055_i2c_io__write"
+  targetname: "3:hal__i2c__i2c_port,hal__i2c__i2c_port"
+  label: "bno055_i2c_io.adb:71:7"
+}
+edge: { sourcename: "bno055_i2c_io__read_buffer"
+  targetname: "4:hal__i2c__i2c_port,hal__i2c__i2c_port"
+  label: "bno055_i2c_io.adb:94:7"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:126:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:201:14" shape : ellipse }
+node: { title: "system__finalization_masters__initialize__2" label: "Initialize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:198:25" shape : ellipse }
+node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:161:9" shape : ellipse }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-except.ads:188:14" shape : ellipse }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "system__img_enum_new__image_enumeration_8" label: "Image_Enumeration_8\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-imenne.ads:48:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "system__finalization_masters__finalize" label: "Finalize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:96:25" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-secsta.ads:58:14" shape : ellipse }
+node: { title: "system__stream_attributes__w_su" label: "W_Su\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:150:14" shape : ellipse }
+node: { title: "system__stream_attributes__w_as" label: "W_As\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:133:14" shape : ellipse }
+node: { title: "system__stream_attributes__i_su" label: "I_Su\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:118:13" shape : ellipse }
+node: { title: "system__stream_attributes__i_as" label: "I_As\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:102:13" shape : ellipse }
+node: { title: "bno055_i2c_io___elabs" label: "BNO055_I2C_IO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:38:1\n8 bytes (static)" }
+edge: { sourcename: "bno055_i2c_io___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+edge: { sourcename: "bno055_i2c_io___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+edge: { sourcename: "bno055_i2c_io___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:45:9" }
+edge: { sourcename: "bno055_i2c_io___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:45:9" }
+edge: { sourcename: "bno055_i2c_io___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:45:9" }
+edge: { sourcename: "bno055_i2c_io___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:45:9" }
+node: { title: "bno055_i2c_io__read_buffer" label: "READ_BUFFER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:87:4\n128 bytes (dynamic)" }
+edge: { sourcename: "bno055_i2c_io__read_buffer" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:102:10" }
+edge: { sourcename: "bno055_i2c_io__read_buffer" targetname: "memcpy" }
+edge: { sourcename: "bno055_i2c_io__read_buffer" targetname: "system__img_enum_new__image_enumeration_8" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:102:66" }
+edge: { sourcename: "bno055_i2c_io__read_buffer" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:102:60" }
+edge: { sourcename: "bno055_i2c_io__read_buffer" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:94:7" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "bno055_i2c_io__read_buffer" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:96:14" }
+edge: { sourcename: "bno055_i2c_io__read_buffer" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:95:20" }
+edge: { sourcename: "bno055_i2c_io__read_buffer" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:95:14" }
+node: { title: "bno055_i2c_io__write" label: "WRITE\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:63:4\n128 bytes (dynamic)" }
+edge: { sourcename: "bno055_i2c_io__write" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:79:10" }
+edge: { sourcename: "bno055_i2c_io__write" targetname: "memcpy" }
+edge: { sourcename: "bno055_i2c_io__write" targetname: "system__img_enum_new__image_enumeration_8" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:79:62" }
+edge: { sourcename: "bno055_i2c_io__write" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:79:56" }
+edge: { sourcename: "bno055_i2c_io__write" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:71:7" }
+edge: { sourcename: "bno055_i2c_io__write" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:73:14" }
+edge: { sourcename: "bno055_i2c_io__write" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:72:20" }
+edge: { sourcename: "bno055_i2c_io__write" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:72:14" }
+node: { title: "bno055_i2c_io__read" label: "READ\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:38:4\n128 bytes (dynamic)" }
+edge: { sourcename: "bno055_i2c_io__read" targetname: "_Unwind_Resume" }
+edge: { sourcename: "bno055_i2c_io__read" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:54:10" }
+edge: { sourcename: "bno055_i2c_io__read" targetname: "memcpy" }
+edge: { sourcename: "bno055_i2c_io__read" targetname: "system__img_enum_new__image_enumeration_8" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:54:61" }
+edge: { sourcename: "bno055_i2c_io__read" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:54:55" }
+edge: { sourcename: "bno055_i2c_io__read" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:46:7" }
+edge: { sourcename: "bno055_i2c_io__read" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:48:14" }
+edge: { sourcename: "bno055_i2c_io__read" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:47:20" }
+edge: { sourcename: "bno055_i2c_io__read" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.adb:47:14" }
+node: { title: "bno055_i2c_io__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:38:1\n16 bytes (static)" }
+edge: { sourcename: "bno055_i2c_io__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:38:1" }
+edge: { sourcename: "bno055_i2c_io__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:38:1" }
+edge: { sourcename: "bno055_i2c_io__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "bno055_i2c_io__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:45:9" }
+edge: { sourcename: "bno055_i2c_io__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:38:1" }
+node: { title: "bno055_i2c_io__Tio_portCFD" label: "TIO_PORTCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9\n32 bytes (static)" }
+edge: { sourcename: "bno055_i2c_io__Tio_portCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+node: { title: "bno055_i2c_io__io_portDF" label: "IO_PORTDF\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9\n16 bytes (static)" }
+node: { title: "bno055_i2c_io__io_portDA" label: "IO_PORTDA\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9\n16 bytes (static)" }
+node: { title: "bno055_i2c_io___assign" label: "BNO055_I2C_IO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9\n440 bytes (static)" }
+node: { title: "bno055_i2c_io__Oeq" label: "=\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:4\n16 bytes (static)" }
+node: { title: "bno055_i2c_io__io_portSO" label: "IO_PORTSO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9\n24 bytes (static)" }
+edge: { sourcename: "bno055_i2c_io__io_portSO" targetname: "bno055_i2c_io__io_portSW" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+node: { title: "bno055_i2c_io__io_portSI" label: "IO_PORTSI\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9\n40 bytes (static)" }
+edge: { sourcename: "bno055_i2c_io__io_portSI" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+edge: { sourcename: "bno055_i2c_io__io_portSI" targetname: "bno055_i2c_io__io_portSR" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+edge: { sourcename: "bno055_i2c_io__io_portSI" targetname: "bno055_i2c_io__io_portIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+node: { title: "bno055_i2c_io__io_portSW" label: "IO_PORTSW\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9\n24 bytes (static)" }
+edge: { sourcename: "bno055_i2c_io__io_portSW" targetname: "system__stream_attributes__w_su" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+edge: { sourcename: "bno055_i2c_io__io_portSW" targetname: "system__stream_attributes__w_as" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+node: { title: "bno055_i2c_io__io_portSR" label: "IO_PORTSR\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9\n24 bytes (static)" }
+edge: { sourcename: "bno055_i2c_io__io_portSR" targetname: "system__stream_attributes__i_su" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+edge: { sourcename: "bno055_i2c_io__io_portSR" targetname: "system__stream_attributes__i_as" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9" }
+node: { title: "bno055_i2c_io___size" label: "BNO055_I2C_IO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9\n16 bytes (static)" }
+node: { title: "bno055_i2c_io__io_portIP" label: "IO_PORTIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\components\src\motion\bno055\bno055_i2c_io.ads:40:9\n16 bytes (static)" }
+}

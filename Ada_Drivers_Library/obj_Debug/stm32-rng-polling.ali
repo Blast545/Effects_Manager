@@ -1,0 +1,59 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U stm32.rng.polling%b	stm32-rng-polling.adb	1efd8669 NE OO PK IU
+W stm32.rng%s		stm32-rng.adb		stm32-rng.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+
+U stm32.rng.polling%s	stm32-rng-polling.ads	cdacb749 EE NE OO PK IU
+W stm32.rng%s		stm32-rng.adb		stm32-rng.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D stm32-rng.ads		20190116062804 e3005cde stm32.rng%s
+D stm32-rng-polling.ads	20190116062804 2eaceb97 stm32.rng.polling%s
+D stm32-rng-polling.adb	20190116062804 30516dfe stm32.rng.polling%b
+D system.ads		20180524194940 db831581 system%s
+D s-assert.ads		20180524194940 cd8d2c94 system.assertions%s
+X 1 hal.ads
+97M9*UInt32<2|74M9> 5|55r27 6|49r17 63r27
+X 2 interfac.ads
+74M9*Unsigned_32
+X 3 stm32.ads
+39K9*STM32 48e10 5|47r9 59r5 6|42r14 71r5
+X 4 stm32-rng.ads
+48K15*RNG 3|39k9 4|78e14 5|47r15 59r11 6|42r20 71r11
+50U14*Enable_RNG 6|52s7
+56U14*Enable_RNG_Clock 6|51s7
+64V13*RNG_Interrupt_Enabled{boolean} 5|50s18
+66V13*RNG_Data{1|97M9} 6|68s14
+68V13*RNG_Data_Ready{boolean} 6|65s17
+X 5 stm32-rng-polling.ads
+47K19*Polling 4|48k15 5|59l15 59e22 6|42b24 71l15 71t22
+49U14*Initialize_RNG 6|48b14 57l8 57t22
+55V13*Random{1|97M9} 6|56s18 63b13 69l8 69t14
+X 6 stm32-rng-polling.adb
+49m7 Discard{1|97M9} 56m7
+

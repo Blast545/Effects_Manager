@@ -1,0 +1,46 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U adl_config%s		adl_config.ads		7e43e0f0 NE OO PK
+
+D adl_config.ads	20190128195910 7e43e0f0 adl_config%s
+D system.ads		20180524194940 db831581 system%s
+X 1 adl_config.ads
+2K9*ADL_Config 19l5 19e15
+3a4*Vendor{string}
+4N4*Max_Mount_Points
+5N4*Max_Mount_Name_Length
+6a4*Runtime_Profile{string}
+7a4*Device_Name{string}
+8a4*Device_Family{string}
+9a4*Runtime_Name{string}
+10a4*Has_Ravenscar_Full_Runtime{string}
+11a4*CPU_Core{string}
+12a4*Board{string}
+13a4*Has_ZFP_Runtime{string}
+14a4*Has_Ravenscar_SFP_Runtime{string}
+15N4*High_Speed_External_Clock
+16N4*Max_Path_Length
+17a4*Runtime_Name_Suffix{string}
+18a4*Architecture{string}
+

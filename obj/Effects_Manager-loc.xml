@@ -1,0 +1,449 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 28" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 49" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 3" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Button_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 75" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-exti.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 74" line=" 149" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\stm32f407disco\stm32-board.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 3" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Button_Manager.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 8" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 46" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 69" line=" 75" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\apds9960_interrupts.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 49" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 41" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Only_voice.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 63" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-sytaco.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Button_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 3" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Button_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Button_Manager.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 3" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Button_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 69" line=" 7" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Button_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 24" line=" 3" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Button_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 38" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Button_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 12" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 15" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 28" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 396" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 67" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 193" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 193" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 21" line=" 28" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 18" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 8" line=" 8" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 11" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 217" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\ili9341_extended.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 28" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\audio_stream.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 219" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 194" >
+      <vfs_project />
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 193" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 255" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Pitch.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 29" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Pitch.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Pitch.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Pitch.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Audio_Effects\Only_voice.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 250" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 28" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 396" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\devices\stm32f40x\stm32-device.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 29" line=" 250" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\stm32f4_timer_interrupts.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\stm32f4_timer_interrupts.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 61" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\stm32f4_timer_interrupts.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 342" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 38" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\interrupts\stm32f4_timer_interrupts.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 342" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 42" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 142" >
+      <vfs_project />
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 31" line=" 259" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 39" >
+      <vfs_project />
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 48" line=" 259" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 42" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 142" >
+      <vfs_project />
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 88" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 37" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 88" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 37" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\custom_board.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 14" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 37" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 88" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 36" line=" 37" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\ada_drivers_library.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\common\stm32-user_button.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 6" line=" 15" >
+      <vfs_project>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Effects_Manager.gpr</vfs_project>
+      <vfs_file>C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\Gesture_Manager.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

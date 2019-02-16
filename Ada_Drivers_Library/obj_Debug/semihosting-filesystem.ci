@@ -1,0 +1,215 @@
+edge: { sourcename: "semihosting__filesystem__TshfsCFD"
+  targetname: "-9:semihosting__filesystem__shfs,semihosting__filesystem__shfs"
+  label: "semihosting-filesystem.ads:42:9"
+}
+edge: { sourcename: "semihosting__filesystem__Tshfs_file_handleCFD"
+  targetname: "-9:semihosting__filesystem__shfs_file_handle,semihosting__filesystem__shfs_file_handle"
+  label: "semihosting-filesystem.ads:113:9"
+}
+class {
+  classname: "semihosting__filesystem__shfs"
+  label: "semihosting__filesystem__shfs\semihosting-filesystem.ads:42:9"
+  parent: "hal__filesystem__filesystem_driver"
+  virtuals: "1:semihosting__filesystem__open__2,1:hal__filesystem__filesystem_driver\n
+             2:semihosting__filesystem__create_file,2:hal__filesystem__filesystem_driver\n
+             3:semihosting__filesystem__unlink,3:hal__filesystem__filesystem_driver\n
+             4:semihosting__filesystem__remove_directory,4:hal__filesystem__filesystem_driver\n
+             5:semihosting__filesystem__root_node,5:hal__filesystem__filesystem_driver\n
+             6:semihosting__filesystem__open,6:hal__filesystem__filesystem_driver\n
+             7:semihosting__filesystem__close,7:hal__filesystem__filesystem_driver\n
+             -1:semihosting__filesystem___size__4,-1:hal__filesystem__filesystem_driver\n
+             -2:semihosting__filesystem__shfsSR__2,-2:hal__filesystem__filesystem_driver\n
+             -3:semihosting__filesystem__shfsSW__2,-3:hal__filesystem__filesystem_driver\n
+             -4:semihosting__filesystem__shfsSI__2,-4:hal__filesystem__filesystem_driver\n
+             -5:semihosting__filesystem__shfsSO__2,-5:hal__filesystem__filesystem_driver\n
+             -9:semihosting__filesystem__shfsDF__2,-9:hal__filesystem__filesystem_driver\n
+             8:semihosting__filesystem__create_node\n
+             9:semihosting__filesystem__create_directory\n
+             10:semihosting__filesystem__rename\n
+             11:semihosting__filesystem__truncate_file\n
+             12:semihosting__filesystem__get_file_handle\n
+             -6:semihosting__filesystem__Oeq\n
+             -7:semihosting__filesystem___assign\n
+             -8:semihosting__filesystem__shfsDA"
+}
+class {
+  classname: "semihosting__filesystem__shfs_file_handle"
+  label: "semihosting__filesystem__shfs_file_handle\semihosting-filesystem.ads:113:9"
+  parent: "hal__filesystem__file_handle"
+  virtuals: "1:semihosting__filesystem__get_fs__2,1:hal__filesystem__file_handle\n
+             2:semihosting__filesystem__size__2,2:hal__filesystem__file_handle\n
+             3:semihosting__filesystem__mode__2,3:hal__filesystem__file_handle\n
+             4:semihosting__filesystem__read__2,4:hal__filesystem__file_handle\n
+             5:semihosting__filesystem__write__2,5:hal__filesystem__file_handle\n
+             6:semihosting__filesystem__offset__2,6:hal__filesystem__file_handle\n
+             7:semihosting__filesystem__flush__2,7:hal__filesystem__file_handle\n
+             8:semihosting__filesystem__seek__2,8:hal__filesystem__file_handle\n
+             9:semihosting__filesystem__close__3,9:hal__filesystem__file_handle\n
+             -1:semihosting__filesystem___size__5,-1:hal__filesystem__file_handle\n
+             -2:semihosting__filesystem__shfs_file_handleSR__2,-2:hal__filesystem__file_handle\n
+             -3:semihosting__filesystem__shfs_file_handleSW__2,-3:hal__filesystem__file_handle\n
+             -4:semihosting__filesystem__shfs_file_handleSI__2,-4:hal__filesystem__file_handle\n
+             -5:semihosting__filesystem__shfs_file_handleSO__2,-5:hal__filesystem__file_handle\n
+             -9:semihosting__filesystem__shfs_file_handleDF__2,-9:hal__filesystem__file_handle\n
+             -6:semihosting__filesystem__Oeq__2\n
+             -7:semihosting__filesystem___assign__2\n
+             -8:semihosting__filesystem__shfs_file_handleDA"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:126:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:201:14" shape : ellipse }
+node: { title: "system__finalization_masters__initialize__2" label: "Initialize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:198:25" shape : ellipse }
+node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:161:9" shape : ellipse }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-except.ads:188:14" shape : ellipse }
+node: { title: "semihosting__close" label: "Close\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting.ads:56:13" shape : ellipse }
+node: { title: "semihosting__seek" label: "Seek\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting.ads:65:13" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+node: { title: "semihosting__read" label: "Read\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting.ads:58:13" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "system__assertions__raise_assert_failure" label: "Raise_Assert_Failure\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-assert.ads:46:14" shape : ellipse }
+node: { title: "__gnat_malloc" label: "gnat_malloc\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Access_Check" label: "gnat_rcheck_CE_Access_Check\n<built-in>" shape : ellipse }
+node: { title: "semihosting__open" label: "Open\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting.ads:57:13" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "system__finalization_masters__finalize" label: "Finalize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:96:25" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "system__stream_attributes__w_b" label: "W_B\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:134:14" shape : ellipse }
+node: { title: "system__stream_attributes__w_llu" label: "W_Llu\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:142:14" shape : ellipse }
+node: { title: "system__stream_attributes__w_u" label: "W_U\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:151:14" shape : ellipse }
+node: { title: "system__stream_attributes__i_b" label: "I_B\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:103:13" shape : ellipse }
+node: { title: "system__stream_attributes__i_llu" label: "I_Llu\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:111:13" shape : ellipse }
+node: { title: "system__stream_attributes__i_u" label: "I_U\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:119:13" shape : ellipse }
+node: { title: "system__secondary_stack__ss_allocate" label: "Ss_Allocate\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-secsta.ads:58:14" shape : ellipse }
+node: { title: "system__stream_attributes__w_as" label: "W_As\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:133:14" shape : ellipse }
+node: { title: "system__stream_attributes__i_as" label: "I_As\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-stratt.ads:102:13" shape : ellipse }
+node: { title: "semihosting__filesystem___elabs" label: "Filesystem\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:40:1\n8 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9" }
+edge: { sourcename: "semihosting__filesystem___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9" }
+edge: { sourcename: "semihosting__filesystem___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:43:9" }
+edge: { sourcename: "semihosting__filesystem___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:43:9" }
+edge: { sourcename: "semihosting__filesystem___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:43:9" }
+edge: { sourcename: "semihosting__filesystem___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:43:9" }
+node: { title: "semihosting__filesystem___elabb" label: "Filesystem\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:37:1\n4 bytes (static)" }
+node: { title: "semihosting__filesystem__flush__2" label: "Flush\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:394:4\n16 bytes (static)" }
+node: { title: "semihosting__filesystem__offset__2" label: "Offset\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:380:4\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__offset__2" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:385:7" }
+edge: { sourcename: "semihosting__filesystem__offset__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:380:4" }
+node: { title: "semihosting__filesystem__mode__2" label: "Mode\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:371:4\n16 bytes (static)" }
+node: { title: "semihosting__filesystem__size__2" label: "Size\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:358:4\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__size__2" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:362:7" }
+edge: { sourcename: "semihosting__filesystem__size__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:358:4" }
+node: { title: "semihosting__filesystem__get_fs__2" label: "Get_Fs\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:348:4\n16 bytes (static)" }
+node: { title: "semihosting__filesystem__close__3" label: "Close\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:330:15\n16 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__close__3" targetname: "semihosting__close" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:338:21" }
+edge: { sourcename: "semihosting__filesystem__close__3" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:330:15" }
+node: { title: "semihosting__filesystem__seek__2" label: "Seek\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:295:4\n40 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__seek__2" targetname: "semihosting__seek" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:317:21" }
+edge: { sourcename: "semihosting__filesystem__seek__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:317:46" }
+edge: { sourcename: "semihosting__filesystem__seek__2" targetname: "semihosting__filesystem__size__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:314:27" }
+edge: { sourcename: "semihosting__filesystem__seek__2" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:306:12" }
+edge: { sourcename: "semihosting__filesystem__seek__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:295:4" }
+node: { title: "semihosting__filesystem__write__2" label: "Write\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:275:15\n32 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__write__2" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:203:21" }
+edge: { sourcename: "semihosting__filesystem__write__2" targetname: "semihosting__filesystem__mode__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:203:21" }
+edge: { sourcename: "semihosting__filesystem__write__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:275:15" }
+node: { title: "semihosting__filesystem__read__2" label: "Read\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:249:15\n40 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__read__2" targetname: "semihosting__read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:260:21" }
+edge: { sourcename: "semihosting__filesystem__read__2" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:262:55" }
+edge: { sourcename: "semihosting__filesystem__read__2" targetname: "system__assertions__raise_assert_failure" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:195:24" }
+edge: { sourcename: "semihosting__filesystem__read__2" targetname: "semihosting__filesystem__mode__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-filesystem.ads:195:24" }
+edge: { sourcename: "semihosting__filesystem__read__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:249:15" }
+node: { title: "semihosting__filesystem__close" label: "Close\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:240:4\n16 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__close" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:240:4" }
+node: { title: "semihosting__filesystem__get_file_handle" label: "Get_File_Handle\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:213:4\n32 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__get_file_handle" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:232:7" }
+edge: { sourcename: "semihosting__filesystem__get_file_handle" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:228:13" }
+edge: { sourcename: "semihosting__filesystem__get_file_handle" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:227:13" }
+edge: { sourcename: "semihosting__filesystem__get_file_handle" targetname: "semihosting__filesystem__shfs_file_handleIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:226:17" }
+edge: { sourcename: "semihosting__filesystem__get_file_handle" targetname: "__gnat_malloc" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:226:17" }
+edge: { sourcename: "semihosting__filesystem__get_file_handle" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:213:4" }
+node: { title: "semihosting__filesystem__root_node" label: "Root_Node\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:198:4\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__root_node" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:198:4" }
+node: { title: "semihosting__filesystem__open__2" label: "Open\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:182:15\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__open__2" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:182:15" }
+node: { title: "semihosting__filesystem__open" label: "Open\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:144:15\n40 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__open" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:172:12" }
+edge: { sourcename: "semihosting__filesystem__open" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:171:12" }
+edge: { sourcename: "semihosting__filesystem__open" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:170:12" }
+edge: { sourcename: "semihosting__filesystem__open" targetname: "__gnat_rcheck_CE_Access_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:169:12" }
+edge: { sourcename: "semihosting__filesystem__open" targetname: "semihosting__filesystem__get_file_handle" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:168:13" }
+edge: { sourcename: "semihosting__filesystem__open" targetname: "semihosting__open" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:162:10" }
+edge: { sourcename: "semihosting__filesystem__open" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:144:15" }
+node: { title: "semihosting__filesystem__truncate_file" label: "Truncate_File\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:129:4\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__truncate_file" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:129:4" }
+node: { title: "semihosting__filesystem__rename" label: "Rename\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:114:4\n32 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__rename" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:114:4" }
+node: { title: "semihosting__filesystem__remove_directory" label: "Remove_Directory\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:100:15\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__remove_directory" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:100:15" }
+node: { title: "semihosting__filesystem__unlink" label: "Unlink\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:86:15\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__unlink" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:86:15" }
+node: { title: "semihosting__filesystem__create_directory" label: "Create_Directory\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:72:4\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__create_directory" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:72:4" }
+node: { title: "semihosting__filesystem__create_node" label: "Create_Node\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:57:4\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__create_node" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:57:4" }
+node: { title: "semihosting__filesystem__create_file" label: "Create_File\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:43:15\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__create_file" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.adb:43:15" }
+node: { title: "semihosting__filesystem__finalize_spec" label: "Finalize_Spec\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:40:1\n16 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:40:1" }
+edge: { sourcename: "semihosting__filesystem__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:40:1" }
+edge: { sourcename: "semihosting__filesystem__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "semihosting__filesystem__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:43:9" }
+edge: { sourcename: "semihosting__filesystem__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:40:1" }
+edge: { sourcename: "semihosting__filesystem__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:40:1" }
+node: { title: "semihosting__filesystem__Tshfs_file_handleCFD" label: "Tshfs_File_Handlecfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9\n32 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__Tshfs_file_handleCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "semihosting__filesystem__shfs_file_handleDF__2" label: "Shfs_File_Handledf\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9\n16 bytes (static)" }
+node: { title: "semihosting__filesystem__shfs_file_handleDA" label: "Shfs_File_Handleda\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9\n16 bytes (static)" }
+node: { title: "semihosting__filesystem___assign__2" label: "Filesystem\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9\n448 bytes (static)" }
+node: { title: "semihosting__filesystem__Oeq__2" label: "=\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:4\n16 bytes (static)" }
+node: { title: "semihosting__filesystem__shfs_file_handleSO__2" label: "Shfs_File_Handleso\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSO__2" targetname: "semihosting__filesystem__shfs_file_handleSW__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+node: { title: "semihosting__filesystem__shfs_file_handleSI__2" label: "Shfs_File_Handlesi\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9\n64 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSI__2" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSI__2" targetname: "semihosting__filesystem__shfs_file_handleSR__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSI__2" targetname: "semihosting__filesystem__shfs_file_handleIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+node: { title: "semihosting__filesystem__shfs_file_handleSW__2" label: "Shfs_File_Handlesw\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9\n32 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSW__2" targetname: "system__stream_attributes__w_as" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSW__2" targetname: "system__stream_attributes__w_b" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSW__2" targetname: "system__stream_attributes__w_llu" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSW__2" targetname: "system__stream_attributes__w_u" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSW__2" targetname: "system__stream_attributes__w_as" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+node: { title: "semihosting__filesystem__shfs_file_handleSR__2" label: "Shfs_File_Handlesr\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9\n32 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSR__2" targetname: "system__stream_attributes__i_as" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSR__2" targetname: "system__stream_attributes__i_b" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSR__2" targetname: "system__stream_attributes__i_llu" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSR__2" targetname: "system__stream_attributes__i_u" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+edge: { sourcename: "semihosting__filesystem__shfs_file_handleSR__2" targetname: "system__stream_attributes__i_as" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9" }
+node: { title: "semihosting__filesystem___size__5" label: "Filesystem\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9\n16 bytes (static)" }
+node: { title: "semihosting__filesystem__shfs_file_handleIP" label: "Shfs_File_Handleip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:113:9\n16 bytes (static)" }
+node: { title: "semihosting__filesystem__TshfsCFD" label: "Tshfscfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:42:9\n32 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__TshfsCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:42:9" }
+node: { title: "semihosting__filesystem__shfsDF__2" label: "Shfsdf\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9\n16 bytes (static)" }
+node: { title: "semihosting__filesystem__shfsDA" label: "Shfsda\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9\n16 bytes (static)" }
+node: { title: "semihosting__filesystem___assign" label: "Filesystem\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9\n440 bytes (static)" }
+node: { title: "semihosting__filesystem__Oeq" label: "=\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:4\n16 bytes (static)" }
+node: { title: "semihosting__filesystem__shfsSO__2" label: "Shfsso\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__shfsSO__2" targetname: "semihosting__filesystem__shfsSW__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9" }
+node: { title: "semihosting__filesystem__shfsSI__2" label: "Shfssi\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9\n32 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__shfsSI__2" targetname: "system__secondary_stack__ss_allocate" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9" }
+edge: { sourcename: "semihosting__filesystem__shfsSI__2" targetname: "semihosting__filesystem__shfsSR__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9" }
+edge: { sourcename: "semihosting__filesystem__shfsSI__2" targetname: "semihosting__filesystem__shfsIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9" }
+node: { title: "semihosting__filesystem__shfsSW__2" label: "Shfssw\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__shfsSW__2" targetname: "system__stream_attributes__w_as" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9" }
+node: { title: "semihosting__filesystem__shfsSR__2" label: "Shfssr\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9\n24 bytes (static)" }
+edge: { sourcename: "semihosting__filesystem__shfsSR__2" targetname: "system__stream_attributes__i_as" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9" }
+node: { title: "semihosting__filesystem___size__4" label: "Filesystem\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9\n16 bytes (static)" }
+node: { title: "semihosting__filesystem__shfsIP" label: "Shfsip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\cortex_m\src\semihosting-filesystem.ads:165:9\n16 bytes (static)" }
+}

@@ -1,0 +1,380 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB LC TF  ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASKS=1
+
+U gesture_manager%b	gesture_manager.adb	fa417caa OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.synchronous_task_control%s  a-sytaco.adb	a-sytaco.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W almost_raw%s		almost_raw.adb		almost_raw.ali  AD
+W apds9960_gesture%s	apds9960_gesture.adb	apds9960_gesture.ali  AD
+W apds9960_interrupts%s	apds9960_interrupts.adb	apds9960_interrupts.ali
+W cs43l22%s		cs43l22.adb		cs43l22.ali  AD
+W custom_board%s	custom_board.adb	custom_board.ali
+W echo%s		echo.adb		echo.ali  AD
+W hal%s			hal.ads			hal.ali
+W ili9341_extended%s	ili9341_extended.adb	ili9341_extended.ali  AD
+W only_voice%s		only_voice.adb		only_voice.ali  AD
+W pitch%s		pitch.adb		pitch.ali
+W robot%s		robot.adb		robot.ali
+W stm32%s		stm32.ads		stm32.ali
+W stm32.board%s		stm32-board.adb		stm32-board.ali
+Z stm32.gpio%s		stm32-gpio.adb		stm32-gpio.ali  AD
+W stm32.timers%s	stm32-timers.adb	stm32-timers.ali  AD
+Z system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+W user_button%s		user_button.adb		user_button.ali  AD
+
+U gesture_manager%s	gesture_manager.ads	890c1bf1 EE OO PK
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.restricted.stages%s  s-tarest.adb  s-tarest.ali
+T 0 1
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-interr.ads		20180524194940 bdf68b51 ada.interrupts%s
+D a-intnam.ads		20180524194940 cdde51a1 ada.interrupts.names%s
+D a-numeri.ads		20180524194940 bb51c45a ada.numerics%s
+D a-reatim.ads		20180524194940 4c16970e ada.real_time%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-sytaco.ads		20180524194940 e57638e1 ada.synchronous_task_control%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-taside.ads		20180524194940 c3e0cda8 ada.task_identification%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D almost_raw.ads	20190215172838 c256afb5 almost_raw%s
+D apds9960_gesture.ads	20190216004240 27179054 apds9960_gesture%s
+D apds9960_interrupts.ads  20190215010924 1d450d7a apds9960_interrupts%s
+D bmp_fonts.ads		20190116062806 593c0a39 bmp_fonts%s
+D cs43l22.ads		20190116062806 f00c1f00 cs43l22%s
+D custom_board.ads	20190215231410 ce4767e2 custom_board%s
+D echo.ads		20190215185034 0071e81a echo%s
+D gesture_manager.ads	20190215033438 890c1bf1 gesture_manager%s
+D gesture_manager.adb	20190215231440 e9314fcf gesture_manager%b
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-audio.ads		20190116062806 6baea1e9 hal.audio%s
+D hal-audio_effect.ads	20190214234230 d6ff5545 hal.audio_effect%s
+D hal-block_drivers.ads	20190116062806 3a6f071f hal.block_drivers%s
+D hal-gpio.ads		20190116062806 7f0c2ffe hal.gpio%s
+D hal-i2c.ads		20190116062806 0ed73138 hal.i2c%s
+D hal-real_time_clock.ads  20190116062806 9dd52fca hal.real_time_clock%s
+D hal-sdmmc.ads		20190116062806 7293c891 hal.sdmmc%s
+D hal-spi.ads		20190116062806 fe139819 hal.spi%s
+D hal-time.ads		20190116062806 f5295cd7 hal.time%s
+D hal-uart.ads		20190116062806 d58316b4 hal.uart%s
+D ili9341_extended.ads	20190211220924 7babac0a ili9341_extended%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D i-stm32.ads		20180524194940 4d2e1e9b interfaces.stm32%s
+D i-stm32-pwr.ads	20180524194940 10ed2a13 interfaces.stm32.pwr%s
+D lis3dsh.ads		20190116062806 3fd4b6f2 lis3dsh%s
+D lis3dsh-spi.ads	20190116062806 83b156b5 lis3dsh.spi%s
+D only_voice.ads	20190214192038 8c1e782b only_voice%s
+D pitch.ads		20190215234144 dca22486 pitch%s
+D ravenscar_time.ads	20190116062806 7a23edc6 ravenscar_time%s
+D robot.ads		20190215235214 9bb3e620 robot%s
+D sdmmc_svd_periph.ads	20190116062804 b49674fe sdmmc_svd_periph%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D stm32-adc.ads		20190116062804 a0a7f671 stm32.adc%s
+D stm32-board.ads	20190116062804 e4737e25 stm32.board%s
+D stm32-crc.ads		20190116062804 9ef7b3c1 stm32.crc%s
+D stm32-dac.ads		20190116062804 bbc963b4 stm32.dac%s
+D stm32-device.ads	20190116062804 a0a2ec53 stm32.device%s
+D stm32-dma.ads		20190116062804 a485c5f7 stm32.dma%s
+D stm32-dma-interrupts.ads  20190116062804 0810c00a stm32.dma.interrupts%s
+D stm32-exti.ads	20190116062804 27a7d05f stm32.exti%s
+D stm32-gpio.ads	20190116062804 e66d5cab stm32.gpio%s
+D stm32-i2c.ads		20190116062804 2a3b9b70 stm32.i2c%s
+D stm32-i2c-dma.ads	20190116062804 75d445d8 stm32.i2c.dma%s
+D stm32-i2s.ads		20190116062804 8099fbc7 stm32.i2s%s
+D stm32-rtc.ads		20190116062804 ff58a3e8 stm32.rtc%s
+D stm32-sdmmc.ads	20190116062804 4cae3006 stm32.sdmmc%s
+D stm32-sdmmc_interrupt.ads  20190116062804 6fda8a6a stm32.sdmmc_interrupt%s
+D stm32-spi.ads		20190116062804 98127252 stm32.spi%s
+D stm32-spi-dma.ads	20190116062804 030a0921 stm32.spi.dma%s
+D stm32-timers.ads	20190116062804 63c500b2 stm32.timers%s
+D stm32-usarts.ads	20190116062804 c32302c7 stm32.usarts%s
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-adc.ads	20190116062804 0c4598f6 stm32_svd.adc%s
+D stm32_svd-crc.ads	20190116062804 f8fb8ec8 stm32_svd.crc%s
+D stm32_svd-dac.ads	20190116062804 7ce3d16d stm32_svd.dac%s
+D stm32_svd-dma.ads	20190116062804 cbdaf790 stm32_svd.dma%s
+D stm32_svd-gpio.ads	20190116062804 d1b361bd stm32_svd.gpio%s
+D stm32_svd-i2c.ads	20190116062804 bbdaed5e stm32_svd.i2c%s
+D stm32_svd-sdio.ads	20190116062804 586e3cc2 stm32_svd.sdio%s
+D stm32_svd-spi.ads	20190116062804 9452a68a stm32_svd.spi%s
+D stm32_svd-usart.ads	20190116062804 e4981db8 stm32_svd.usart%s
+D system.ads		20180524194940 db831581 system%s
+D s-bb.ads		20180524194940 09e072ae system.bb%s
+D s-bbbopa.ads		20180524194940 95d97b26 system.bb.board_parameters%s
+D s-bbbosu.ads		20180524194940 0f820a2a system.bb.board_support%s
+D s-bbcppr.ads		20180524194940 bcfa73ad system.bb.cpu_primitives%s
+D s-bbinte.ads		20180524194940 c88d39da system.bb.interrupts%s
+D s-bbmcpa.ads		20180524194940 c4c55388 system.bb.mcu_parameters%s
+D s-bbpara.ads		20180524194940 431abc17 system.bb.parameters%s
+D s-bbthre.ads		20180524194940 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20180524194940 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20180524194940 ad086247 system.bb.time%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-interr.ads		20180524194940 f1954f09 system.interrupts%s
+D s-multip.ads		20180524194940 f33e0e35 system.multiprocessors%s
+D s-mufalo.ads		20180524194940 3dca0374 system.multiprocessors.fair_locks%s
+D s-musplo.ads		20180524194940 69fa25c4 system.multiprocessors.spin_locks%s
+D s-osinte.ads		20180524194940 229b14dd system.os_interface%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-pooglo.ads		20180524194940 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524194940 56a2861c system.secondary_stack%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stm32.ads		20180524194940 e898dba2 system.stm32%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-stratt.ads		20180524194940 aedef97e system.stream_attributes%s
+D s-tasinf.ads		20180524194940 801abd01 system.task_info%s
+D s-taspri.ads		20180524194940 351848fa system.task_primitives%s
+D s-taskin.ads		20180524194940 58b15916 system.tasking%s
+D s-taprob.ads		20180524194940 c8fc0753 system.tasking.protected_objects%s
+D s-tpoben.ads		20180524194940 8351b91e system.tasking.protected_objects.entries%s
+D s-tposen.ads		20180524194940 828b4fcc system.tasking.protected_objects.single_entry%s
+D s-tasres.ads		20180524194940 0c8ef6fb system.tasking.restricted%s
+D s-tarest.ads		20180524194940 c88b6d9a system.tasking.restricted.stages%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+D user_button.ads	20190215230154 e9728506 user_button%s
+X 1 ada.ads
+16K9*Ada 20e8 21|1r6 1r29 3r6 3r40
+X 7 a-reatim.ads
+41K13*Real_Time 182e18 21|1w10 1r33
+51M9*Time<84|46M9> 21|22r19
+61I9*Time_Span<84|81I9> 21|23r38
+68V13*Clock{51M9}<84|134p13> 21|22s27 301s17 327s35 337s35 342s35 347s35
+72V14*"+"{51M9} 21|301s39
+87V14*">"{boolean} 21|301r23
+128V13*Milliseconds{61I9} 21|23s51
+X 9 a-sytaco.ads
+40K13*Synchronous_Task_Control 92e33 21|3w10 3r44
+63U14*Suspend_Until_True 21|236s7 270s10
+X 13 almost_raw.ads
+7K9*Almost_Raw 29e15 21|12w6 139r28
+12U14*Reset_Variables<24|9p14> 21|192s20
+17a4*Effect_Name{string} 21|139r39
+X 14 apds9960_gesture.ads
+41K9*apds9960_gesture 227e21 21|5w6 5r28
+53E9*Gesture 53e60 21|24r19 39r52 167r52
+53n21*None{53E9} 21|24r30
+53n27*Up{53E9} 21|307r37 309r65 319r35
+53n31*Down{53E9} 21|306r34 308r64 329r37
+53n37*Left{53E9} 21|181r22 307r62 308r37 339r38 341r45
+53n43*Right{53E9} 21|306r61 309r37 344r37 346r45
+104U14*Init 21|242s22
+105U14*Enable_Gesture_Sensor 21|244s22 287s31
+106U14*Disable_Gesture_Sensor 21|285s31
+109V13*readGesture{53E9} 21|297s44
+X 15 apds9960_interrupts.ads
+35K9*Apds9960_Interrupts 46e24 21|7w6 7r31
+37w4*Event_New_Gesture{9|46W9} 21|270m29 270r29
+X 17 cs43l22.ads
+39K9*CS43L22 136e12 21|8w6 8r19
+57M12*Volume_Level{22|53M9} 21|27r19
+69U14*Play 21|261s29
+73U14*Set_Volume 21|262s29 324s44 334s44
+X 18 custom_board.ads
+27K9*Custom_Board 89e17 21|4w6 4r24
+30r4*Sampling_Timer=30:35{62|52R9} 21|171r16 205r15 264r15 275r22 293r20
+34w4*Finished_Init{9|46W9} 21|236m26 236r26
+40a4*Audio_Data_0{23|36A9} 21|175m7 279m13
+41a4*Audio_Data_1{23|36A9} 21|176m7 280m13
+44r4*First_Effect{13|9R9} 21|192m7 192r7
+45r4*Second_Effect{39|10R9} 21|193m7 193r7
+46r4*Third_Effect{19|10R9} 21|194m7 194r7
+49a4*Current_Name{string} 21|257r25
+51M9*effect_index
+52m4*current_effect{51M9} 21|113r11 116r13 119r13 122r13 125r13 137r11 140r13
+. 143r13 146r13 149r13 182m10 182r28 186m10 186r28
+55p4*HAL_Time{31|36P9} 21|172r7 248r7 251r7 276r13
+69r4*Screen{33|57R9} 21|44m7 44r7 53m7 53r7 63m10 63r10 73m10 73r10 93m7
+. 93r7 99m7 99r7 160m7 160r7 211m7 211r7 217m10 217r10 223m10 223r10 254m7
+. 254r7
+80r4*Gesture_Object{14|43R9} 21|242m7 242r7 244m7 244r7 285m16 285r16 287m16
+. 287r16 297m29 297r29
+X 19 echo.ads
+8K9*Echo 37e9 21|14w6 145r28
+13U14*Reset_Variables<24|9p14> 21|194s20
+18a4*Effect_Name{string} 21|145r33
+X 20 gesture_manager.ads
+3K9*Gesture_Manager 7l5 7e20 21|19b14 361l5 361t20
+5t9*Gesture_Controller 21|232b14 359l8 359t26
+X 21 gesture_manager.adb
+22m4 Last_Command{7|51M9} 301r25 327m19 337m19 342m19 347m19
+23i4 Delay_Between_Commands{7|61I9} 301r41
+24e4 read_gesture{14|53E9} 297m13 306r19 306m45 307r22 307m46 308r22 308m48
+. 309r22 309m49 319r20 329r22 339r23 344r22
+25e4 current_bg{33|101E9} 48r47 57r56 66r50 76r51 97r56 164r47 183m29 187m29
+. 196m26 215r56 221r50 227r50 252m47 254r28
+26e4 current_text{33|101E9} 47r47 103r56 163r47 183m41 187m41 196m38 220r50
+. 226r50 253m47
+27m4 audio_volume{17|57M12} 90r48 262r41 322r23 323m22 323r38 324r56 332r23
+. 333m22 333r38 334r56
+28b4 curren_status_gesture{boolean} 216r11 284r16 290m13 290r42
+31U14 Put_String_Screen 31>32 42b14 49l8 49t25 139s10 142s10 145s10 148s10
+. 151s10 247s7 257s7
+31a32 Text{string} 42b32 46r47 247r25
+32U14 Erase_String_Screen 51b14 58l8 58t27 249s7
+33U14 Fill_Screen_Left 60b14 68l8 68t24 188s10
+34U14 Fill_Screen_Right 70b14 79l8 79t25 184s10
+35U14 Draw_Current_Volume 81b14 104l8 104t27 198s7 258s7 325s22 335s22
+36U14 get_current_colors 36<33 36<57 106b14 133l8 133t26 183s10 187s10 196s7
+. 252s7
+36e33 effect_bg{33|101E9} 106b33 110m7 114m10 117m10 120m10 123m10 126m10
+. 252r26
+36e57 effect_text_color{33|101E9} 106b57 111m7 115m10 118m10 121m10 124m10
+. 127m10 253r26
+37U14 Write_Current_Effect_Name 135b14 156l8 156t33 197s7
+38U14 Write_Ready 158b14 165t7 200s7 259s7
+39U14 Process_Effect_Transition 39>40 167b14 206l8 206t33 341s19 346s19
+39e40 Direction{14|53E9} 167b40 181r10
+40U14 Draw_G_State 199s7 208b14 230l8 230t20 260s7 291s13
+62i11 index{integer} 63r50
+72i11 index{integer} 73r50
+83i7 step_size{natural} 85r40 87r38 90r28
+84i7 y_base{natural} 91r23 94r56
+85i7 max_height{natural} 94r65 96r56
+87i7 calculated_height{natural} 90m7 91r32 102r56
+88i7 calculated_y{natural} 91m7 100r56
+X 22 hal.ads
+34K9*HAL 21|10w6 10r15 22|166e8
+53M9*UInt8<34|63M9>
+X 23 hal-audio.ads
+36A9*Audio_Buffer(34|49I9)<integer>
+61h9*Audio_Stream
+X 24 hal-audio_effect.ads
+7h9*Audio_Effect
+X 25 hal-block_drivers.ads
+34h9*Block_Driver
+X 26 hal-gpio.ads
+47h9*GPIO_Point
+X 27 hal-i2c.ads
+48h9*I2C_Port
+X 28 hal-real_time_clock.ads
+79h9*RTC_Device
+X 29 hal-sdmmc.ads
+380h9*SDMMC_Driver
+X 30 hal-spi.ads
+48h9*SPI_Port
+X 31 hal-time.ads
+34h9*Delays
+36P9*Any_Delays(34R9)
+41x14*Delay_Milliseconds 21|172R16 276R22
+44x14*Delay_Seconds 21|248R16 251R16
+X 32 hal-uart.ads
+48h9*UART_Port
+X 33 ili9341_extended.ads
+55K9*ILI9341_Extended 21|6w6 6r28 33|243e21
+90N4*Device_Width 21|65r50 75r51
+91N4*Device_Height 21|62r26 72r34
+98I12*Width{natural}
+99I12*Height{natural}
+101E9*Colors 21|25r17 26r18 36r49 36r81 106r49 106r81 33|114e13
+102n7*Black{101E9} 21|25r27 111r28 115r31 117r23
+103n7*Blue{101E9} 21|120r23 127r31
+108n7*Magenta{101E9} 21|123r23
+111n7*Red{101E9} 21|110r20 114r23 126r23
+113n7*Yellow{101E9} 21|26r28 118r31
+114n7*White{101E9} 21|121r31 124r31
+137U14*Fill 21|254s14
+137e50 Color{101E9} 21|254r19
+175U14*Draw_Ver_Line 21|63s17 73s17
+177i7 X{98I12} 21|63r31 73r31
+178i7 Y{99I12} 21|64r30 74r31
+179i7 Height_In_Pixels{99I12} 21|65r30 75r31
+180e7 Color{101E9} 21|66r30 76r31
+183U14*Draw_Filled_Rectangle 21|53s14 93s14 99s14 211s14
+185i7 X{98I12} 21|53r36 93r36 99r36 211r36
+186i7 Y{99I12} 21|54r36 94r36 100r36 212r36
+187i7 Width_In_Pixels{98I12} 21|55r36 95r36 101r36 213r36
+188i7 Height_In_Pixels{99I12} 21|56r36 96r36 102r36 214r36
+189e7 Color{101E9} 21|57r36 97r36 103r36 215r36
+201U14*Print_String 21|44s14 160s14 217s17 223s17
+202i28 X{98I12} 21|44r27 160r27 217r30 223r30
+203i28 Y{99I12} 21|45r27 161r27 218r30 224r30
+204a28 Text{string} 21|46r27 162r27 219r30 225r30
+205e28 Foreground_Color{101E9} 21|47r27 163r27 220r30 226r30
+206e28 Background_Color{101E9} 21|48r27 164r27 221r30 227r30
+X 34 interfac.ads
+49I9*Integer_16<short_integer>
+63M9*Unsigned_8
+X 39 only_voice.ads
+8K9*Only_Voice 21|13w6 142r28 39|42e15
+13U14*Reset_Variables<24|9p14> 21|193s21
+18a4*Effect_Name{string} 21|142r39
+X 40 pitch.ads
+6K9*Pitch 21|15w6 148r28 40|27e10
+16a4*Effect_Name{string} 21|148r34
+X 42 robot.ads
+10K9*Robot 21|16w6 151r28 42|40e10
+20a4*Effect_Name{string} 21|151r34
+X 44 stm32.ads
+39K9*STM32 21|9r6 9r23 11r6 11r24 261r7 262r7 324r22 334r22 44|48e10
+X 46 stm32-board.ads
+60K15*Board 21|9w12 9r29 261r13 262r13 324r28 334r28 46|156e16
+65r4*Green_LED=65:34{53|138R9} 21|340r27 343r28
+66r4*Orange_LED=66:34{53|138R9} 21|320r27 328r28
+67r4*Red_LED=67:34{53|138R9} 21|345r27 348r28
+68r4*Blue_LED=68:34{53|138R9} 21|292r20 330r27 338r28
+76U14*Turn_On=76:67 21|320s19 330s19 340s19 345s19
+77U14*Turn_Off=77:67 21|328s19 338s19 343s19 348s19
+78U14*Toggle=78:67 21|292s13
+94r4*Audio_DAC{17|59R9} 21|261m19 261r19 262m19 262r19 324m34 324r34 334m34
+. 334r34
+X 62 stm32-timers.ads
+50K15*Timers 21|11w12 11r30 62|1519e17
+54U14*Enable 21|205s7 264s7 293s13
+57U14*Disable 21|171s7 275s13
+X 84 s-bbtime.ads
+46M9*Time
+81I9*Time_Span<long_long_integer>
+X 87 s-interr.ads
+97U14*Install_Restricted_Handlers_Sequential 98i<c,__gnat_attach_all_handlers>22
+X 94 s-secsta.ads
+46P9*SS_Stack_Ptr(43R9)
+X 102 s-taskin.ads
+407V13*Get_Sec_Stack{94|46P9} 408i<c,__gnat_get_secondary_stack>22
+X 107 s-tarest.ads
+232U14*Activate_All_Tasks_Sequential 233i<c,__gnat_activate_all_tasks>22
+X 110 user_button.ads
+36K9*User_Button 21|17w6 267r7 273r14 110|49e16
+38U14*Initialize 21|267s19
+42V13*Has_Been_Pressed{boolean} 21|273s26
+

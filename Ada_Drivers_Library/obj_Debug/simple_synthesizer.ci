@@ -1,0 +1,61 @@
+edge: { sourcename: "simple_synthesizer__TsynthesizerCFD"
+  targetname: "-9:hal__audio__audio_stream,hal__audio__audio_stream"
+  label: "simple_synthesizer.ads:39:9"
+}
+class {
+  classname: "simple_synthesizer__synthesizer"
+  label: "simple_synthesizer__synthesizer\simple_synthesizer.ads:39:9"
+  parent: "hal__audio__audio_stream"
+  virtuals: "1:simple_synthesizer__set_frequency,1:hal__audio__audio_stream\n
+             2:simple_synthesizer__transmit,2:hal__audio__audio_stream\n
+             3:simple_synthesizer__receive,3:hal__audio__audio_stream\n
+             -1:simple_synthesizer___size__2,-1:hal__audio__audio_stream\n
+             -9:simple_synthesizer__synthesizerDF__2,-9:hal__audio__audio_stream\n
+             4:simple_synthesizer__set_note_frequency"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb"
+node: { title: "__aeabi_l2f" label: "aeabi_l2f\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Index_Check" label: "gnat_rcheck_CE_Index_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Range_Check" label: "gnat_rcheck_CE_Range_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-except.ads:188:14" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "simple_synthesizer___elabs" label: "Simple_Synthesizer\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.ads:37:1\n8 bytes (static)" }
+edge: { sourcename: "simple_synthesizer___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.ads:58:9" }
+edge: { sourcename: "simple_synthesizer___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.ads:58:9" }
+node: { title: "simple_synthesizer___elabb" label: "Simple_Synthesizer\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:34:1\n4 bytes (static)" }
+node: { title: "simple_synthesizer__receive" label: "Receive\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:76:15\n88 bytes (static)" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:simple_synthesizer__receive__next_sample.6158" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:117:20" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:113:13" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:113:44" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:113:31" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:113:26" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__gnat_rcheck_CE_Index_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:112:13" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:112:31" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:112:26" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:simple_synthesizer__receive__next_sample.6158" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:111:17" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__gnat_rcheck_CE_Range_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:110:33" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:106:13" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__aeabi_l2f" }
+edge: { sourcename: "simple_synthesizer__receive" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:76:15" }
+node: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:simple_synthesizer__receive__next_sample.6158" label: "Next_Sample\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:93:7\n16 bytes (static)" }
+edge: { sourcename: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:simple_synthesizer__receive__next_sample.6158" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:99:46" }
+node: { title: "simple_synthesizer__transmit" label: "Transmit\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:64:15\n40 bytes (static)" }
+edge: { sourcename: "simple_synthesizer__transmit" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:69:7" }
+edge: { sourcename: "simple_synthesizer__transmit" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:64:15" }
+node: { title: "simple_synthesizer__set_frequency" label: "Set_Frequency\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:52:15\n16 bytes (static)" }
+edge: { sourcename: "simple_synthesizer__set_frequency" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:52:15" }
+node: { title: "simple_synthesizer__set_note_frequency" label: "Set_Note_Frequency\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:40:4\n16 bytes (static)" }
+edge: { sourcename: "simple_synthesizer__set_note_frequency" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.adb:40:4" }
+node: { title: "simple_synthesizer__finalize_spec" label: "Finalize_Spec\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.ads:37:1\n8 bytes (static)" }
+edge: { sourcename: "simple_synthesizer__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.ads:37:1" }
+node: { title: "simple_synthesizer__TsynthesizerCFD" label: "Tsynthesizercfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.ads:39:9\n32 bytes (static)" }
+edge: { sourcename: "simple_synthesizer__TsynthesizerCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.ads:39:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "simple_synthesizer__synthesizerDF__2" label: "Synthesizerdf\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.ads:58:9\n16 bytes (static)" }
+node: { title: "simple_synthesizer___size__2" label: "Simple_Synthesizer\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.ads:58:9\n16 bytes (static)" }
+node: { title: "simple_synthesizer__synthesizerIP" label: "Synthesizerip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\middleware\src\audio\simple_synthesizer.ads:58:9\n24 bytes (static)" }
+}

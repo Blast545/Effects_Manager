@@ -1,0 +1,52 @@
+edge: { sourcename: "hal__real_time_clock__Trtc_deviceCFD"
+  targetname: "-9:hal__real_time_clock__rtc_device,hal__real_time_clock__rtc_device"
+  label: "hal-real_time_clock.ads:79:9"
+}
+class {
+  classname: "hal__real_time_clock__rtc_device"
+  label: "hal__real_time_clock__rtc_device\hal-real_time_clock.ads:79:9"
+  virtuals: "1:hal__real_time_clock__set\n
+             2:hal__real_time_clock__get\n
+             3:hal__real_time_clock__get_time\n
+             4:hal__real_time_clock__get_date\n
+             -1:hal__real_time_clock___size\n
+             -2:hal__real_time_clock__rtc_deviceSR\n
+             -3:hal__real_time_clock__rtc_deviceSW\n
+             -4:hal__real_time_clock__rtc_deviceSI\n
+             -5:hal__real_time_clock__rtc_deviceSO\n
+             -9:hal__real_time_clock__rtc_deviceDF"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:126:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:201:14" shape : ellipse }
+node: { title: "system__finalization_masters__initialize__2" label: "Initialize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:198:25" shape : ellipse }
+node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:161:9" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "system__finalization_masters__finalize" label: "Finalize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:96:25" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+node: { title: "hal__real_time_clock___elabs" label: "REAL_TIME_CLOCK\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:32:1\n8 bytes (static)" }
+edge: { sourcename: "hal__real_time_clock___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:79:9" }
+edge: { sourcename: "hal__real_time_clock___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:79:9" }
+edge: { sourcename: "hal__real_time_clock___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:80:9" }
+edge: { sourcename: "hal__real_time_clock___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:80:9" }
+edge: { sourcename: "hal__real_time_clock___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:80:9" }
+edge: { sourcename: "hal__real_time_clock___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:80:9" }
+node: { title: "hal__real_time_clock__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:32:1\n16 bytes (static)" }
+edge: { sourcename: "hal__real_time_clock__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:32:1" }
+edge: { sourcename: "hal__real_time_clock__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:32:1" }
+edge: { sourcename: "hal__real_time_clock__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "hal__real_time_clock__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:80:9" }
+node: { title: "hal__real_time_clock__Trtc_deviceCFD" label: "TRTC_DEVICECFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:79:9\n32 bytes (static)" }
+edge: { sourcename: "hal__real_time_clock__Trtc_deviceCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:79:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+node: { title: "hal__real_time_clock__rtc_dateIP" label: "RTC_DATEIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:51:9\n24 bytes (static)" }
+node: { title: "hal__real_time_clock__rtc_day_of_weekRP" label: "RTC_DAY_OF_WEEKRP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:46:9\n16 bytes (static)" }
+edge: { sourcename: "hal__real_time_clock__rtc_day_of_weekRP" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:46:9" }
+node: { title: "hal__real_time_clock__rtc_monthRP" label: "RTC_MONTHRP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:44:9\n16 bytes (static)" }
+edge: { sourcename: "hal__real_time_clock__rtc_monthRP" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:44:9" }
+node: { title: "hal__real_time_clock__rtc_timeIP" label: "RTC_TIMEIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-real_time_clock.ads:38:9\n24 bytes (static)" }
+}

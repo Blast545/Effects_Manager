@@ -1,0 +1,218 @@
+edge: { sourcename: "apds9960_gesture__Tapds9960_deviceCFD"
+  targetname: "-9:apds9960_gesture__apds9960_device,apds9960_gesture__apds9960_device"
+  label: "apds9960_gesture.ads:43:9"
+}
+class {
+  classname: "apds9960_gesture__apds9960_device"
+  label: "apds9960_gesture__apds9960_device\apds9960_gesture.ads:43:9"
+  parent: "apds9960_gesture__apds9960_device"
+  virtuals: "1:apds9960_gesture__setmode\n
+             2:apds9960_gesture__setgesturegain\n
+             3:apds9960_gesture__setgestureleddrive\n
+             4:apds9960_gesture__setgesturewaittime\n
+             5:apds9960_gesture__setgestureintenable\n
+             6:apds9960_gesture__setledboost\n
+             7:apds9960_gesture__setgesturemode\n
+             8:apds9960_gesture__setleddrive\n
+             9:apds9960_gesture__setproximitygain\n
+             10:apds9960_gesture__init\n
+             11:apds9960_gesture__enable_gesture_sensor\n
+             12:apds9960_gesture__disable_gesture_sensor\n
+             13:apds9960_gesture__isgestureavailable\n
+             14:apds9960_gesture__readgesture\n
+             15:apds9960_gesture__empty_fifo\n
+             16:apds9960_gesture__i2c_write\n
+             17:apds9960_gesture__i2c_read\n
+             18:apds9960_gesture__i2c_read_buffer\n
+             -1:apds9960_gesture___size\n
+             -9:apds9960_gesture__apds9960_deviceDF"
+}
+edge: { sourcename: "apds9960_gesture__readgesture"
+  targetname: "2:hal__time__delays,hal__time__delays"
+  label: "apds9960_gesture.adb:419:19"
+}
+edge: { sourcename: "apds9960_gesture__readgesture"
+  targetname: "2:hal__time__delays,hal__time__delays"
+  label: "apds9960_gesture.adb:487:22"
+}
+edge: { sourcename: "apds9960_gesture__empty_fifo"
+  targetname: "2:hal__time__delays,hal__time__delays"
+  label: "apds9960_gesture.adb:508:19"
+}
+edge: { sourcename: "apds9960_gesture__i2c_write"
+  targetname: "3:hal__i2c__i2c_port,hal__i2c__i2c_port"
+  label: "apds9960_gesture.adb:519:16"
+}
+edge: { sourcename: "apds9960_gesture__i2c_read"
+  targetname: "4:hal__i2c__i2c_port,hal__i2c__i2c_port"
+  label: "apds9960_gesture.adb:537:16"
+}
+edge: { sourcename: "apds9960_gesture__i2c_read_buffer"
+  targetname: "4:hal__i2c__i2c_port,hal__i2c__i2c_port"
+  label: "apds9960_gesture.adb:555:16"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "memcpy" label: "builtin_memcpy\n<built-in>" shape : ellipse }
+node: { title: "system__img_enum_new__image_enumeration_8" label: "Image_Enumeration_8\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-imenne.ads:48:14" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Invalid_Data" label: "gnat_rcheck_CE_Invalid_Data\n<built-in>" shape : ellipse }
+node: { title: "memset" label: "builtin_memset\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Length_Check" label: "gnat_rcheck_CE_Length_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_rcheck_CE_Overflow_Check" label: "gnat_rcheck_CE_Overflow_Check\n<built-in>" shape : ellipse }
+node: { title: "__gnat_raise_exception" label: "Raise_Exception_Always\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-except.ads:188:14" shape : ellipse }
+node: { title: "stm32__board__all_leds_on" label: "ALL_LEDS_ON\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\boards\stm32_common\stm32f407disco\stm32-board.ads:81:14" shape : ellipse }
+node: { title: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "gnat_rcheck_PE_Access_Before_Elaboration\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__unregister_tag" label: "Unregister_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:588:14" shape : ellipse }
+node: { title: "apds9960_gesture___elabs" label: "apds9960_gesture\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:41:1\n8 bytes (static)" }
+edge: { sourcename: "apds9960_gesture___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:220:9" }
+edge: { sourcename: "apds9960_gesture___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:220:9" }
+node: { title: "apds9960_gesture___elabb" label: "apds9960_gesture\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:41:1\n4 bytes (static)" }
+node: { title: "apds9960_gesture__i2c_read_buffer" label: "i2c_read_buffer\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:549:4\n120 bytes (dynamic)" }
+edge: { sourcename: "apds9960_gesture__i2c_read_buffer" targetname: "_Unwind_Resume" }
+edge: { sourcename: "apds9960_gesture__i2c_read_buffer" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:562:10" }
+edge: { sourcename: "apds9960_gesture__i2c_read_buffer" targetname: "memcpy" }
+edge: { sourcename: "apds9960_gesture__i2c_read_buffer" targetname: "system__img_enum_new__image_enumeration_8" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:562:66" }
+edge: { sourcename: "apds9960_gesture__i2c_read_buffer" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:562:60" }
+edge: { sourcename: "apds9960_gesture__i2c_read_buffer" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:555:16" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+edge: { sourcename: "apds9960_gesture__i2c_read_buffer" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:549:4" }
+node: { title: "apds9960_gesture__i2c_read" label: "i2c_read\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:530:4\n136 bytes (dynamic)" }
+edge: { sourcename: "apds9960_gesture__i2c_read" targetname: "_Unwind_Resume" }
+edge: { sourcename: "apds9960_gesture__i2c_read" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:544:10" }
+edge: { sourcename: "apds9960_gesture__i2c_read" targetname: "memcpy" }
+edge: { sourcename: "apds9960_gesture__i2c_read" targetname: "system__img_enum_new__image_enumeration_8" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:544:66" }
+edge: { sourcename: "apds9960_gesture__i2c_read" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:544:60" }
+edge: { sourcename: "apds9960_gesture__i2c_read" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:537:16" }
+edge: { sourcename: "apds9960_gesture__i2c_read" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:530:4" }
+node: { title: "apds9960_gesture__i2c_write" label: "i2c_write\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:514:4\n128 bytes (dynamic)" }
+edge: { sourcename: "apds9960_gesture__i2c_write" targetname: "_Unwind_Resume" }
+edge: { sourcename: "apds9960_gesture__i2c_write" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:526:10" }
+edge: { sourcename: "apds9960_gesture__i2c_write" targetname: "memcpy" }
+edge: { sourcename: "apds9960_gesture__i2c_write" targetname: "system__img_enum_new__image_enumeration_8" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:526:62" }
+edge: { sourcename: "apds9960_gesture__i2c_write" targetname: "__gnat_rcheck_CE_Invalid_Data" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:526:56" }
+edge: { sourcename: "apds9960_gesture__i2c_write" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:519:16" }
+edge: { sourcename: "apds9960_gesture__i2c_write" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:514:4" }
+node: { title: "apds9960_gesture__empty_fifo" label: "empty_fifo\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:496:4\n56 bytes (dynamic)" }
+edge: { sourcename: "apds9960_gesture__empty_fifo" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:508:19" }
+edge: { sourcename: "apds9960_gesture__empty_fifo" targetname: "apds9960_gesture__i2c_read_buffer" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:505:14" }
+edge: { sourcename: "apds9960_gesture__empty_fifo" targetname: "apds9960_gesture__isgestureavailable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:502:15" }
+edge: { sourcename: "apds9960_gesture__empty_fifo" targetname: "memset" }
+edge: { sourcename: "apds9960_gesture__empty_fifo" targetname: "__gnat_rcheck_CE_Length_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:499:66" }
+edge: { sourcename: "apds9960_gesture__empty_fifo" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:496:4" }
+node: { title: "apds9960_gesture__readgesture" label: "readgesture\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:394:4\n48 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:487:22" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "apds9960_gesture__empty_fifo" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:474:31" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "apds9960_gesture__empty_fifo" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:464:31" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "apds9960_gesture__empty_fifo" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:451:31" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "apds9960_gesture__empty_fifo" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:442:31" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:435:81" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:435:54" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:434:21" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:431:75" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:431:48" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "__gnat_rcheck_CE_Overflow_Check" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:430:21" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "apds9960_gesture__i2c_read_buffer" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:427:20" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:423:31" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:420:26" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:419:19" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "apds9960_gesture__isgestureavailable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:411:12" }
+edge: { sourcename: "apds9960_gesture__readgesture" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:394:4" }
+node: { title: "apds9960_gesture__isgestureavailable" label: "isgestureavailable\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:379:4\n24 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__isgestureavailable" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:383:22" }
+edge: { sourcename: "apds9960_gesture__isgestureavailable" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:379:4" }
+node: { title: "apds9960_gesture__disable_gesture_sensor" label: "disable_gesture_sensor\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:366:4\n16 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__disable_gesture_sensor" targetname: "apds9960_gesture__setmode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:374:11" }
+edge: { sourcename: "apds9960_gesture__disable_gesture_sensor" targetname: "apds9960_gesture__setgesturemode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:373:11" }
+edge: { sourcename: "apds9960_gesture__disable_gesture_sensor" targetname: "apds9960_gesture__setgestureintenable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:372:11" }
+edge: { sourcename: "apds9960_gesture__disable_gesture_sensor" targetname: "apds9960_gesture__setmode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:370:11" }
+edge: { sourcename: "apds9960_gesture__disable_gesture_sensor" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:366:4" }
+node: { title: "apds9960_gesture__enable_gesture_sensor" label: "enable_gesture_sensor\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:340:4\n16 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__enable_gesture_sensor" targetname: "apds9960_gesture__setmode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:362:11" }
+edge: { sourcename: "apds9960_gesture__enable_gesture_sensor" targetname: "apds9960_gesture__setmode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:360:11" }
+edge: { sourcename: "apds9960_gesture__enable_gesture_sensor" targetname: "apds9960_gesture__setmode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:358:11" }
+edge: { sourcename: "apds9960_gesture__enable_gesture_sensor" targetname: "apds9960_gesture__setmode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:356:11" }
+edge: { sourcename: "apds9960_gesture__enable_gesture_sensor" targetname: "apds9960_gesture__setgesturemode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:354:11" }
+edge: { sourcename: "apds9960_gesture__enable_gesture_sensor" targetname: "apds9960_gesture__setgestureintenable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:353:11" }
+edge: { sourcename: "apds9960_gesture__enable_gesture_sensor" targetname: "apds9960_gesture__setledboost" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:351:11" }
+edge: { sourcename: "apds9960_gesture__enable_gesture_sensor" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:347:11" }
+edge: { sourcename: "apds9960_gesture__enable_gesture_sensor" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:344:11" }
+edge: { sourcename: "apds9960_gesture__enable_gesture_sensor" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:340:4" }
+node: { title: "apds9960_gesture__setproximitygain" label: "setproximitygain\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:322:4\n24 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__setproximitygain" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:335:11" }
+edge: { sourcename: "apds9960_gesture__setproximitygain" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:328:22" }
+edge: { sourcename: "apds9960_gesture__setproximitygain" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:322:4" }
+node: { title: "apds9960_gesture__setleddrive" label: "setleddrive\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:303:4\n24 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__setleddrive" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:317:11" }
+edge: { sourcename: "apds9960_gesture__setleddrive" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:309:22" }
+edge: { sourcename: "apds9960_gesture__setleddrive" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:303:4" }
+node: { title: "apds9960_gesture__setgesturemode" label: "setgesturemode\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:288:4\n24 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__setgesturemode" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:298:11" }
+edge: { sourcename: "apds9960_gesture__setgesturemode" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:293:22" }
+edge: { sourcename: "apds9960_gesture__setgesturemode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:288:4" }
+node: { title: "apds9960_gesture__setledboost" label: "setledboost\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:269:4\n24 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__setledboost" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:283:11" }
+edge: { sourcename: "apds9960_gesture__setledboost" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:275:22" }
+edge: { sourcename: "apds9960_gesture__setledboost" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:269:4" }
+node: { title: "apds9960_gesture__setgestureintenable" label: "setgestureintenable\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:251:4\n24 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__setgestureintenable" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:264:11" }
+edge: { sourcename: "apds9960_gesture__setgestureintenable" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:256:22" }
+edge: { sourcename: "apds9960_gesture__setgestureintenable" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:251:4" }
+node: { title: "apds9960_gesture__setgesturewaittime" label: "setgesturewaittime\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:233:4\n24 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__setgesturewaittime" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:245:11" }
+edge: { sourcename: "apds9960_gesture__setgesturewaittime" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:239:22" }
+edge: { sourcename: "apds9960_gesture__setgesturewaittime" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:233:4" }
+node: { title: "apds9960_gesture__setgestureleddrive" label: "setgestureleddrive\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:213:4\n24 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__setgestureleddrive" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:228:11" }
+edge: { sourcename: "apds9960_gesture__setgestureleddrive" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:219:22" }
+edge: { sourcename: "apds9960_gesture__setgestureleddrive" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:213:4" }
+node: { title: "apds9960_gesture__setgesturegain" label: "setgesturegain\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:193:4\n24 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__setgesturegain" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:208:11" }
+edge: { sourcename: "apds9960_gesture__setgesturegain" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:199:22" }
+edge: { sourcename: "apds9960_gesture__setgesturegain" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:193:4" }
+node: { title: "apds9960_gesture__setmode" label: "setmode\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:156:4\n24 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__setmode" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:187:11" }
+edge: { sourcename: "apds9960_gesture__setmode" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:165:22" }
+edge: { sourcename: "apds9960_gesture__setmode" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:156:4" }
+node: { title: "apds9960_gesture__init" label: "init\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:50:4\n32 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__setgestureintenable" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:152:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:148:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:144:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:140:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:136:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:132:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:128:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__setgesturewaittime" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:126:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__setgestureleddrive" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:125:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__setgesturegain" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:124:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:121:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:118:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:115:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:110:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:106:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:102:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:98:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:95:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__setproximitygain" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:91:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__setleddrive" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:90:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:86:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:82:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:79:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:76:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:72:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_write" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:68:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__setmode" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:64:11" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "__gnat_raise_exception" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:60:10" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "stm32__board__all_leds_on" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:59:10" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "apds9960_gesture__i2c_read" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:54:22" }
+edge: { sourcename: "apds9960_gesture__init" targetname: "__gnat_rcheck_PE_Access_Before_Elaboration" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.adb:50:4" }
+node: { title: "apds9960_gesture__finalize_spec" label: "finalize_spec\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:41:1\n8 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__finalize_spec" targetname: "ada__tags__unregister_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:41:1" }
+node: { title: "apds9960_gesture__Tgesture_data_arrayBIP" label: "tgesture_data_arraybip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:147:4\n16 bytes (static)" }
+node: { title: "apds9960_gesture__Tapds9960_deviceCFD" label: "tapds9960_devicecfd\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:43:9\n32 bytes (static)" }
+edge: { sourcename: "apds9960_gesture__Tapds9960_deviceCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:43:9" }
+node: { title: "apds9960_gesture__apds9960_deviceDF" label: "apds9960_devicedf\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:220:9\n16 bytes (static)" }
+node: { title: "apds9960_gesture___size" label: "apds9960_gesture\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:220:9\n16 bytes (static)" }
+node: { title: "apds9960_gesture__apds9960_deviceIP" label: "apds9960_deviceip\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\src\sensor_drivers\apds9960_gesture.ads:220:9\n24 bytes (static)" }
+}

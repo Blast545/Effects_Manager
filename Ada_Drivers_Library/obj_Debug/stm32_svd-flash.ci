@@ -1,0 +1,11 @@
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-flash.ads"
+node: { title: "stm32_svd__flash__flash_peripheralIP" label: "FLASH_PERIPHERALIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-flash.ads:190:9\n16 bytes (static)" }
+edge: { sourcename: "stm32_svd__flash__flash_peripheralIP" targetname: "stm32_svd__flash__optcr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-flash.ads:202:7" }
+edge: { sourcename: "stm32_svd__flash__flash_peripheralIP" targetname: "stm32_svd__flash__cr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-flash.ads:200:7" }
+edge: { sourcename: "stm32_svd__flash__flash_peripheralIP" targetname: "stm32_svd__flash__sr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-flash.ads:198:7" }
+edge: { sourcename: "stm32_svd__flash__flash_peripheralIP" targetname: "stm32_svd__flash__acr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-flash.ads:192:7" }
+node: { title: "stm32_svd__flash__optcr_registerIP" label: "OPTCR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-flash.ads:147:9\n16 bytes (static)" }
+node: { title: "stm32_svd__flash__cr_registerIP" label: "CR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-flash.ads:95:9\n16 bytes (static)" }
+node: { title: "stm32_svd__flash__sr_registerIP" label: "SR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-flash.ads:53:9\n16 bytes (static)" }
+node: { title: "stm32_svd__flash__acr_registerIP" label: "ACR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-flash.ads:20:9\n16 bytes (static)" }
+}

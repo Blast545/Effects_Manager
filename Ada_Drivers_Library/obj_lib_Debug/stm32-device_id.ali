@@ -1,0 +1,60 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U stm32.device_id%b	stm32-device_id.adb	a765d40e NE OO PK IU
+W stm32%s		stm32.ads		stm32.ali
+W system%s		system.ads		system.ali
+
+U stm32.device_id%s	stm32-device_id.ads	ac5be746 NE OO PK IU
+W stm32%s		stm32.ads		stm32.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32.ads		20190116062804 698e2c3b stm32%s
+D stm32-device_id.ads	20190116062804 c5d5cb7d stm32.device_id%s
+D stm32-device_id.adb	20190116062804 b9330af2 stm32.device_id%b
+D system.ads		20180524194940 db831581 system%s
+X 1 hal.ads
+97M9*UInt32<2|74M9> 4|43r46
+X 2 interfac.ads
+74M9*Unsigned_32
+X 3 stm32.ads
+39K9*STM32 48e10 4|37r9 48r5 5|34r14 61r5
+X 4 stm32-device_id.ads
+37K15*Device_Id 3|39k9 4|48l11 48e20 5|34b20 61l11 61t20
+39A12*Device_Id_Image{string}<integer> 41r30 5|42r30 43r16
+41V13*Unique_Id{39A12} 5|42b13 48l8 48t17
+43A9*Device_Id_Tuple(1|97M9)<integer> 46r30 5|54r30 55r16
+46V13*Unique_Id{43A9} 5|54b13 59l8 59t17
+X 5 stm32-device_id.adb
+36m4 ID_Address{6|80M9} 44r30 56r30
+43a7 Result{4|39A12} 44m11 44r11 45m27 45r27 47r14
+55a7 Result{4|43A9} 56m11 56r11 58r14
+X 6 system.ads
+50K9*System 5|32w6 36r26 36r44 6|164e11
+80M9*Address 5|36r33 36r44
+

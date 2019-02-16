@@ -1,0 +1,5 @@
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-device_id.adb"
+node: { title: "stm32__device_id__unique_id__2" label: "UNIQUE_ID\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-device_id.adb:54:4\n24 bytes (static)" }
+node: { title: "stm32__device_id__unique_id" label: "UNIQUE_ID\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-device_id.adb:42:4\n24 bytes (static)" }
+node: { title: "stm32__device_id__Tdevice_id_tupleBIP" label: "TDEVICE_ID_TUPLEBIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\drivers\stm32-device_id.ads:43:4\n16 bytes (static)" }
+}

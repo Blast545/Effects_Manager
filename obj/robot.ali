@@ -1,0 +1,120 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_FLOATING_POINT
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U robot%b		robot.adb		08c061d4 OO PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W hal%s			hal.ads			hal.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+U robot%s		robot.ads		b6f11ed8 EE OO PF PK
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W hal%s			hal.ads			hal.ali
+W hal.audio%s		hal-audio.ads		hal-audio.ali
+W hal.audio_effect%s	hal-audio_effect.ads	hal-audio_effect.ali
+Z system%s		system.ads		system.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		20180524194940 76789da1 ada%s
+D a-except.ads		20180524194940 291912d5 ada.exceptions%s
+D a-finali.ads		20180524194940 bf4f806b ada.finalization%s
+D a-numeri.ads		20180524194940 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20180524194940 51c3d5d5 ada.numerics.elementary_functions%s
+D a-stream.ads		20180524194940 119b8fb3 ada.streams%s
+D a-tags.ads		20180524194940 491b781d ada.tags%s
+D a-unccon.ads		20180524194940 0e9b276f ada.unchecked_conversion%s
+D hal.ads		20190116062806 2b42c80e hal%s
+D hal-audio.ads		20190116062806 6baea1e9 hal.audio%s
+D hal-audio_effect.ads	20190214234230 d6ff5545 hal.audio_effect%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D robot.ads		20190215235214 9bb3e620 robot%s
+D robot.adb		20190215235226 b347c847 robot%b
+D system.ads		20180524194940 db831581 system%s
+D s-finmas.ads		20180524194940 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524194940 4ff27390 system.finalization_root%s
+D s-gcmain.ads		20180524194940 f623c353 system.generic_c_math_interface%s
+D s-libpre.ads		20180524194940 f93cda94 system.libm_prefix%s
+D s-libsin.ads		20180524194940 7070a09c system.libm_single%s
+D s-parame.ads		20180524194940 d106111e system.parameters%s
+D s-stalib.ads		20180524194940 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524194940 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524194940 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524194940 b16154c2 system.storage_pools%s
+D s-traent.ads		20180524194940 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524194940 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 13|7r6 30r44 14|5r6 6r5
+X 4 a-numeri.ads
+16K13*Numerics 32e17 13|7w10 30r48 14|5r10 6r9
+21N4*Pi 13|30r57
+X 5 a-nuelfu.ads
+41K22*Elementary_Functions[18|86] 14|5w19 6r18
+X 9 hal.ads
+34K9*HAL 166e8 13|4r6 4r29 5r6 5r29 8w6 35r20 14|7w6 7r15
+66M9*UInt16<12|66M9> 13|35r24
+X 10 hal-audio.ads
+34K13*Audio 72e14 13|5w10 5r33
+36A9*Audio_Buffer(12|49I9)<integer> 13|19r63 14|24r63
+X 11 hal-audio_effect.ads
+5K13*Audio_Effect 15e21 13|4w10 4r33
+7h9*Audio_Effect 13|12r37 33r16
+X 12 interfac.ads
+38K9*Interfaces 184e15 14|8w6 8r22
+49I9*Integer_16<short_integer> 14|45r26
+66M9*Unsigned_16
+X 13 robot.ads
+10K9*Robot 24E4 40l5 40e10 14|10b14 51l5 51t10
+12R9*Robot_Effect<11|7R9> 15P14 15r45 18P14 18r49 32c9 38e14 14|13r45 23r49
+15U14*Reset_Variables<11|9p14> 15=31 14|13b14 20l8 20t23
+15r31 This{12R9} 14|13b31 17m7 18m7 19m7
+18U14*Process_Audio_Block<11|11p14> 18=35 19=35 14|23b14 49l8 49t27
+18r35 This{12R9} 14|23b35 33r41 33r66 34m10 35m10 38r62 40m10 40r28
+19a35 Samples_To_Process{10|36A9} 14|24b35 30m27 30r27
+20a4*Effect_Name{string}
+24f4 block_a{float} 14|33r56
+25f4 input_gain{float} 14|32r48
+26f4 output_gain{float} 14|43r41
+27f4 modulation_freq{float} 29r35
+28f4 sampling_freq{float} 29r51
+29f4 freq_ratio{float} 14|38r43
+30f4 Radians_Cycle{float} 14|38r27 39r46
+35m7 current_n{9|66M9} 14|17m12 38r67 40m15 40r33
+36f7 dc_y_n1{float} 14|18m12 33r71 34m15
+37f7 dc_x_n1{float} 14|19m12 33r46 35m15
+X 14 robot.adb
+26f7 current_angle{float} 38m10 39r31
+27f7 in_out_Value{float} 32m10 33m10 33r26 34r26 39m10 39r63 43m10 43r26
+. 45r37
+30i11 sampled_data=30:27{12|49I9} 32r32 35r32 45r10
+X 18 s-gcmain.ads
+117V13*Sin{float} 14|39s26[5|41]
+

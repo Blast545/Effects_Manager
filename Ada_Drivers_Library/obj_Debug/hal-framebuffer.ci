@@ -1,0 +1,57 @@
+edge: { sourcename: "hal__framebuffer__Tframe_buffer_displayCFD"
+  targetname: "-9:hal__framebuffer__frame_buffer_display,hal__framebuffer__frame_buffer_display"
+  label: "hal-framebuffer.ads:44:9"
+}
+class {
+  classname: "hal__framebuffer__frame_buffer_display"
+  label: "hal__framebuffer__frame_buffer_display\hal-framebuffer.ads:44:9"
+  virtuals: "1:hal__framebuffer__max_layers\n
+             2:hal__framebuffer__supported\n
+             3:hal__framebuffer__set_orientation\n
+             4:hal__framebuffer__set_mode\n
+             5:hal__framebuffer__initialized\n
+             6:hal__framebuffer__width\n
+             7:hal__framebuffer__height\n
+             8:hal__framebuffer__swapped\n
+             9:hal__framebuffer__set_background\n
+             10:hal__framebuffer__initialize_layer\n
+             11:hal__framebuffer__initialized__2\n
+             12:hal__framebuffer__update_layer\n
+             13:hal__framebuffer__update_layers\n
+             14:hal__framebuffer__color_mode\n
+             15:hal__framebuffer__hidden_buffer\n
+             16:hal__framebuffer__pixel_size\n
+             -1:hal__framebuffer___size\n
+             -2:hal__framebuffer__frame_buffer_displaySR\n
+             -3:hal__framebuffer__frame_buffer_displaySW\n
+             -4:hal__framebuffer__frame_buffer_displaySI\n
+             -5:hal__framebuffer__frame_buffer_displaySO\n
+             -9:hal__framebuffer__frame_buffer_displayDF"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:126:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:201:14" shape : ellipse }
+node: { title: "system__finalization_masters__initialize__2" label: "Initialize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:198:25" shape : ellipse }
+node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:161:9" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "system__finalization_masters__finalize" label: "Finalize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:96:25" shape : ellipse }
+node: { title: "hal__framebuffer___elabs" label: "FRAMEBUFFER\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:34:1\n8 bytes (static)" }
+edge: { sourcename: "hal__framebuffer___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:44:9" }
+edge: { sourcename: "hal__framebuffer___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:44:9" }
+edge: { sourcename: "hal__framebuffer___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:46:9" }
+edge: { sourcename: "hal__framebuffer___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:46:9" }
+edge: { sourcename: "hal__framebuffer___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:46:9" }
+edge: { sourcename: "hal__framebuffer___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:46:9" }
+node: { title: "hal__framebuffer__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:34:1\n16 bytes (static)" }
+edge: { sourcename: "hal__framebuffer__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:34:1" }
+edge: { sourcename: "hal__framebuffer__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:34:1" }
+edge: { sourcename: "hal__framebuffer__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "hal__framebuffer__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:46:9" }
+node: { title: "hal__framebuffer__Tframe_buffer_displayCFD" label: "TFRAME_BUFFER_DISPLAYCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:44:9\n32 bytes (static)" }
+edge: { sourcename: "hal__framebuffer__Tframe_buffer_displayCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-framebuffer.ads:44:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+}

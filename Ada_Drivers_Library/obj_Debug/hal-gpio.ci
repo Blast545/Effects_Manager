@@ -1,0 +1,50 @@
+edge: { sourcename: "hal__gpio__Tgpio_pointCFD"
+  targetname: "-9:hal__gpio__gpio_point,hal__gpio__gpio_point"
+  label: "hal-gpio.ads:47:9"
+}
+class {
+  classname: "hal__gpio__gpio_point"
+  label: "hal__gpio__gpio_point\hal-gpio.ads:47:9"
+  virtuals: "1:hal__gpio__support\n
+             2:hal__gpio__mode\n
+             3:hal__gpio__set_mode\n
+             4:hal__gpio__pull_resistor\n
+             5:hal__gpio__set_pull_resistor\n
+             6:hal__gpio__set\n
+             7:hal__gpio__set__2\n
+             8:hal__gpio__clear\n
+             9:hal__gpio__toggle\n
+             -1:hal__gpio___size\n
+             -2:hal__gpio__gpio_pointSR\n
+             -3:hal__gpio__gpio_pointSW\n
+             -4:hal__gpio__gpio_pointSI\n
+             -5:hal__gpio__gpio_pointSO\n
+             -9:hal__gpio__gpio_pointDF"
+}
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads"
+node: { title: "_Unwind_Resume" label: "builtin_unwind_resume\n<built-in>" shape : ellipse }
+node: { title: "ada__tags__register_tag" label: "Register_Tag\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:552:14" shape : ellipse }
+node: { title: "ada__tags__check_tsd" label: "Check_Tsd\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\a-tags.ads:465:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_finalize_address" label: "Set_Finalize_Address\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:126:14" shape : ellipse }
+node: { title: "system__finalization_masters__set_base_pool" label: "Set_Base_Pool\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:201:14" shape : ellipse }
+node: { title: "system__finalization_masters__initialize__2" label: "Initialize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:198:25" shape : ellipse }
+node: { title: "system__finalization_masters__finalization_masterIP" label: "Finalization_Masterip\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:161:9" shape : ellipse }
+node: { title: "__gnat_end_handler" label: "gnat_end_handler\n<built-in>" shape : ellipse }
+node: { title: "__gnat_begin_handler" label: "gnat_begin_handler\n<built-in>" shape : ellipse }
+node: { title: "system__finalization_masters__finalize" label: "Finalize\nC:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\gnat\s-finmas.ads:96:25" shape : ellipse }
+node: { title: "hal__gpio___elabs" label: "GPIO\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:32:1\n8 bytes (static)" }
+edge: { sourcename: "hal__gpio___elabs" targetname: "ada__tags__register_tag" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:47:9" }
+edge: { sourcename: "hal__gpio___elabs" targetname: "ada__tags__check_tsd" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:47:9" }
+edge: { sourcename: "hal__gpio___elabs" targetname: "system__finalization_masters__set_finalize_address" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:49:9" }
+edge: { sourcename: "hal__gpio___elabs" targetname: "system__finalization_masters__set_base_pool" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:49:9" }
+edge: { sourcename: "hal__gpio___elabs" targetname: "system__finalization_masters__initialize__2" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:49:9" }
+edge: { sourcename: "hal__gpio___elabs" targetname: "system__finalization_masters__finalization_masterIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:49:9" }
+node: { title: "hal__gpio__finalize_spec" label: "FINALIZE_SPEC\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:32:1\n16 bytes (static)" }
+edge: { sourcename: "hal__gpio__finalize_spec" targetname: "__gnat_end_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:32:1" }
+edge: { sourcename: "hal__gpio__finalize_spec" targetname: "__gnat_begin_handler" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:32:1" }
+edge: { sourcename: "hal__gpio__finalize_spec" targetname: "_Unwind_Resume" }
+edge: { sourcename: "hal__gpio__finalize_spec" targetname: "system__finalization_masters__finalize" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:49:9" }
+node: { title: "hal__gpio__Tgpio_pointCFD" label: "TGPIO_POINTCFD\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:47:9\n32 bytes (static)" }
+edge: { sourcename: "hal__gpio__Tgpio_pointCFD" targetname: "__indirect_call" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\hal\src\hal-gpio.ads:47:9" }
+node: { title: "__indirect_call" label: "Indirect Call Placeholder" shape : ellipse }
+}

@@ -1,0 +1,7 @@
+graph: { title: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-crc.ads"
+node: { title: "stm32_svd__crc__crc_peripheralIP" label: "CRC_PERIPHERALIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-crc.ads:54:9\n16 bytes (static)" }
+edge: { sourcename: "stm32_svd__crc__crc_peripheralIP" targetname: "stm32_svd__crc__cr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-crc.ads:60:7" }
+edge: { sourcename: "stm32_svd__crc__crc_peripheralIP" targetname: "stm32_svd__crc__idr_registerIP" label: "C:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-crc.ads:58:7" }
+node: { title: "stm32_svd__crc__cr_registerIP" label: "CR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-crc.ads:35:9\n16 bytes (static)" }
+node: { title: "stm32_svd__crc__idr_registerIP" label: "IDR_REGISTERIP\nC:\Users\DELL\Documents\Ada_Projects\Effects_Manager\Ada_Drivers_Library\repo\arch\ARM\STM32\svd\stm32f40x\stm32_svd-crc.ads:20:9\n16 bytes (static)" }
+}

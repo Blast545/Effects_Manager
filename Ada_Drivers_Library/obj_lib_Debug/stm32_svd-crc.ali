@@ -1,0 +1,67 @@
+V "GNAT Lib v2018"
+A -O0
+A -gnatA
+A --RTS=C:\gnat\2018-arm-elf\arm-eabi\lib\gnat\ravenscar-full-stm32f4\
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnata
+A -fcallgraph-info=su
+A -fcallgraph-info=su
+A -g
+A -gnatwa
+A -gnatQ
+A -gnatw.X
+A -ffunction-sections
+A -fdata-sections
+P DB ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLEMENTATION_RESTRICTIONS
+RR NO_ELABORATION_CODE
+RV SPARK_05
+
+U stm32_svd.crc%s	stm32_svd-crc.ads	e6e0d743 NE OO PR PK IU
+W hal%s			hal.ads			hal.ali
+W stm32_svd%s		stm32_svd.ads		stm32_svd.ali
+W system%s		system.ads		system.ali
+
+D hal.ads		20190116062806 2b42c80e hal%s
+D interfac.ads		20180524194940 5ab55268 interfaces%s
+D stm32_svd.ads		20190116062804 eeda8404 stm32_svd%s
+D stm32_svd-crc.ads	20190116062804 f8fb8ec8 stm32_svd.crc%s
+D system.ads		20180524194940 db831581 system%s
+X 1 hal.ads
+34K9*HAL 166e8 4|7w6 17r29 24r23 39r23 56r21
+53M9*UInt8<2|63M9> 4|17r33
+81M9*UInt24 4|24r27
+95M9*UInt31 4|39r27
+97M9*UInt32<2|74M9> 4|56r25
+X 2 interfac.ads
+63M9*Unsigned_8
+74M9*Unsigned_32
+X 3 stm32_svd.ads
+10K9*STM32_SVD 164e14 4|10r9 74r5
+X 4 stm32_svd-crc.ads
+10K19*CRC 3|10k9 4|74l15 74e18
+17M12*IDR_IDR_Field{1|53M9} 22r23
+20R9*IDR_Register 26e6 29r8 58r21
+22m7*IDR{17M12} 30r7
+24m7*Reserved_8_31{1|81M9} 31r7
+35R9*CR_Register 41e6 44r8 60r21
+37b7*CR{boolean} 45r7
+39m7*Reserved_1_31{1|95M9} 46r7
+54R9*CRC_Peripheral 62e6 64r8 71r25
+56m7*DR{1|97M9} 65r7
+58r7*IDR{20R9} 66r7
+60r7*CR{35R9} 67r7
+71r4*CRC_Periph{54R9}
+X 5 system.ads
+50K9*System 4|8w6 27r24 42r24 72r30 5|164e11
+80M9*Address 4|72r30
+104n41*Low_Order_First{104E9} 4|27r31 42r31
+
